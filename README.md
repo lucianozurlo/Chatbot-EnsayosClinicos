@@ -1,5 +1,22 @@
 # Chatbot-EnsayosClinicos
 
+**Trabajo Final de Diplomatura en Inteligencia Artificial**
+
+Grupo 10:
+
+Dra. Viviana Lencina, 
+vblencina@mail.austral.edu.ar 
+
+L.S.I, Carlos Ponce, 
+coponce@mail.austral.edu.ar  
+
+T.E.N. Enzo Zapata, 
+ezapata@mail.austral.edu.ar 
+
+D.G. Luciano Zurlo, 
+lzurlo@mail.austral.edu.ar
+
+---
 ### **PASO 0: Verificar versión de Python**
 
 - **Verificación de la Versión de Python:** Se utiliza `print(sys.version)` para mostrar la versión actual de Python instalada.
