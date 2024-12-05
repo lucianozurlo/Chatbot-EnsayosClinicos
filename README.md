@@ -1,4 +1,4 @@
-# Chatbot-EnsayosClinicos
+# Chatbot: Ensayos Clínicos
 
 **Trabajo Final de Diplomatura en Inteligencia Artificial**
 
