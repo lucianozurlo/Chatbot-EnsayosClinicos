@@ -611,19 +611,28 @@ os.makedirs("cache", exist_ok=True)
 # Aplicar estilos personalizados para cambiar la tipografía a Rubik y la paleta de colores
 st.markdown("""
     <style>
-    /* Personalización adicional */
+    /* Importar Rubik desde Google Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+
+    /* Aplicar Rubik globalmente */
+    html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {
+        font-family: 'Rubik', sans-serif !important;
+    }
+
+    /* Personalización opcional de botones, entradas y títulos */
     .stButton>button {
-        background-color: #1A73E8 !important;  /* Azul principal */
-        color: white !important;  /* Texto blanco */
-        border-radius: 10px !important;
+        font-family: 'Rubik', sans-serif !important;
         font-size: 16px !important;
-        padding: 10px 20px !important;
+        border-radius: 10px !important;
     }
 
     .stTextInput>div>div>input {
-        border: 1px solid #DADCE0 !important;  /* Gris claro */
-        border-radius: 8px !important;
-        padding: 10px !important;
+        font-family: 'Rubik', sans-serif !important;
+        font-size: 16px !important;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Rubik', sans-serif !important;
     }
     </style>
 """, unsafe_allow_html=True)
