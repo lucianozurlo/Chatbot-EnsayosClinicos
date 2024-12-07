@@ -116,7 +116,145 @@ def cargar_y_procesar_documentos(ruta_fuente, _model):
     
     return documentos, archivos, archivos_embeddings, trozos_archivos, index_archivos
 
-def configurar_gemini():
+@st.cache_resource
+def configurar_gemini_cached():
+    return configure_gemini()
+
+def load_documents(source, is_directory=False):
+    """
+    Carga documentos desde un archivo o directorio.
+    
+    Args:
+        source (str): Ruta al archivo o directorio.
+        is_directory (bool): Indica si la fuente es un directorio.
+    
+    Returns:
+        list: Lista de diccionarios con 'filename' y 'content'.
+    """
+    if not os.path.exists(source):
+        logging.error(f"La fuente '{source}' no existe.")
+        raise FileNotFoundError(f"La fuente '{source}' no se encontró.")
+
+    loaded_files = []
+    if is_directory:
+        logging.info(f"Iniciando carga desde el directorio: {source}.")
+        for filename in os.listdir(source):
+            filepath = os.path.join(source, filename)
+            if os.path.isfile(filepath) and filepath.endswith(('.txt', '.json', '.pdf')):
+                content = extract_content(filepath)
+                if content:
+                    loaded_files.append({"filename": filename, "content": content})
+                    logging.info(f"Archivo '{filename}' cargado correctamente.")
+    else:
+        logging.info(f"Iniciando carga del archivo: {source}.")
+        content = extract_content(source)
+        if content:
+            loaded_files.append({"filename": os.path.basename(source), "content": content})
+            logging.info(f"Archivo '{os.path.basename(source)}' cargado correctamente.")
+
+    logging.info(f"{len(loaded_files)} documentos cargados.")
+    return loaded_files
+
+def extract_content(filepath):
+    """
+    Extrae el contenido del archivo según su tipo.
+    
+    Args:
+        filepath (str): Ruta al archivo.
+    
+    Returns:
+        list o dict o str: Contenido procesado del archivo.
+    """
+    try:
+        if filepath.endswith('.txt'):
+            with open(filepath, 'r', encoding='utf-8') as file:
+                content = file.read()
+            units = content.split("\n-----\n")
+            return units
+        elif filepath.endswith('.json'):
+            with open(filepath, 'r', encoding='utf-8') as file:
+                data = json.load(file)
+            return data
+        elif filepath.endswith('.pdf'):
+            reader = PdfReader(filepath)
+            return ''.join(page.extract_text() or '' for page in reader.pages)
+    except Exception as e:
+        logging.error(f"Error al extraer contenido de '{filepath}': {e}")
+        return None
+
+def desdobla_doc(data2, model):
+    """
+    Desdobla el contenido del documento en varios `Document` con metadatos.
+    Maneja JSON (asumiendo estructura de ensayos clínicos) o texto/PDF genérico.
+    
+    Args:
+        data2 (dict): Diccionario con 'filename' y 'content'.
+        model (SentenceTransformer): Modelo para generar embeddings.
+    
+    Returns:
+        tuple: Lista de `Document` y instancia de `HNSWIndex`.
+    """
+    documents = []
+    summaries = []
+    contenido = data2['content']
+    
+    if isinstance(contenido, list):
+        for entry in contenido:
+            if isinstance(entry, dict):
+                nctId = entry.get("IDestudio", "")
+                briefTitle = entry.get("Title", "")
+                summary = entry.get("Summary", "")
+                studyType = entry.get("StudyType", "")
+                country = entry.get("Countries", "")
+                overallStatus = entry.get("OverallStatus", "")
+                conditions = entry.get("Conditions", "")
+                phases = entry.get("Phases", "")
+
+                # Crear resumen en inglés para consistencia interna
+                Summary = (
+                    f"The study titled '{briefTitle}', of type '{studyType}', "
+                    f"investigates the condition(s): {conditions}. "
+                    f"Brief summary: {summary}. "
+                    f"Current status: {overallStatus}, taking place in {country}. "
+                    f"The study is classified under: {phases} phase. "
+                    f"For more info, search {nctId} on ClinicalTrials."
+                )
+                metadata = {
+                    "Title": briefTitle,
+                    "Summary": Summary,
+                    "StudyType": studyType,
+                    "Countries": country,
+                    "Phases": phases,
+                    "IDestudio": nctId
+                }
+                doc = Document(Summary, metadata)
+                documents.append(doc)
+                summaries.append(Summary)
+            else:
+                # Si no es dict, tratar la entrada como texto genérico
+                texto = str(entry)
+                metadata = {"Summary": texto}
+                doc = Document(texto, metadata)
+                documents.append(doc)
+                summaries.append(texto)
+    else:
+        # Texto genérico (PDF o TXT)
+        texto = str(contenido)
+        metadata = {"Summary": texto}
+        doc = Document(texto, metadata)
+        documents.append(doc)
+        summaries.append(texto)
+
+    if documents:
+        embeddings = model.encode([doc.page_content for doc in documents], show_progress_bar=False)
+        embeddings = np.array(embeddings).astype(np.float32)
+        vector_store = HNSWIndex(embeddings, metadata=[doc.metadata for doc in documents])
+    else:
+        vector_store = None
+
+    return documents, vector_store
+
+def configure_gemini():
     """
     Configura la instancia de Gemini usando la clave API.
     
@@ -453,68 +591,34 @@ def doc_enfermedad(pregunta):
     max_index = similarities.index(max(similarities))
     return max_index
 
-# Estilos personalizados (mantener esta sección)
-st.markdown(
-    """
-    <style>
-    /* Ocultar el menú de Streamlit y la barra de hamburguesa */
-    #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    
-    /* Estilos para el contenedor de chat */
-    .chat-container {
-        height: 80vh;
-        overflow-y: scroll;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-    }
+# Cargar y procesar documentos usando funciones cacheadas
+ruta_fuente = 'data'  # Asegúrate de tener una carpeta 'data' con los documentos
+model = cargar_modelo_embeddings("all-MiniLM-L6-v2")
+documentos, archivos, archivos_embeddings, trozos_archivos, index_archivos = cargar_y_procesar_documentos(ruta_fuente, model)
 
-    /* Estilos para los mensajes del usuario */
-    .user-message {
-        background-color: #DCF8C6;
-        padding: 10px;
-        border-radius: 10px;
-        margin-bottom: 10px;
-        align-self: flex-end;
-        max-width: 80%;
-    }
+# Configurar la clave API de Gemini usando función cacheada
+gemini_llm = configurar_gemini_cached()
 
-    /* Estilos para los mensajes del chatbot */
-    .bot-message {
-        background-color: #F1F0F0;
-        padding: 10px;
-        border-radius: 10px;
-        margin-bottom: 10px;
-        align-self: flex-start;
-        max-width: 80%;
-    }
+# Inicializar cachés
+embedding_cache = {}
+translation_cache = {}
 
-    /* Flex container para mensajes */
-    .message {
-        display: flex;
-        flex-direction: column;
-    }
+# Configurar Streamlit y definir la interfaz de usuario
 
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+# Crear directorio de caché si no existe
+os.makedirs("cache", exist_ok=True)
 
-# Crear el contenedor de chat
-chat_container = st.container()
-with chat_container:
-    st.markdown('<div class="chat-container">', unsafe_allow_html=True)
-    for sender, message in st.session_state.historial:
-        if sender == "Usuario":
-            st.markdown(f'<div class="user-message"><strong>Tú:</strong> {message}</div>', unsafe_allow_html=True)
-        else:
-            st.markdown(f'<div class="bot-message"><strong>Chatbot:</strong> {message}</div>', unsafe_allow_html=True)
-    st.markdown('</div>', unsafe_allow_html=True)
+# Inicializar historial en el estado de Streamlit
+if 'historial' not in st.session_state:
+    st.session_state.historial = []
 
-# Crear el campo de entrada en la parte inferior
-st.markdown('<hr>', unsafe_allow_html=True)
-pregunta = st.text_input("Tu pregunta:", key="input")
+# Título de la aplicación
+st.title("Chatbot de Ensayos Clínicos")
+
+
+
+# Entrada de usuario
+pregunta = st.text_input("Tu pregunta:")
 
 # Botón para enviar la pregunta
 if st.button("Enviar"):
@@ -536,32 +640,9 @@ if st.button("Enviar"):
             st.session_state.historial.append(("Usuario", pregunta))
             st.session_state.historial.append(("Chatbot", respuesta))
     
-    # Actualizar el contenedor de chat
-    with chat_container:
-        st.markdown('<div class="chat-container">', unsafe_allow_html=True)
-        for sender, message in st.session_state.historial:
-            if sender == "Usuario":
-                st.markdown(f'<div class="user-message"><strong>Tú:</strong> {message}</div>', unsafe_allow_html=True)
-            else:
-                st.markdown(f'<div class="bot-message"><strong>Chatbot:</strong> {message}</div>', unsafe_allow_html=True)
-        st.markdown('</div>', unsafe_allow_html=True)
-    
-    # Limpiar el campo de entrada
-    st.session_state.input = ""
-
-# Opcional: Añadir un botón para limpiar el historial
-if st.button("Limpiar Conversación"):
-    st.session_state.historial = []
-    with chat_container:
-        st.markdown('<div class="chat-container"></div>', unsafe_allow_html=True)
-
-# Auto-scroll hacia abajo (opcional)
-st.markdown(
-    """
-    <script>
-    const chatContainer = document.querySelector('.chat-container');
-    chatContainer.scrollTop = chatContainer.scrollHeight;
-    </script>
-    """,
-    unsafe_allow_html=True
-)
+    # Mostrar historial
+    for sender, message in st.session_state.historial:
+        if sender == "Usuario":
+            st.markdown(f"**Tú:** {message}")
+        else:
+            st.markdown(f"**Chatbot:** {message}")
