@@ -608,6 +608,21 @@ translation_cache = {}
 # Crear directorio de caché si no existe
 os.makedirs("cache", exist_ok=True)
 
+# Aplicar estilos personalizados para cambiar la tipografía a Rubik
+st.markdown("""
+    <style>
+    /* Importar la fuente Rubik desde Google Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+
+    /* Aplicar la fuente Rubik a todo el contenido de la aplicación */
+    body, .css-1d391kg, .css-1n76uvr, .css-1v3fvcr, .css-1rs6os.edgvbvh3 {
+        font-family: 'Rubik', sans-serif;
+    }
+
+    /* Opcional: ajustar estilos específicos si es necesario */
+    </style>
+    """, unsafe_allow_html=True)
+
 # Inicializar historial de mensajes en el estado de Streamlit
 if "messages" not in st.session_state:
     st.session_state.messages = []
