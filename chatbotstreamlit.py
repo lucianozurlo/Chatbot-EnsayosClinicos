@@ -608,87 +608,119 @@ translation_cache = {}
 # Crear directorio de caché si no existe
 os.makedirs("cache", exist_ok=True)
 
-# Aplicar estilos personalizados para cambiar la tipografía a Rubik y la combinación de colores pastel en tonos lilas
+# Aplicar estilos personalizados para cambiar la tipografía a Rubik y los colores
 st.markdown("""
     <style>
     /* Importar la fuente Rubik desde Google Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
 
+    /* Definir variables de color */
+    :root {
+        --bg-color: #FFFFFF; /* bgColor */
+        --body-text: #6B7280; /* bodyText */
+        --primary: #EF4444; /* primary */
+        --disabled: #9CA3AF; /* disabled */
+        --lightest-gray: #E5E7EB; /* lightestGray */
+        --light-gray: #D1D5DB; /* lightGray */
+        --gray: #4B5563; /* gray */
+        --dark-gray: #374151; /* darkGray */
+        --red: #DC2626; /* red */
+        --blue: #3B82F6; /* blue */
+        --green: #10B981; /* green */
+        --yellow: #F59E0B; /* yellow */
+        --warning: #926C05; /* warning */
+        --warning-bg: rgba(245, 158, 11, 0.1); /* warningBg */
+        --success: #047857; /* success */
+        --success-bg: rgba(16, 185, 129, 0.1); /* successBg */
+        --info: #1E40AF; /* info */
+        --info-bg: rgba(59, 130, 246, 0.1); /* infoBg */
+        --danger: #B91C1C; /* danger */
+        --danger-bg: rgba(220, 38, 38, 0.09); /* dangerBg */
+    }
+
     /* Aplicar la fuente Rubik a todo el contenido de la aplicación */
-    body, div, span, p, h1, h2, h3, h4, h5, h6, a, button, input, textarea, .stButton>button, .stTextInput>div>div>input, .stChatInput>div>div>textarea, .stChatMessage>div>div {
+    body, div, span, p, h1, h2, h3, h4, h5, h6, a, button, input, textarea, 
+    .stButton>button, 
+    .stTextInput>div>div>input, 
+    .stChatInput>div>div>textarea, 
+    .stChatMessage>div>div, 
+    .stAlert {
         font-family: 'Rubik', sans-serif !important;
-        color: #4A4A4A; /* Texto Principal */
     }
 
-    /* Fondo principal */
-    .main {
-        background-color: #FFF0F5; /* Lavanda Suave */
+    /* Estilo para el fondo */
+    .reportview-container {
+        background-color: var(--bg-color);
     }
 
-    /* Estilos para los encabezados */
-    h1, h2, h3, h4, h5, h6 {
-        color: #D8BFD8; /* Thistle (Lila Pastel) */
+    /* Estilo para el texto principal */
+    .block-container, .stMarkdown {
+        color: var(--body-text);
     }
 
-    /* Estilos para párrafos y textos */
-    p {
-        color: #4A4A4A; /* Texto Principal */
-    }
-
-    /* Estilos para los botones */
+    /* Estilo para botones primarios */
     .stButton>button {
-        background-color: #E6E6FA; /* Lila Pastel */
-        color: #4A4A4A; /* Texto Gris Oscuro */
-        border: none;
-        border-radius: 5px;
-        padding: 10px 20px;
-        font-weight: 500;
+        background-color: var(--primary);
+        color: #FFFFFF;
     }
 
-    .stButton>button:hover {
-        background-color: #D8BFD8; /* Thistle (Lila Más Oscuro al Hover) */
+    /* Estilo para botones deshabilitados */
+    .stButton>button[disabled] {
+        background-color: var(--disabled);
+        color: #FFFFFF;
     }
 
-    /* Estilos para los inputs */
+    /* Estilo para inputs y textareas */
     .stTextInput>div>div>input, .stChatInput>div>div>textarea {
-        background-color: #FFFFFF; /* Fondo de Inputs */
-        border: 1px solid #E0E0E0; /* Borde de Inputs */
-        border-radius: 5px;
-        color: #4A4A4A; /* Texto dentro de Inputs */
-        padding: 10px;
+        background-color: var(--lightest-gray);
+        color: var(--body-text);
+        border: 1px solid var(--light-gray);
     }
 
-    /* Estilos para los mensajes del chat */
-    .stChatMessage {
-        background-color: #F3E5F5; /* Lila Muy Claro para los mensajes del asistente */
-        border-radius: 10px;
+    /* Estilo para mensajes del usuario */
+    .stChatMessage-user {
+        background-color: var(--lightest-gray);
+        color: var(--body-text);
+    }
+
+    /* Estilo para mensajes del asistente */
+    .stChatMessage-assistant {
+        background-color: var(--light-gray);
+        color: var(--body-text);
+    }
+
+    /* Estilo para alertas */
+    .stAlert {
+        border-left: 4px solid;
         padding: 10px;
         margin-bottom: 10px;
     }
 
-    .stChatMessage.user {
-        background-color: #E1BEE7; /* Lavanda Claro para los mensajes del usuario */
-        border-radius: 10px;
-        padding: 10px;
-        margin-bottom: 10px;
+    .stAlert-warning {
+        border-color: var(--warning);
+        background-color: var(--warning-bg);
+        color: var(--warning);
     }
 
-    /* Fondo de la barra lateral si la tienes */
-    .sidebar .sidebar-content {
-        background-color: #FFF0F5; /* Lavanda Suave */
-        color: #4A4A4A; /* Texto Principal */
+    .stAlert-success {
+        border-color: var(--success);
+        background-color: var(--success-bg);
+        color: var(--success);
     }
 
-    /* Links */
-    a {
-        color: #D8BFD8; /* Thistle (Lila Pastel) */
+    .stAlert-info {
+        border-color: var(--info);
+        background-color: var(--info-bg);
+        color: var(--info);
     }
 
-    a:hover {
-        color: #E6E6FA; /* Lila Pastel al Hover */
+    .stAlert-danger {
+        border-color: var(--danger);
+        background-color: var(--danger-bg);
+        color: var(--danger);
     }
 
-    /* Otros ajustes específicos */
+    /* Personalizar otros elementos según sea necesario */
     </style>
     """, unsafe_allow_html=True)
 
