@@ -603,108 +603,57 @@ gemini_llm = configurar_gemini_cached()
 embedding_cache = {}
 translation_cache = {}
 
+# Configurar Streamlit y definir la interfaz de usuario
+
 # Crear directorio de caché si no existe
 os.makedirs("cache", exist_ok=True)
 
-# Inicializar historial en el estado de Streamlit
-if 'historial' not in st.session_state:
-    st.session_state.historial = []
-
-# Configurar la página para usar toda la anchura disponible
-st.set_page_config(page_title="🤖 Chatbot de Ensayos Clínicos", layout="wide")
+# Inicializar historial de mensajes en el estado de Streamlit
+if "messages" not in st.session_state:
+    st.session_state.messages = []
 
 # Título de la aplicación
-st.title("🤖 Chatbot de Ensayos Clínicos")
+st.title("Chatbot de Ensayos Clínicos")
 
 # Descripción
-st.markdown("""
-Bienvenido al **Chatbot de Ensayos Clínicos**.
+st.write("""
+Bienvenido al Chatbot de Ensayos Clínicos.
 Conversemos sobre ensayos clínicos en enfermedades neuromusculares 
 (Distrofia Muscular de Duchenne o Becker, Enfermedad de Pompe, Distrofia Miotónica, etc.).
-
-**Instrucciones:**
-- Escribe tu pregunta en el campo de abajo, indicando la enfermedad sobre la que quieres información.
-- El historial de la conversación aparecerá arriba.
+""")
+         
+st.write("""
+Escribí tu pregunta, indicando la enfermedad sobre la que quieres información.
 """)
 
-# Crear contenedores para el historial y el input
-historial_container = st.container()
-input_container = st.container()
+# Mostrar historial de mensajes
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
 
-with historial_container:
-    st.markdown("### 🗨️ Historial de Conversación")
-    st.write("")  # Espacio adicional
+# Capturar entrada del usuario usando st.chat_input
+prompt = st.chat_input("¿En qué puedo ayudarte?")
 
-    # Añadir un contenedor con scroll para el historial
-    scrollable_area = st.empty()
+if prompt:
+    # Añadir el mensaje del usuario al historial
+    st.session_state.messages.append({"role": "user", "content": prompt})
+    with st.chat_message("user"):
+        st.markdown(prompt)
+    
+    # Procesar la respuesta del chatbot
+    if es_saludo(prompt):
+        respuesta_saludo = responder_saludo()
+        st.session_state.messages.append({"role": "assistant", "content": respuesta_saludo})
+        with st.chat_message("assistant"):
+            st.markdown(respuesta_saludo)
+    else:
+        # Identificar la enfermedad (documento más relevante)
+        idn = doc_enfermedad(prompt)
+        index = index_archivos[idn] if idn < len(index_archivos) else None
+        trozos = trozos_archivos[idn] if idn < len(trozos_archivos) else []
 
-    # Función para renderizar el historial
-    def render_historial():
-        with scrollable_area.container():
-            st.markdown('<div class="scrollable-content">', unsafe_allow_html=True)
-            for sender, message in st.session_state.historial:
-                if sender == "Usuario":
-                    st.markdown(f"<p style='text-align: right;'><strong>🧑 Tú:</strong> {message}</p>", unsafe_allow_html=True)
-                else:
-                    st.markdown(f"<p style='text-align: left;'><strong>🤖 Chatbot:</strong> {message}</p>", unsafe_allow_html=True)
-            st.markdown('</div>', unsafe_allow_html=True)
-
-    # Renderizar el historial inicial
-    render_historial()
-
-with input_container:
-    st.markdown("---")  # Línea divisoria
-    # Aplicar estilos CSS para el área de chat con scroll
-    st.markdown("""
-    <style>
-    .scrollable-content {
-        height: 500px;
-        overflow-y: auto;
-        padding: 10px;
-        background-color: #F5F5F5;
-        border-radius: 5px;
-    }
-    </style>
-    """, unsafe_allow_html=True)
-
-    # Entrada de usuario
-    col1, col2 = st.columns([9, 1])
-    with col1:
-        pregunta = st.text_input("Tu pregunta:", key="input_pregunta")
-    with col2:
-        enviar = st.button("Enviar", use_container_width=True)
-
-    if enviar:
-        if not pregunta.strip():
-            st.warning("⚠️ Por favor, ingresa una pregunta.")
-        else:
-            if es_saludo(pregunta):
-                respuesta_saludo = responder_saludo()
-                st.session_state.historial.append(("Usuario", pregunta))
-                st.session_state.historial.append(("Chatbot", respuesta_saludo))
-            else:
-                # Identificar la enfermedad (documento más relevante)
-                idn = doc_enfermedad(pregunta)
-                index = index_archivos[idn] if idn < len(index_archivos) else None
-                trozos = trozos_archivos[idn] if idn < len(trozos_archivos) else []
-
-                # Responder la pregunta
-                respuesta = responder_pregunta(pregunta, index, trozos, model, gemini_llm, embedding_cache)
-                st.session_state.historial.append(("Usuario", pregunta))
-                st.session_state.historial.append(("Chatbot", respuesta))
-
-        # Limpiar el campo de entrada después de enviar
-        st.session_state.input_pregunta = ""
-
-        # Renderizar el historial actualizado
-        render_historial()
-
-    # Actualizar el scroll al final después de cada mensaje
-    st.markdown("""
-    <script>
-    var scrollableDiv = document.querySelector('.scrollable-content');
-    if(scrollableDiv){
-        scrollableDiv.scrollTop = scrollableDiv.scrollHeight;
-    }
-    </script>
-    """, unsafe_allow_html=True)
+        # Responder la pregunta
+        respuesta = responder_pregunta(prompt, index, trozos, model, gemini_llm, embedding_cache)
+        st.session_state.messages.append({"role": "assistant", "content": respuesta})
+        with st.chat_message("assistant"):
+            st.markdown(respuesta)
