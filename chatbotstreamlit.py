@@ -615,7 +615,16 @@ if 'historial' not in st.session_state:
 # Título de la aplicación
 st.title("Chatbot de Ensayos Clínicos")
 
-
+# Descripción
+st.write("""
+Bienvenido al Chatbot de Ensayos Clínicos.
+Conversemos sobre ensayos clínicos en enfermedades neuromusculares 
+(Distrofia Muscular de Duchenne o Becker, Enfermedad de Pompe, Distrofia Miotónica, etc.).
+""")
+         
+st.write("""
+Escribí tu pregunta, indicando la enfermedad sobre la que quieres información.
+""")
 
 # Entrada de usuario
 pregunta = st.text_input("Tu pregunta:")
