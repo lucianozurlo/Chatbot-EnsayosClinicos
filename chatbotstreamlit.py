@@ -614,36 +614,36 @@ st.markdown("""
     /* Importar la fuente Rubik desde Google Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
 
-    /* Forzar fondo blanco para todo el cuerpo de la aplicación */
+    /* Fondo general de la aplicación */
     html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {
-        background-color: #FFFFFF !important;
-        color: #212121 !important;
+        background-color: #F9F9F9 !important; /* Gris muy claro */
         font-family: 'Rubik', sans-serif !important;
         margin: 0;
         padding: 0;
     }
 
-    /* Contenedor principal */
+    /* Contenedor principal con margen para centrar */
     [data-testid="stAppViewContainer"] {
         padding: 20px !important;
     }
 
     .block-container {
         background-color: #FFFFFF !important;
-        border-radius: 8px;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) !important;
         padding: 20px !important;
-        max-width: 800px !important;
+        max-width: 850px !important;
         margin: auto !important;
     }
 
-    /* Estilos de mensajes de chat */
+    /* Burbuja de mensajes de chat */
     .stChatMessage>div>div {
         border-radius: 15px !important;
         padding: 15px !important;
-        margin-bottom: 10px !important;
+        margin-bottom: 15px !important;
         font-size: 16px !important;
         line-height: 1.6 !important;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1) !important;
     }
 
     /* Mensaje del usuario */
@@ -651,24 +651,31 @@ st.markdown("""
         background-color: #E3F2FD !important; /* Azul claro */
         color: #0D47A1 !important; /* Azul oscuro */
         text-align: left !important;
+        margin-left: auto !important;
+        margin-right: 10px !important;
+        max-width: 70%;
     }
 
     /* Mensaje del asistente */
     .stChatMessage.assistant {
         background-color: #F5F5F5 !important; /* Gris claro */
-        color: #212121 !important; /* Gris oscuro */
+        color: #333333 !important; /* Gris oscuro */
         text-align: left !important;
+        margin-right: auto !important;
+        margin-left: 10px !important;
+        max-width: 70%;
     }
 
     /* Campo de entrada */
     [data-testid="stChatInput"] textarea {
-        border: 1px solid #BDBDBD !important;
+        border: 1px solid #DDDDDD !important;
         border-radius: 8px !important;
         padding: 10px !important;
         font-size: 16px !important;
         background-color: #FFFFFF !important;
-        color: #212121 !important;
-        width: 100% !important;
+        color: #333333 !important;
+        width: calc(100% - 100px) !important;
+        resize: none !important;
     }
 
     /* Botón de envío */
@@ -686,9 +693,14 @@ st.markdown("""
     [data-testid="stChatInput"] button:hover {
         background-color: #1565C0 !important;
     }
+
+    /* Ajustes para la barra superior */
+    header, footer {
+        visibility: hidden !important;
+    }
+
     </style>
 """, unsafe_allow_html=True)
-
 
 
 # Inicializar historial de mensajes en el estado de Streamlit
