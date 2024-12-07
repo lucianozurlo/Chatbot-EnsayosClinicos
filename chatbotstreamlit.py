@@ -608,93 +608,84 @@ translation_cache = {}
 # Crear directorio de caché si no existe
 os.makedirs("cache", exist_ok=True)
 
-# Aplicar estilos personalizados para cambiar la tipografía a Rubik y ajustar la combinación de colores
+# Aplicar estilos personalizados para cambiar la tipografía a Rubik y la combinación de colores
 st.markdown("""
     <style>
     /* Importar la fuente Rubik desde Google Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
 
-    /* Definir variables de CSS para la paleta de colores */
-    :root {
-        --color-primary: #0D47A1; /* Azul Marino */
-        --color-secondary: #64B5F6; /* Azul Claro */
-        --color-background: #F5F5F5; /* Gris Claro */
-        --color-white: #FFFFFF; /* Blanco */
-        --color-success: #81C784; /* Verde */
-        --color-text: #212121; /* Gris oscuro para texto */
-    }
-
-    /* Aplicar la fuente Rubik y los colores a todo el contenido de la aplicación */
+    /* Aplicar la fuente Rubik a todo el contenido de la aplicación */
     body, div, span, p, h1, h2, h3, h4, h5, h6, a, button, input, textarea, .stButton>button, .stTextInput>div>div>input, .stChatInput>div>div>textarea, .stChatMessage>div>div {
         font-family: 'Rubik', sans-serif !important;
-        color: var(--color-text) !important;
+        color: #333333; /* Texto Principal */
     }
 
-    /* Fondo de la aplicación */
-    .css-18e3th9 {
-        background-color: var(--color-background) !important;
+    /* Fondo principal */
+    .main {
+        background-color: #FFFFFF; /* Blanco */
     }
 
-    /* Fondo de la cabecera */
-    .css-1aumxhk {
-        background-color: var(--color-primary) !important;
-    }
-
-    /* Títulos */
+    /* Estilos para los encabezados */
     h1, h2, h3, h4, h5, h6 {
-        color: var(--color-primary) !important;
+        color: #4A90E2; /* Azul Claro */
     }
 
-    /* Botones */
+    /* Estilos para párrafos y textos */
+    p {
+        color: #666666; /* Texto Secundario */
+    }
+
+    /* Estilos para los botones */
     .stButton>button {
-        background-color: var(--color-secondary) !important;
-        color: var(--color-white) !important;
+        background-color: #4A90E2; /* Azul Claro */
+        color: #FFFFFF; /* Texto Blanco */
         border: none;
         border-radius: 5px;
     }
 
     .stButton>button:hover {
-        background-color: var(--color-primary) !important;
+        background-color: #357ABD; /* Azul Más Oscuro al Hover */
     }
 
-    /* Campo de entrada */
+    /* Estilos para los inputs */
     .stTextInput>div>div>input, .stChatInput>div>div>textarea {
-        background-color: var(--color-white) !important;
-        border: 1px solid var(--color-secondary) !important;
-        border-radius: 5px !important;
+        background-color: #F5F5F5; /* Fondo de Inputs */
+        border: 1px solid #E0E0E0; /* Borde de Inputs */
+        border-radius: 5px;
+        color: #333333; /* Texto dentro de Inputs */
     }
 
-    /* Mensajes del usuario */
+    /* Estilos para los mensajes del chat */
+    .stChatMessage {
+        background-color: #F0F8FF; /* Azul Muy Claro para los mensajes del asistente */
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
     .stChatMessage.user {
-        background-color: var(--color-secondary) !important;
-        color: var(--color-white) !important;
+        background-color: #D3E4CD; /* Verde Muy Claro para los mensajes del usuario */
         border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 10px;
     }
 
-    /* Mensajes del asistente */
-    .stChatMessage.assistant {
-        background-color: var(--color-white) !important;
-        color: var(--color-text) !important;
-        border-radius: 10px;
-        border: 1px solid var(--color-secondary) !important;
+    /* Fondo de la barra lateral si la tienes */
+    .sidebar .sidebar-content {
+        background-color: #FFFFFF; /* Blanco */
+        color: #333333; /* Texto Principal */
     }
 
-    /* Scrollbar personalizada */
-    ::-webkit-scrollbar {
-        width: 12px;
+    /* Links */
+    a {
+        color: #4A90E2; /* Azul Claro */
     }
 
-    ::-webkit-scrollbar-track {
-        background: var(--color-background);
+    a:hover {
+        color: #357ABD; /* Azul Más Oscuro al Hover */
     }
 
-    ::-webkit-scrollbar-thumb {
-        background-color: var(--color-secondary);
-        border-radius: 20px;
-        border: 3px solid var(--color-background);
-    }
-
-    /* Opcional: ajustar estilos específicos si es necesario */
+    /* Otros ajustes específicos */
     </style>
     """, unsafe_allow_html=True)
 
