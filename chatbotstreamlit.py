@@ -615,8 +615,8 @@ st.markdown("""
     @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
 
     /* Aplicar la fuente Rubik a todo el contenido de la aplicación */
-    body, .css-1d391kg, .css-1n76uvr, .css-1v3fvcr, .css-1rs6os.edgvbvh3 {
-        font-family: 'Rubik', sans-serif;
+    body, div, span, p, h1, h2, h3, h4, h5, h6, a, button, input, textarea, .stButton>button, .stTextInput>div>div>input, .stChatInput>div>div>textarea, .stChatMessage>div>div {
+        font-family: 'Rubik', sans-serif !important;
     }
 
     /* Opcional: ajustar estilos específicos si es necesario */
