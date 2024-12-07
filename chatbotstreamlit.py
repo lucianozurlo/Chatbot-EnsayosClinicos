@@ -645,6 +645,11 @@ st.markdown("""
         color: var(--body-text) !important;
     }
 
+    /* Asegurar que el contenedor principal tenga fondo blanco */
+    .block-container {
+        background-color: var(--bg-color) !important;
+    }
+
     /* Estilo para los títulos */
     h1, h2, h3, h4, h5, h6 {
         color: var(--body-text) !important;
@@ -702,6 +707,16 @@ st.markdown("""
     .stAlert.danger {
         background-color: var(--danger-bg) !important;
         border-left: 5px solid var(--danger) !important;
+    }
+
+    /* Asegurar que la barra lateral también tenga fondo blanco */
+    .css-1lcbmhc.e1fqkh3o3 {
+        background-color: var(--bg-color) !important;
+    }
+
+    /* Asegurar que los botones de chat y otras entradas usen la paleta de colores */
+    .stChatInput>div>div>textarea {
+        border: 1px solid var(--light-gray) !important;
     }
 
     /* Opcional: ajustar estilos específicos si es necesario */
