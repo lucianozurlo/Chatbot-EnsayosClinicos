@@ -608,7 +608,7 @@ translation_cache = {}
 # Crear directorio de caché si no existe
 os.makedirs("cache", exist_ok=True)
 
-# Aplicar estilos personalizados para cambiar la tipografía a Rubik y la combinación de colores
+# Aplicar estilos personalizados para cambiar la tipografía a Rubik y la combinación de colores pastel en tonos lilas
 st.markdown("""
     <style>
     /* Importar la fuente Rubik desde Google Fonts */
@@ -617,54 +617,57 @@ st.markdown("""
     /* Aplicar la fuente Rubik a todo el contenido de la aplicación */
     body, div, span, p, h1, h2, h3, h4, h5, h6, a, button, input, textarea, .stButton>button, .stTextInput>div>div>input, .stChatInput>div>div>textarea, .stChatMessage>div>div {
         font-family: 'Rubik', sans-serif !important;
-        color: #333333; /* Texto Principal */
+        color: #4A4A4A; /* Texto Principal */
     }
 
     /* Fondo principal */
     .main {
-        background-color: #FFFFFF; /* Blanco */
+        background-color: #FFF0F5; /* Lavanda Suave */
     }
 
     /* Estilos para los encabezados */
     h1, h2, h3, h4, h5, h6 {
-        color: #4A90E2; /* Azul Claro */
+        color: #D8BFD8; /* Thistle (Lila Pastel) */
     }
 
     /* Estilos para párrafos y textos */
     p {
-        color: #666666; /* Texto Secundario */
+        color: #4A4A4A; /* Texto Principal */
     }
 
     /* Estilos para los botones */
     .stButton>button {
-        background-color: #4A90E2; /* Azul Claro */
-        color: #FFFFFF; /* Texto Blanco */
+        background-color: #E6E6FA; /* Lila Pastel */
+        color: #4A4A4A; /* Texto Gris Oscuro */
         border: none;
         border-radius: 5px;
+        padding: 10px 20px;
+        font-weight: 500;
     }
 
     .stButton>button:hover {
-        background-color: #357ABD; /* Azul Más Oscuro al Hover */
+        background-color: #D8BFD8; /* Thistle (Lila Más Oscuro al Hover) */
     }
 
     /* Estilos para los inputs */
     .stTextInput>div>div>input, .stChatInput>div>div>textarea {
-        background-color: #F5F5F5; /* Fondo de Inputs */
+        background-color: #FFFFFF; /* Fondo de Inputs */
         border: 1px solid #E0E0E0; /* Borde de Inputs */
         border-radius: 5px;
-        color: #333333; /* Texto dentro de Inputs */
+        color: #4A4A4A; /* Texto dentro de Inputs */
+        padding: 10px;
     }
 
     /* Estilos para los mensajes del chat */
     .stChatMessage {
-        background-color: #F0F8FF; /* Azul Muy Claro para los mensajes del asistente */
+        background-color: #F3E5F5; /* Lila Muy Claro para los mensajes del asistente */
         border-radius: 10px;
         padding: 10px;
         margin-bottom: 10px;
     }
 
     .stChatMessage.user {
-        background-color: #D3E4CD; /* Verde Muy Claro para los mensajes del usuario */
+        background-color: #E1BEE7; /* Lavanda Claro para los mensajes del usuario */
         border-radius: 10px;
         padding: 10px;
         margin-bottom: 10px;
@@ -672,17 +675,17 @@ st.markdown("""
 
     /* Fondo de la barra lateral si la tienes */
     .sidebar .sidebar-content {
-        background-color: #FFFFFF; /* Blanco */
-        color: #333333; /* Texto Principal */
+        background-color: #FFF0F5; /* Lavanda Suave */
+        color: #4A4A4A; /* Texto Principal */
     }
 
     /* Links */
     a {
-        color: #4A90E2; /* Azul Claro */
+        color: #D8BFD8; /* Thistle (Lila Pastel) */
     }
 
     a:hover {
-        color: #357ABD; /* Azul Más Oscuro al Hover */
+        color: #E6E6FA; /* Lila Pastel al Hover */
     }
 
     /* Otros ajustes específicos */
