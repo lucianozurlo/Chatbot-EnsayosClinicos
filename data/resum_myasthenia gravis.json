@@ -1,0 +1,3066 @@
+[
+    {
+        "Title": "A Non-interventional, Post-authorisation Safety Study of Patients Treated With Efgartigimod Alfa",
+        "Summary": "Effigartigimod enrolment eligible enroll. Patients gmg expected start treatment. Patients who are exposed to the drug are eligible to enroll.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "",
+        "OverallStatus": "NOT_YET_RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 680
+        },
+        "IDestudio": "NCT06298565"
+    },
+    {
+        "Title": "Safety and Efficacy of CT103A Cells for Relapsed/Refractory Antibody-associated Inflammatory Diseases of the Nervous System",
+        "Summary": " autoimmune diseases nervous system also known as autoimmune diseases. inflammatory diseases. nervous system autoimmune diseases autoimmune cells immune molecules attack nervous system. main pathogenic mechanism immune response pathogenic antibodies acting autoantigens.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Autoimmune Diseases, Autoimmune Diseases of the Nervous System, Neuromyelitis Optica Spectrum Disorder, Myasthenia Gravis, Chronic Inflammatory Demyelinating Polyradiculoneuropathy, Idiopathic Inflammatory Myopathies, Multiple Sclerosis, Autoimmune Encephalitis, Myelin Oligodendrocyte Glycoprotein Antibody-Associated Disease (MOGAD), POEMS Syndrome",
+        "Phases": [
+            "EARLY_PHASE1"
+        ],
+        "#pacients": {
+            "count": 36
+        },
+        "IDestudio": "NCT04561557"
+    },
+    {
+        "Title": "Serum Auto-Antibodies in Neurological Diseases",
+        "Summary": "Immune system protects us infections tumors. immune system recognizing infecting organism tumor foreign body attacking one way immune system attacks foreign target making proteins called antibodies bind target sometimes reasons poorly understand immune system wrongly identifies part body foreign attacks result disease forms diabetes",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "ENROLLING_BY_INVITATION",
+        "Conditions": "Multiple Sclerosis, Myasthenia Gravis, Transverse Myelitis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 120
+        },
+        "IDestudio": "NCT00704626"
+    },
+    {
+        "Title": "Tacrolimus Combined With Low-dose Prednisone for Treatment of Myasthenia Gravis",
+        "Summary": "Study designed evaluate effectiveness safety tacrolimus combined prednisone management myasthenia gravis patients.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "China",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 160
+        },
+        "IDestudio": "NCT04768465"
+    },
+    {
+        "Title": "Efficacy of Apraclonidine Eye Drops in the Treatment of Ptosis Secondary to Myasthenia Gravis",
+        "Summary": "Study aimed assessing efficacy apraclonidine eye drops treatment. ptosis secondary myasthenia gravis.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Lebanon",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis, Ocular Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 10
+        },
+        "IDestudio": "NCT05045248"
+    },
+    {
+        "Title": "A Phase 3 Open-Label Study of Eculizumab in Pediatric Participants With Refractory Generalized Myasthenia Gravis (gMG)",
+        "Summary": "Eculizumab is being used to treat pediatric refractory myasthenia gravis. The study will evaluate efficacy, safety, pharmacokinetics and pharmacodynamics.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Netherlands, Japan, United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis, Myasthenia Gravis, Juvenile Form, Myasthenia Gravis, Generalized",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 11
+        },
+        "IDestudio": "NCT03759366"
+    },
+    {
+        "Title": "Variables Predicting Reintubation After Thymectomy in Patients With Myasthenia Gravis",
+        "Summary": "Myasthenia gravis mg autoimmune disease characterized muscle weakness fatigue role thymus mg suggested evidence 10 15 patients present thymoma least 60 thymUS hyperplasia effects thymectomy patients mg described 40 90 studies looked",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "China",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 99
+        },
+        "IDestudio": "NCT03597373"
+    },
+    {
+        "Title": "A Study to Evaluate the Safety, Efficacy, and Pharmacokinetics of ARGX-113 in Patients With Myasthenia Gravis Who Have Generalized Muscle Weakness",
+        "Summary": " randomized multicenter phase ii study evaluate safety efficacy pharmacokinetics treatment autoimmune myasthenia gravis mg mg generalized muscle weakness.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Poland, Sweden, Netherlands, Italy, Belgium, Canada, Spain, United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 24
+        },
+        "IDestudio": "NCT02965573"
+    },
+    {
+        "Title": "Rituximab for the Treatment of Refractory Inflammatory Myopathies and Refractory Myasthenia Gravis",
+        "Summary": "70 treated patients show incomplete response including 10 30 unresponsive corticosteroids immunosuppressive therapies presented also many side effects propose evaluate pilot open prospective multicentric phase ii study interest rituximab treatment patients primary im associated specific",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myositis, Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 30
+        },
+        "IDestudio": "NCT00774462"
+    },
+    {
+        "Title": "Hematopoietic Stem Cell Therapy for Patients With Refractory Myasthenia Gravis",
+        "Summary": " autoimmune mg common form mg affects approximately americans like autoimmune diseases associated particular hla genotypes female predominance environmental factors involved breaking tolerance ach receptor unknown patients refractory severe autoimmune mg considered candidates study purpose study assess phase autologous",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "TERMINATED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 9
+        },
+        "IDestudio": "NCT00424489"
+    },
+    {
+        "Title": "Acupuncture in Myasthenia Gravis (AcuMG)",
+        "Summary": "20 people mg enrolled study receive acupuncture treatment 2 times week 12 weeks participants randomized two groups 1 immediate start 2 delayed start 12 weeks delayed start group act control group first 12 weeks receiveupuncture treatment. 12 weeks hypothesized patients mg receive acupuncturetreatment improved",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 24
+        },
+        "IDestudio": "NCT05230082"
+    },
+    {
+        "Title": "Therapy of Antibody-mediated Autoimmune Diseases by Bortezomib (TAVAB)",
+        "Summary": "Pilot study to investigate application of proteasome inhibitor bortezomib. Proteasome inhibition lead to reduced antibody titers improved clinical outcome.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Germany",
+        "OverallStatus": "TERMINATED",
+        "Conditions": "Myasthenia Gravis, Systemic Lupus Erythematosus, Rheumatoid Arthritis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 11
+        },
+        "IDestudio": "NCT02102594"
+    },
+    {
+        "Title": "Pilot Study: Use of the Saccadometer to Detect Characteristic Saccadic Peak Velocity in Myasthenia Gravis Patients",
+        "Summary": "Fast eye movements shown demonstrate characteristics specific myasthenia gravis present eye movement disorders possible measure eye movements potentially identify characteristics using new portable eye movement testing equipment aim pilot study discover characteristics identified using portable eyemovement testing equipment.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 20
+        },
+        "IDestudio": "NCT06501794"
+    },
+    {
+        "Title": "Efficacy and Safety of IGIV-C in Corticosteroid Dependent Patients With Generalized Myasthenia Gravis",
+        "Summary": " multicenter randomized study evaluate efficacy safety immune globulin human 10 purified corticosteroid cs agent subjects myasthenia gravis mg.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France, Germany, Poland, Estonia, Belgium, Canada, Lithuania, Czechia, United States, Hungary",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 60
+        },
+        "IDestudio": "NCT02473965"
+    },
+    {
+        "Title": "A Pilot Trial To Assess The Feasibility And Efficacy Of SCIG In Patients With MG Exacerbation (SCIG-MG)",
+        "Summary": "Study treating neurologist patients receive 150gm 75kg patient 20 scig hizentra infused 4 weeks dose escalating manner. Study assessing feasibility employing scig alternative therapy ivig patients.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Canada",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 26
+        },
+        "IDestudio": "NCT02774239"
+    },
+    {
+        "Title": "Physical Activity Monitoring in Myasthenia Gravis",
+        "Summary": "Myasthenia gravis mg main question aims answer measure correlation measures motor function existing outcome measures including mgqol15r qmg mgcomposite fatigue scales develop validate digital assessments speech facial expression.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 20
+        },
+        "IDestudio": "NCT06277830"
+    },
+    {
+        "Title": "Subcutaneous Immunoglobulin for Myasthenia Gravis",
+        "Summary": "Cuvitru 20 subcutaneous immunoglobulin patients myasthenia gravis mg. prospective randomized parallel arm clinical trial primary objective study evaluate safety efficacy. secondary objective evaluate patient preferences effects quality life treating mg patients scig",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Canada",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 30
+        },
+        "IDestudio": "NCT04728425"
+    },
+    {
+        "Title": "Digital Phenotyping and Lifestyle Intervention in Patients With Myasthenia Gravis",
+        "Summary": " myasthenia gravis mg chronic autoimmune neurological disorder antibody attack muscle receptors causes fatigable skeletal muscle weakness addition fatigue several mg patients experience general fatigue small supervised studies 12 weeks physical exercise interventions indicated safety beneficial neuromuscular outcomes.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Sweden",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 80
+        },
+        "IDestudio": "NCT05992025"
+    },
+    {
+        "Title": "Screening of Serum Exosomal miRNA as a Biomarker for Ocular Muscle Myasthenia Gravis",
+        "Summary": "Myasthenia gravis has a high incidence and is difficult to diagnose. Find specific diagnostic indicators and test for mirnas derived exosomes serum.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "China",
+        "OverallStatus": "ENROLLING_BY_INVITATION",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 160
+        },
+        "IDestudio": "NCT05888558"
+    },
+    {
+        "Title": "A Worldwide Pregnancy Safety Study to Assess Maternal, Fetal, and Infant Outcomes Following Exposure to Efgartigimod During Pregnancy and/or Breastfeeding.",
+        "Summary": "Pregnant women exposed to efgartigimod time within 25 days prior to conception were eligible for the study. Women exposed to the drug during breastfeeding were also eligible.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 279
+        },
+        "IDestudio": "NCT06299748"
+    },
+    {
+        "Title": "Safety, Tolerability and Immunogenic Response of CV-MG01 in Patients With Myasthenia Gravis",
+        "Summary": "Study first clinical trial administering humans clinical trial safety study proof mechanism action intended assess safety tolerability immunogenic response following 3 subcutaneous injections potential therapeutic vaccine active immunotherapy myasthenia gravis mg patients.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Belgium",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE1",
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 24
+        },
+        "IDestudio": "NCT02609022"
+    },
+    {
+        "Title": "A Study of Nipocalimab Administered to Adults With Generalized Myasthenia Gravis",
+        "Summary": "Nipocalimab compared placebo participants to generalized myasthenia gravis gmg.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Denmark, France, Germany, Poland, Sweden, Italy, Australia, Mexico, Belgium, Canada, Spain, China, Taiwan, Czechia, Japan, United States, Korea, Republic of",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 196
+        },
+        "IDestudio": "NCT04951622"
+    },
+    {
+        "Title": "Perception and Multisensory Integration in Neurological Patients Using fMRI",
+        "Summary": "Main objective study explore map brain areas involved sensory perception multisensory integration patients central peripheral neurological damage. Investigators hypothesize example change compare healthy subjects to healthy subjects.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Israel",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Acute Inflammatory Demyelinating Polyradiculoneuropathy, Myasthenia Gravis, Stroke, Anosognosia, Asomatognosia",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 30
+        },
+        "IDestudio": "NCT01469858"
+    },
+    {
+        "Title": "Thymectomy Trial in Non-Thymomatous Myasthenia Gravis Patients Receiving Prednisone Therapy",
+        "Summary": " purpose trial determine thymectomy combined with prednisone therapy beneficial treating myasthenia gravis.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Germany, Poland, Italy, Netherlands, Portugal, South Africa, Australia, Mexico, Thailand, Spain, Canada, Brazil, Taiwan, Japan, United States, Chile, United Kingdom, Argentina",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 126
+        },
+        "IDestudio": "NCT00294658"
+    },
+    {
+        "Title": "Patient Observation With Environmental and Wearable Sensors in Myasthenia Gravis",
+        "Summary": " observational study seeks investigate underlying processes myasthenia gravis employing multimodal monitoring techniques. Digital biomarkers alongside clinical monitoring aim enhance detection disease activity.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Germany",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis, Myasthenic Syndrome, Lambert-Eaton Myasthenic Syndrome",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 20
+        },
+        "IDestudio": "NCT06441825"
+    },
+    {
+        "Title": "Evaluate the Safety and Efficacy of CAR-T Cells in the Treatment of Refractory Myasthenia Gravis",
+        "Summary": " phase study primary objective evaluate safety and pharmacokinetics in patients with refractory myasthenia gravis.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 9
+        },
+        "IDestudio": "NCT05828225"
+    },
+    {
+        "Title": "Autologous Stem Cell Transplant for Neurologic Autoimmune Diseases",
+        "Summary": " phase ii trial studies side effects well carmustine etoposide cytarabine melphalan together antithymocyte globulin stem cell transplant works treating patients autoimmune neurologic disease.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "ACTIVE_NOT_RECRUITING",
+        "Conditions": "Autoimmune Disease, Neurologic Autoimmune Disease, Autologous Transplant Autoimmune, Multiple Sclerosis Transplant, MS Stem Cell Transplant, Multiple Sclerosis Stem Cell Transplant, Stiff Person Syndrome, HCT for Neurologic Autoimmune Disorders, CIDP Transplant, Myasthenia Gravis Transplant, Autoimmune Nervous System Disorder, Central Nervous System Vasculitis, Cerebellar Degeneration, Chronic Inflammatory Demyelinating Polyneuropathy, Lambert Eaton Myasthenic Syndrome, Myasthenia Gravis, Neuromyelitis Optica, Opsoclonus Myoclonus Syndrome, Rasmussen Subacute Encephalitis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 53
+        },
+        "IDestudio": "NCT00716066"
+    },
+    {
+        "Title": "Study of Myasthenic Crisis in China",
+        "Summary": " study multicenter prospective observational research register basic demographic information medical history characteristics clinical features auxiliary examinations treatment outcomes tracheal related events clinical outcomes myasthenic crisis patients.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis, Myasthenic Crisis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 300
+        },
+        "IDestudio": "NCT04837625"
+    },
+    {
+        "Title": "A Pilot Study of Granulocyte-Macrophage Colony-Stimulating Factor (GM-CSF) in Generalized Myasthenia Gravis",
+        "Summary": " purpose study determine whether drug leukine safe tolerated patients autoimmune myasthenia gravis mg.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "EARLY_PHASE1"
+        ],
+        "#pacients": {
+            "count": 12
+        },
+        "IDestudio": "NCT01555580"
+    },
+    {
+        "Title": "Physical Activity and Fatigue in Myasthenia Gravis",
+        "Summary": " danish patients myasthenia gravis asked answer validated international questionnaire physical activity also background questions disease comorbidity asked validate data physical activity questionnaires 69 patients asked wear accelerometer 7 days measure activity level.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Denmark",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 779
+        },
+        "IDestudio": "NCT03905473"
+    },
+    {
+        "Title": "A Study of Nipocalimab in Children Aged 2 to Less Than 18 Years With Generalized Myasthenia Gravis",
+        "Summary": "Nipocalimab total serum immunoglobulin gmg insufficient clinical response ongoing stable therapy. generalized myasthenia gravis gmg.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Netherlands, Poland, Japan, United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE2",
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 12
+        },
+        "IDestudio": "NCT05265273"
+    },
+    {
+        "Title": "Safety and Efficacy Study of Eculizumab in Patients With Refractory Generalized Myasthenia Gravis",
+        "Summary": "Study to determine whether eculizumab safe effective treatment patients generalized myasthenia gravis despite treatment.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Canada, United States, United Kingdom",
+        "OverallStatus": "TERMINATED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 14
+        },
+        "IDestudio": "NCT00727194"
+    },
+    {
+        "Title": "Randomized Study of Intravenous Immunoglobulin in Patients With Mild or Moderate Myasthenia Gravis",
+        "Summary": " intravenous immunoglobulin effective therapy patients mild moderate myasthenia gravis. objectives determine whether intravenous Immunoglobulins are effective therapy.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "",
+        "OverallStatus": "TERMINATED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 100
+        },
+        "IDestudio": "NCT00004682"
+    },
+    {
+        "Title": "Comparison of Single Port and Two Ports Robotic Assisted Thoracic Surgery for Thymectomy",
+        "Summary": " robotic thymectomy used 3 ports theoretically less incisions may bring faster postoperative recovery. Less incisions could bring lighter postoperative pain higher postoperative quality life.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Thymoma, Myasthenia Gravis Associated With Thymoma, Thymectomy",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 60
+        },
+        "IDestudio": "NCT05262582"
+    },
+    {
+        "Title": "Sensitivity of Repetitive Nerve Stimulation Performed in the Evening vs in the Morning in Myasthenia Gravis",
+        "Summary": " myasthenia gravis mg autoimmune disorder affecting neuromuscular junction characterized fatigue increases gradually day repetitive nerve stimulation rns remains key diagnostic test mg. sensitivity especially ocular form mg satisfactory study investigators want assess impact time day sensitivity r",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Poland",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 40
+        },
+        "IDestudio": "NCT05337891"
+    },
+    {
+        "Title": "Clinical Trial to Improve the Magnetic Levator Prosthesis",
+        "Summary": " blepharoptosis incomplete opening eyelids occurs disruption normal complex balance external device could restore eyelid movement newer class permanent magnets made alloys neodymium nd iron fe boron b might provide technology needed develop feasible external",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Blepharoptosis, Ptosis, Eyelid, Myasthenia Gravis, Stroke, Traumatic Brain Injury",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 17
+        },
+        "IDestudio": "NCT03818204"
+    },
+    {
+        "Title": "KYSA-6: A Study of Anti-CD19 Chimeric Antigen Receptor T-Cell Therapy, in Subjects With Refractory Generalized Myasthenia Gravis",
+        "Summary": "Study subjects myasthenia gravis. 19 chimeric antigen receptor cell therapy subjects.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Germany, United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis, Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 20
+        },
+        "IDestudio": "NCT06193889"
+    },
+    {
+        "Title": "Study Comparing Two Tapering Strategies of Prednisone in Myasthenia Gravis",
+        "Summary": " generalized myasthenia gravis mg cause muscle weakness significant impact daily life activity also respiratory bulbar muscles involved rationale additionally thymectomy indication still debated absence thymoma treatment. 12 month 50 percent patients still daily treated least",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE4"
+        ],
+        "#pacients": {
+            "count": 118
+        },
+        "IDestudio": "NCT00987116"
+    },
+    {
+        "Title": "Study of ALXN2050 in Adult Participants With Generalized Myasthenia Gravis",
+        "Summary": "Alxn2050 120 milligrams mg 180 mg participants generalized myasthenia gravis gmg safety monitored throughout study. study evaluate efficacy safety.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Germany, Italy, Spain, Canada, Serbia, Taiwan, United States, Korea, Republic of",
+        "OverallStatus": "TERMINATED",
+        "Conditions": "Generalized Myasthenia Gravis, Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 70
+        },
+        "IDestudio": "NCT05218096"
+    },
+    {
+        "Title": "Help Build an A.I. Model to Predict Myasthenia Gravis Symptom Patterns and Flares",
+        "Summary": "Myasthenia gravis symptoms triggers occurring longitudinally study designed use strengths mobile smartphones enable real time capture data manually augmented sensors video audio order better characterize mg symptoms flares.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 113
+        },
+        "IDestudio": "NCT04590716"
+    },
+    {
+        "Title": "Benefits and Tolerance of Exercise in Patients With Generalized and Stabilized Myasthenia Gravis",
+        "Summary": "Myasthenia gravis mg stabilized since least 6 months prednisone azathioprine. 3 months physical exercise programme improves quality life.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 45
+        },
+        "IDestudio": "NCT02066519"
+    },
+    {
+        "Title": "Influences of Sugammadex on Postoperative Progress in Patients With Myasthenia Gravis Undergoing Video-assisted Thoracoscopic Thymectomy: Retrospective Study",
+        "Summary": "Sugamadex compared acetylcholinesterase inhibitors acheis perioperative outcomes thoracoscopic surgery vats. several case reports described use rocuronium sugammadex patients myasthenia",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Korea, Republic of",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 265
+        },
+        "IDestudio": "NCT05694234"
+    },
+    {
+        "Title": "The Safety and Efficacy of \"3-Hole\" Subxiphorid Approach in the Treatment of Anterior Mediastinal Tumor",
+        "Summary": "Major surgical approaches include cervical approach approach cervical combined approach thoracoscopic approach cervical approach rarely adopted. surgery plays important role treatment anterior mediastinum disease.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Thymectomy, Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 240
+        },
+        "IDestudio": "NCT02317224"
+    },
+    {
+        "Title": "Myasthenia Gravis Foundation of America Global MG Patient Registry",
+        "Summary": "People living myasthenia gravis mg united states take part in the study. The study aims to learn experiences of people living with the disease.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthaenia Gravis, Myasthenia, Myasthenia Gravis Associated with Thymoma, Myasthenia Gravis Crisis, Myasthenia Gravis Exacerbations, Myasthenia Gravis Generalised, Myasthenia Gravis with Exacerbation (Disorder), Myasthenia Gravis, Adult Form, Myasthenia Gravis, Generalized, Myasthenia Gravis, Ocular, Myasthenia Gravis, Thymectomy, Myasthenia Gravis, Myasthenia Gravis, MuSK",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 3800
+        },
+        "IDestudio": "NCT06617741"
+    },
+    {
+        "Title": "Tissue Repository Providing Annotated Biospecimens for Approved Investigator-directed Biomedical Research Initiatives",
+        "Summary": "\"Biospecimens\" is a collection of annotated biospecimens associated medical data. The data is intended to help researchers discover develop new treatments, preventative methods, and develop treatments.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Age-Related Macular Degeneration, Allergies, Alpha-Gal Syndrome, Alzheimer Disease, Amyloidosis, Ankylosing Spondylitis, Arthritis, Alopecia Areata, Asthma, Atopic Dermatitis, Autism, Autoimmune Hepatitis, Behcet's Disease, Beta-Thalassemia, Cancer, Celiac Disease, Kidney Diseases, COPD, Crohn Disease, Cystic Fibrosis, Diabetes, Dravet Syndrome, DMD, Fibromyalgia, Graves Disease, Thyroid Diseases, Hepatitis, Hidradenitis Suppurativa, ITP, Leukemia, ALS, Lupus or SLE, Lymphoma, Multiple Sclerosis, Myasthenia Gravis, Heart Diseases, Parkinson Disease, Pemphigus Vulgaris, Cirrhosis, Psoriasis, Schizophrenia, Scleroderma, Sickle Cell Disease, Stroke, Ulcerative Colitis, Vasculitis, Vitiligo",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 20000
+        },
+        "IDestudio": "NCT05635266"
+    },
+    {
+        "Title": "Medlink for Diagnosing of Diabetes Mellitus, COPD, CHF, Myasthenia Gravis and Hypertension",
+        "Summary": " medlink verbally interactive programmable medical device allows physicians select medical measurements. Medlink includes limited electrocardiography ecg blood pressure heart rate blood glucose pulse rate blood oxygen saturation spo2.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United Kingdom",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Diabetes Mellitus, Chronic Obstructive Pulmonary Disease, Congestive Heart Failure, Myasthenia Gravis, Hypertension",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 10
+        },
+        "IDestudio": "NCT06256172"
+    },
+    {
+        "Title": "Evaluate the Safety, Tolerability, Pharmacodynamics and Efficacy of CNP-106 in Subjects With Myasthenia Gravis",
+        "Summary": "The drug is in a clinical trial assessing safety tolerability and pharmacodynamics. The trial will also assess the safety and efficacy of multiple ascending doses.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis, Generalized Myasthenia, AChR Myasthenia Gravis, MuSK MG",
+        "Phases": [
+            "PHASE1",
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 54
+        },
+        "IDestudio": "NCT06106672"
+    },
+    {
+        "Title": "A Prospective, Single-Center Investigation of the da Vinci SP\u00ae Surgical System in Anterior Mediastinal Disease",
+        "Summary": "Primary endpoint incidence conversion rate surgery primary performance endpoint assessed ability to successfully complete planned mediastinal procedure. Secondary endpoints incidence treatment related adverse events safety endpoint assessed incidence adverse events occur follow period.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Taiwan",
+        "OverallStatus": "ACTIVE_NOT_RECRUITING",
+        "Conditions": "Robotic Surgical Procedure, Thymoma, Myasthenia Gravis",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 15
+        },
+        "IDestudio": "NCT05455840"
+    },
+    {
+        "Title": "The Role of the Thymus in Myasthenia Gravis",
+        "Summary": "Thymic hyperplasia thymoma autoimmune myasthenia gravis known time question causality remains uncertain. Thymomas export naive cd4 take place tumour could possibly play important role pathogenesis. Investigators want analyse functionality",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Germany",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis, Thymoma",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 20
+        },
+        "IDestudio": "NCT01102192"
+    },
+    {
+        "Title": "An Open Study for Steroid Resistant, Non-Thymectomized MG Patients",
+        "Summary": " purpose study investigate efficacy safety steroid resistant mg patients. purpose study is to investigate efficacy and safety of steroids in steroid resistantmg patients.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Japan",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 11
+        },
+        "IDestudio": "NCT00309101"
+    },
+    {
+        "Title": "Evaluate the Safety of HBM9161 (HL161) Subcutaneous Injection in Patients With Generalized Myasthenia Gravis",
+        "Summary": "HBM9161 combination background treatment gmg patients observation adverse events laboratory abnormalities study period. primary study objective evaluate safety.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 144
+        },
+        "IDestudio": "NCT05332210"
+    },
+    {
+        "Title": "Rare Disease Patient Registry & Natural History Study - Coordination of Rare Diseases at Sanford",
+        "Summary": "Cord team works patient advocacy groups individuals researchers help advancement research rare diseases registry free patients enroll researchers access visit enroll. cords coordination rare diseases.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Australia, United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Rare Disorders, Undiagnosed Disorders, Disorders of Unknown Prevalence, Cornelia De Lange Syndrome, Prenatal Benign Hypophosphatasia, Perinatal Lethal Hypophosphatasia, Odontohypophosphatasia, Adult Hypophosphatasia, Childhood-onset Hypophosphatasia, Infantile Hypophosphatasia, Hypophosphatasia, Kabuki Syndrome, Bohring-Opitz Syndrome, Narcolepsy Without Cataplexy, Narcolepsy-cataplexy, Hypersomnolence Disorder, Idiopathic Hypersomnia Without Long Sleep Time, Idiopathic Hypersomnia With Long Sleep Time, Idiopathic Hypersomnia, Kleine-Levin Syndrome, Kawasaki Disease, Leiomyosarcoma, Leiomyosarcoma of the Corpus Uteri, Leiomyosarcoma of the Cervix Uteri, Leiomyosarcoma of Small Intestine, Acquired Myasthenia Gravis, Addison Disease, Hyperacusis (Hyperacousis), Juvenile Myasthenia Gravis, Transient Neonatal Myasthenia Gravis, Williams Syndrome, Lyme Disease, Myasthenia Gravis, Marinesco Sjogren Syndrome(Marinesco-Sjogren Syndrome), Isolated Klippel-Feil Syndrome, Frasier Syndrome, Denys-Drash Syndrome, Beckwith-Wiedemann Syndrome, Emanuel Syndrome, Isolated Aniridia, Axenfeld-Rieger Syndrome, Aniridia-intellectual Disability Syndrome, Aniridia - Renal Agenesis - Psychomotor Retardation, Aniridia - Ptosis - Intellectual Disability - Familial Obesity, Aniridia - Cerebellar Ataxia - Intellectual Disability, Aniridia - Absent Patella, Aniridia, Peters Anomaly - Cataract, Peters Anomaly, Potocki-Shaffer Syndrome, Silver-Russell Syndrome Due to Maternal Uniparental Disomy of Chromosome 11, Silver-Russell Syndrome Due to Imprinting Defect of 11p15, Silver-Russell Syndrome Due to 11p15 Microduplication, Syndromic Aniridia, WAGR Syndrome, Wolf-Hirschhorn Syndrome, 4p16.3 Microduplication Syndrome, 4p Deletion Syndrome, Non-Wolf-Hirschhorn Syndrome, Autosomal Recessive Stickler Syndrome, Stickler Syndrome Type 2, Stickler Syndrome Type 1, Stickler Syndrome, Mucolipidosis Type 4, X-linked Spinocerebellar Ataxia Type 4, X-linked Spinocerebellar Ataxia Type 3, X-linked Intellectual Disability - Ataxia - Apraxia, X-linked Progressive Cerebellar Ataxia, X-linked Non Progressive Cerebellar Ataxia, X-linked Cerebellar Ataxia, Vitamin B12 Deficiency Ataxia, Toxic Exposure Ataxia, Unclassified Autosomal Dominant Spinocerebellar Ataxia, Thyroid Antibody Ataxia, Sporadic Adult-onset Ataxia of Unknown Etiology, Spinocerebellar Ataxia With Oculomotor Anomaly, Spinocerebellar Ataxia With Epilepsy, Spinocerebellar Ataxia With Axonal Neuropathy Type 2, Spinocerebellar Ataxia Type 8, Spinocerebellar Ataxia Type 7, Spinocerebellar Ataxia Type 6, Spinocerebellar Ataxia Type 5, Spinocerebellar Ataxia Type 4, Spinocerebellar Ataxia Type 37, Spinocerebellar Ataxia Type 36, Spinocerebellar Ataxia Type 35, Spinocerebellar Ataxia Type 34, Spinocerebellar Ataxia Type 32, Spinocerebellar Ataxia Type 31, Spinocerebellar Ataxia Type 30, Spinocerebellar Ataxia Type 3, Spinocerebellar Ataxia Type 29, Spinocerebellar Ataxia Type 28, Spinocerebellar Ataxia Type 27, Spinocerebellar Ataxia Type 26, Spinocerebellar Ataxia Type 25, Spinocerebellar Ataxia Type 23, Spinocerebellar Ataxia Type 22, Spinocerebellar Ataxia Type 21, Spinocerebellar Ataxia Type 20, Spinocerebellar Ataxia Type 2, Spinocerebellar Ataxia Type 19/22, Spinocerebellar Ataxia Type 18, Spinocerebellar Ataxia Type 17, Spinocerebellar Ataxia Type 16, Spinocerebellar Ataxia Type 15/16, Spinocerebellar Ataxia Type 14, Spinocerebellar Ataxia Type 13, Spinocerebellar Ataxia Type 12, Spinocerebellar Ataxia Type 11, Spinocerebellar Ataxia Type 10, Spinocerebellar Ataxia Type 1 With Axonal Neuropathy, Spinocerebellar Ataxia Type 1, Spinocerebellar Ataxia - Unknown, Spinocerebellar Ataxia - Dysmorphism, Non Progressive Epilepsy and/or Ataxia With Myoclonus as a Major Feature, Spasticity-ataxia-gait Anomalies Syndrome, Spastic Ataxia With Congenital Miosis, Spastic Ataxia - Corneal Dystrophy, Spastic Ataxia, Rare Hereditary Ataxia, Rare Ataxia, Recessive Mitochondrial Ataxia Syndrome, Progressive Epilepsy and/or Ataxia With Myoclonus as a Major Feature, Posterior Column Ataxia - Retinitis Pigmentosa, Post-Stroke Ataxia, Post-Head Injury Ataxia, Post Vaccination Ataxia, Polyneuropathy - Hearing Loss - Ataxia - Retinitis Pigmentosa - Cataract, Muscular Atrophy - Ataxia - Retinitis Pigmentosa - Diabetes Mellitus, Non-hereditary Degenerative Ataxia, Paroxysmal Dystonic Choreathetosis With Episodic Ataxia and Spasticity, Olivopontocerebellar Atrophy - Deafness, NARP Syndrome, Myoclonus - Cerebellar Ataxia - Deafness, Multiple System Atrophy, Parkinsonian Type, Multiple System Atrophy, Cerebellar Type, Multiple System Atrophy, Maternally-inherited Leigh Syndrome, Machado-Joseph Disease Type 3, Machado-Joseph Disease Type 2, Machado-Joseph Disease Type 1, Leigh Syndrome, Late-onset Ataxia With Dementia, Infection or Post Infection Ataxia, GAD Ataxia, Hereditary Episodic Ataxia, Gliadin/Gluten Ataxia, Friedreich Ataxia, Fragile X-associated Tremor/Ataxia Syndrome, Familial Paroxysmal Ataxia, Exposure to Medications Ataxia, Episodic Ataxia With Slurred Speech, Episodic Ataxia Unknown Type, Episodic Ataxia Type 7, Episodic Ataxia Type 6, Episodic Ataxia Type 5, Episodic Ataxia Type 4, Episodic Ataxia Type 3, Episodic Ataxia Type 1, Epilepsy and/or Ataxia With Myoclonus as Major Feature, Early-onset Spastic Ataxia-neuropathy Syndrome, Early-onset Progressive Neurodegeneration - Blindness - Ataxia - Spasticity, Early-onset Cerebellar Ataxia With Retained Tendon Reflexes, Early-onset Ataxia With Dementia, Childhood-onset Autosomal Recessive Slowly Progressive Spinocerebellar Ataxia, Dilated Cardiomyopathy With Ataxia, Cataract - Ataxia - Deafness, Cerebellar Ataxia, Cayman Type, Cerebellar Ataxia With Peripheral Neuropathy, Cerebellar Ataxia - Hypogonadism, Cerebellar Ataxia - Ectodermal Dysplasia, Cerebellar Ataxia - Areflexia - Pes Cavus - Optic Atrophy - Sensorineural Hearing Loss, Brain Tumor Ataxia, Brachydactyly - Nystagmus - Cerebellar Ataxia, Benign Paroxysmal Tonic Upgaze of Childhood With Ataxia, Autosomal Recessive Syndromic Cerebellar Ataxia, Autosomal Recessive Spastic Ataxia With Leukoencephalopathy, Autosomal Recessive Spastic Ataxia of Charlevoix-Saguenay, Autosomal Recessive Spastic Ataxia - Optic Atrophy - Dysarthria, Autosomal Recessive Spastic Ataxia, Autosomal Recessive Metabolic Cerebellar Ataxia, Autosomal Dominant Spinocerebellar Ataxia Due to Repeat Expansions That do Not Encode Polyglutamine, Autosomal Recessive Ataxia, Beauce Type, Autosomal Recessive Ataxia Due to Ubiquinone Deficiency, Autosomal Recessive Ataxia Due to PEX10 Deficiency, Autosomal Recessive Degenerative and Progressive Cerebellar Ataxia, Autosomal Recessive Congenital Cerebellar Ataxia Due to MGLUR1 Deficiency, Autosomal Recessive Congenital Cerebellar Ataxia Due to GRID2 Deficiency, Autosomal Recessive Congenital Cerebellar Ataxia, Autosomal Recessive Cerebellar Ataxia-pyramidal Signs-nystagmus-oculomotor Apraxia Syndrome, Autosomal Recessive Cerebellar Ataxia-epilepsy-intellectual Disability Syndrome Due to WWOX Deficiency, Autosomal Recessive Cerebellar Ataxia-epilepsy-intellectual Disability Syndrome Due to TUD Deficiency, Autosomal Recessive Cerebellar Ataxia-epilepsy-intellectual Disability Syndrome Due to KIAA0226 Deficiency, Autosomal Recessive Cerebellar Ataxia-epilepsy-intellectual Disability Syndrome, Autosomal Recessive Cerebellar Ataxia With Late-onset Spasticity, Autosomal Recessive Cerebellar Ataxia Due to STUB1 Deficiency, Autosomal Recessive Cerebellar Ataxia Due to a DNA Repair Defect, Autosomal Recessive Cerebellar Ataxia - Saccadic Intrusion, Autosomal Recessive Cerebellar Ataxia - Psychomotor Retardation, Autosomal Recessive Cerebellar Ataxia - Blindness - Deafness, Autosomal Recessive Cerebellar Ataxia, Autosomal Dominant Spinocerebellar Ataxia Due to a Polyglutamine Anomaly, Autosomal Dominant Spinocerebellar Ataxia Due to a Point Mutation, Autosomal Dominant Spinocerebellar Ataxia Due to a Channelopathy, Autosomal Dominant Spastic Ataxia Type 1, Autosomal Dominant Spastic Ataxia, Autosomal Dominant Optic Atrophy, Ataxia-telangiectasia Variant, Ataxia-telangiectasia, Autosomal Dominant Cerebellar Ataxia, Deafness and Narcolepsy, Autosomal Dominant Cerebellar Ataxia Type 4, Autosomal Dominant Cerebellar Ataxia Type 3, Autosomal Dominant Cerebellar Ataxia Type 2, Autosomal Dominant Cerebellar Ataxia Type 1, Autosomal Dominant Cerebellar Ataxia, Ataxia-telangiectasia-like Disorder, Ataxia With Vitamin E Deficiency, Ataxia With Dementia, Ataxia - Oculomotor Apraxia Type 1, Ataxia - Other, Ataxia - Genetic Diagnosis - Unknown, Acquired Ataxia, Adult-onset Autosomal Recessive Cerebellar Ataxia, Alcohol Related Ataxia, Multiple Endocrine Neoplasia, Multiple Endocrine Neoplasia Type II, Multiple Endocrine Neoplasia Type 1, Multiple Endocrine Neoplasia Type 2, Multiple Endocrine Neoplasia, Type IV, Multiple Endocrine Neoplasia, Type 3, Multiple Endocrine Neoplasia (MEN) Syndrome, Multiple Endocrine Neoplasia Type 2B, Multiple Endocrine Neoplasia Type 2A, Atypical Hemolytic Uremic Syndrome, Atypical HUS, Wiedemann-Steiner Syndrome, Breast Implant-Associated Anaplastic Large Cell Lymphoma, Autoimmune/Inflammatory Syndrome Induced by Adjuvants (ASIA), Hemophagocytic Lymphohistiocytosis, Behcet's Disease, Alagille Syndrome, Inclusion Body Myopathy With Early-onset Paget Disease and Frontotemporal Dementia (IBMPFD), Lowe Syndrome, Pitt Hopkins Syndrome, 1p36 Deletion Syndrome, Jansen Type Metaphyseal Chondrodysplasia, Cockayne Syndrome, Chronic Recurrent Multifocal Osteomyelitis, CRMO, Malan Syndrome, Hereditary Sensory and Autonomic Neuropathy Type Ie, VCP Disease, Hypnic Jerking, Sleep Myoclonus, Mollaret Meningitis, Recurrent Viral Meningitis, CRB1, Leber Congenital Amaurosis, Retinitis Pigmentosa, Rare Retinal Disorder, KCNMA1-Channelopathy, Primary Biliary Cirrhosis, ZMYND11, Transient Global Amnesia, Glycogen Storage Disease, Alstrom Syndrome, White Sutton Syndrome, DNM1, EIEE31, Myhre Syndrome, Recurrent Respiratory Papillomatosis, Laryngeal Papillomatosis, Tracheal Papillomatosis, Refsum Disease, Nicolaides Baraitser Syndrome, Leukodystrophy, Tango2, Cauda Equina Syndrome, Rare Gastrointestinal Disorders, Achalasia-Addisonian Syndrome, Achalasia Cardia, Achalasia Icrocephaly Syndrome, Anal Fistula, Congenital Sucrase-Isomaltase Deficiency, Eosinophilic Gastroenteritis, Idiopathic Gastroparesis, Hirschsprung Disease, Rare Inflammatory Bowel Disease, Intestinal Pseudo-Obstruction, Scleroderma, Short Bowel Syndrome, Sacral Agenesis, Sacral Agenesis Syndrome, Caudal Regression, Scheuermann Disease, SMC1A Truncated Mutations (Causing Loss of Gene Function), Cystinosis, Juvenile Nephropathic Cystinosis, Nephropathic Cystinosis, Kennedy Disease, Spinal Bulbar Muscular Atrophy, Warburg Micro Syndrome, Mucolipidoses, Mitochondrial Diseases, Mitochondrial Aminoacyl-tRNA Synthetases, Mt-aaRS Disorders, Hypertrophic Olivary Degeneration, Non-Ketotic Hyperglycinemia, Fish Odor Syndrome, Halitosis, Isolated Congenital Asplenia, Lambert Eaton (LEMS), Biliary Atresia, STAG1 Gene Mutation, Coffin Lowry Syndrome, Borjeson-Forssman-Lehman Syndrome, Blau Syndrome, Arginase 1 Deficiency, HSPB8 Myopathy, Beta-Mannosidosis, TBX4 Syndrome, DHDDS Gene Mutations, MAND-MBD5-Associated Neurodevelopmental Disorder, Constitutional Mismatch Repair Deficiency (CMMRD), SPATA5 Disorder, SPATA5L1 Related Disorder",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 20000
+        },
+        "IDestudio": "NCT01793168"
+    },
+    {
+        "Title": "SP Thoracic IDE Study",
+        "Summary": " confirm safety performance da vinci sp surgical system instruments accessories pulmonary lobectomy thymectomy procedures.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "ACTIVE_NOT_RECRUITING",
+        "Conditions": "Primary Lung Cancer, Benign Lung Disease, Thymoma, Myasthenia Gravis",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 32
+        },
+        "IDestudio": "NCT05150210"
+    },
+    {
+        "Title": "Open Label Study of Subcutaneous Immunoglobulin (SCIg) in Myasthenia Gravis",
+        "Summary": " purpose study determine whether hizentra safe effective treatment people myasthenia gravis mg.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Canada, United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 23
+        },
+        "IDestudio": "NCT02100969"
+    },
+    {
+        "Title": "Efficacy and Safety of Tolebrutinib (SAR442168) Tablets in Adult Participants With Generalized Myasthenia Gravis",
+        "Summary": " multicenter randomized phase 3 study evaluate efficacy safety tolebrutinib compared placebo adult participants aged 18 85 years old. generalized myasthenia gravis gmg received standard care soc db treatment period 26 weeks.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Poland, Italy, Spain, Canada, China, Japan, United States, United Kingdom, Hungary",
+        "OverallStatus": "TERMINATED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 6
+        },
+        "IDestudio": "NCT05132569"
+    },
+    {
+        "Title": "Development and Validation of the FBIndex to Determine the Risk of Falls for Patients with Neuromuscular Disorders",
+        "Summary": " currently standardised fall risk scores guidelines use appropriate assistive gait devices agds people neuromuscular disorders nmds clear medical unmet need provide battery appropriate locomotor gait assessments determine risk falling patients.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "",
+        "OverallStatus": "ENROLLING_BY_INVITATION",
+        "Conditions": "Inclusion Body Myositis, Myotonic Dystrophy, Limb-girdle and Facioscapulohumeral Muscular Dystrophies, Pompe Disease, Myasthenia Gravis, Lambert-Eaton-Syndrome, Amyotrophic Lateral Sclerosis, Spinal Muscular Atrophy, Guillain-Barr\u00e9 Syndrome, Chronic Inflammatory Demyelinating Polyneuropathy, Friedreich Ataxia, Hereditary Motor Sensory Neuropathy",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 108
+        },
+        "IDestudio": "NCT06605612"
+    },
+    {
+        "Title": "Diaphragm Thickness by Ultrasonography in Neurological Disorders",
+        "Summary": " participants allocated three groups acute neuropathy guillain barre syndrome group neuromuscular junction disorder myasthenia gravis group control group people neurological disorders affecting respiratory done diaphragm index test ultrasound imaging.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Egypt",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Guillain-Barre Syndrome, Myasthenia Gravis",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 60
+        },
+        "IDestudio": "NCT05324176"
+    },
+    {
+        "Title": "Myasthenia Gravis Inebilizumab Trial",
+        "Summary": " randomized phase 3 study optional extension. optional extension of study. randomized phase 4 study optional Extension. optional Extension of Study. randomized Phase 3 studyoptional extension.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Canada, Brazil, Japan, United States, Denmark, Germany, India, Taiwan, Belarus, Argentina, Poland, Italy, China, Ukraine, Korea, Republic of, France, Russian Federation, Spain, Turkey",
+        "OverallStatus": "ACTIVE_NOT_RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 238
+        },
+        "IDestudio": "NCT04524273"
+    },
+    {
+        "Title": "BeatMG: Phase II Trial of Rituximab In Myasthenia Gravis",
+        "Summary": "Rituximab is being trialled as a treatment for myasthenia gravis. The study is being conducted by the University of California, San Francisco.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 52
+        },
+        "IDestudio": "NCT02110706"
+    },
+    {
+        "Title": "A Phase 1 Study of Anitocabtagene Autoleucel for the Treatment of Subjects With Non-oncology Plasma Cell-related Diseases",
+        "Summary": "The study was designed to evaluate safety tolerability and preliminary efficacy of cell therapy. The patients were suffering from generalized myasthenia gravis.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "",
+        "OverallStatus": "NOT_YET_RECRUITING",
+        "Conditions": "Muscular Diseases, Neuromuscular Manifestations, Autoimmune, Autoimmune Diseases, Autoimmune Diseases of the Nervous System, Myasthenia Gravis, Muscle Weakness",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 30
+        },
+        "IDestudio": "NCT06626919"
+    },
+    {
+        "Title": "Myasthenia Gravis and Psyche",
+        "Summary": "Researchers want find way certain aspects disease influence quality life. Different concepts coping disease different effects quality life patients myasthenia gravis.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Germany",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 1399
+        },
+        "IDestudio": "NCT03205306"
+    },
+    {
+        "Title": "Effect of Pyridostigmine (Mestinon) on Muscle Strength in Myasthenia Gravis",
+        "Summary": " randomized study evaluating quantifying effect pyridostigmine muscle strength symptoms myasthenia gravis mg.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Denmark",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE4"
+        ],
+        "#pacients": {
+            "count": 44
+        },
+        "IDestudio": "NCT03510546"
+    },
+    {
+        "Title": "Tissue Repository for Studies of Myasthenia Gravis",
+        "Summary": "Study investigators collect plasma cells from patients with myasthenia gravis for purpose of finding new antibodies.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 6
+        },
+        "IDestudio": "NCT02902536"
+    },
+    {
+        "Title": "Study of Pyridostigmine With Ondansetron in Subjects With Anti-AchR Positive Myasthenia Gravis",
+        "Summary": "Myasthenia gravis is an autoimmune disease that affects the central nervous system. It is the most severe form of myasthenic syndrome.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 24
+        },
+        "IDestudio": "NCT04226170"
+    },
+    {
+        "Title": "A Pilot Study to Explore the Role of Gut Flora in Myasthenia Gravis",
+        "Summary": "Study seeks to correlate microbiome sequencing data information provided patients medical records. Study seeks to determine if patients' microbiomes are similar to those of other people.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Myasthenia Gravis, Myasthenia Gravis, Generalized",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 100
+        },
+        "IDestudio": "NCT04224506"
+    },
+    {
+        "Title": "The ME&MG Digital Solution for Autonomous Assessment of Myasthenia Gravis",
+        "Summary": " mg standalone software digital solution running patients smartphones connected web portal physicians intended used unsupervised digital tool monitoring disabilities.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France, United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 144
+        },
+        "IDestudio": "NCT05564936"
+    },
+    {
+        "Title": "Immune Profiles in Myasthenia Gravis",
+        "Summary": "Myasthenia gravis includes lymphocyte subset cytokine complement. Patients differ patients different severity times disease exacerbation. Different immunosuppressive treatments.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 163
+        },
+        "IDestudio": "NCT05095103"
+    },
+    {
+        "Title": "Efficacy of Methotrexate in Myasthenia Gravis",
+        "Summary": " myasthenia gravis rare neuromuscular disorder characterized weakness fatigability ocular bulbar extremity musculature specific aim study determine oral methotrexate effective therapy.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Canada, United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 50
+        },
+        "IDestudio": "NCT00814138"
+    },
+    {
+        "Title": "Feasibility of Engaging and Capturing Undiagnosed Myasthenia Gravis Participants Through a Social Media Campaign Paired With a Self-moderated Assessment",
+        "Summary": "Study enrolls adults united states excluding territories undiagnosed neuromuscular symptoms. Social media recruitment campaign tied participant reported symptom survey physical assessment tool.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis, Neuromuscular Manifestations, Neuromuscular Diseases",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 1000
+        },
+        "IDestudio": "NCT06381284"
+    },
+    {
+        "Title": "Exploring Accessible Beauty for Individuals With Upper Extremity Deficits",
+        "Summary": "Research aims to identify barriers faced individuals upper extremity disabilities. Study seeks provide insights recommendations improving accessibility beauty products ultimately promoting inclusivity.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Stroke, Ischemic, Stroke Hemorrhagic, Stroke (CVA) or TIA, Stroke, Acute, Traumatic Brain Injury, SCI - Spinal Cord Injury, Ehlers-Danlos Syndromes (EDS), Lupus Erythematosus, Guillain-Barre Syndrome, Multiple Sclerosis, Myasthenia Gravis, Amyotrophic Lateral Sclerosis, Graves Disease, Muscular Dystrophies",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 57
+        },
+        "IDestudio": "NCT05945784"
+    },
+    {
+        "Title": "Burden of Disease in Myasthenia Gravis",
+        "Summary": "Survey addressed german patients chronic autoimmune muscle disease called myasthenia gravis.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Germany",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 1680
+        },
+        "IDestudio": "NCT03979521"
+    },
+    {
+        "Title": "Study of an Intervention to Improve Problem List Accuracy and Use",
+        "Summary": "Study aims to identify patients problem list gaps and correct gaps creating clinical decision support interventions. Aim is to alert providers likely problem list gap and offer clinicians opportunity to correct gaps.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Attention Deficit Disorder With Hyperactivity, Asthma, COPD, Breast Cancer, Coronary Artery Disease, Congestive Heart Failure, Diabetes, Glaucoma, Hemophilia, Hypertension, Hyperthyroidism, Hypothyroidism, Myasthenia Gravis, Osteoporosis, Osteopenia, Renal Failure, Renal Insufficiency, Sickle Cell Disease, Stroke",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 140
+        },
+        "IDestudio": "NCT01105923"
+    },
+    {
+        "Title": "Beta-agonist Efficacy and Tolerability as Adjuvant Therapy in Myasthenia Gravis",
+        "Summary": "Study examines effect adjuvant therapy oral salbutamol patients generalized myasthenia gravis stable standard care residual symptoms.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Denmark",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE2",
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 30
+        },
+        "IDestudio": "NCT03914638"
+    },
+    {
+        "Title": "Mycophenolate Mofetil in Myasthenia Gravis",
+        "Summary": "Myasthenia gravis mg mg. prospective trial determine efficacy safety mycophenolate mofetil mm combination prednisone initial form immunosuppression patients.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 80
+        },
+        "IDestudio": "NCT00285350"
+    },
+    {
+        "Title": "Precision Diagnosis and Prospective Cohort Study for Myasthenia Gravis: Multicenter Analysis in China",
+        "Summary": "Myasthenia gravis mg 300 mg patients planned recruit document prospectively follow management screening test cohort manifestation studied.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 300
+        },
+        "IDestudio": "NCT04535843"
+    },
+    {
+        "Title": "Translation, Cross-cultural Adaptation and Validation of the MGQOL-15-F",
+        "Summary": "Myasthenia gravis is a rare disease that affects the nervous system. It is the most severe form of cancer.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "France",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 120
+        },
+        "IDestudio": "NCT02470364"
+    },
+    {
+        "Title": "Exercise in Autoimmune Myasthenia Gravis and Myasthenic Syndromes",
+        "Summary": "Recent observational studies show despite lack clear recommendations many individuals myasthenia participate exercise. Link found exercise severity may limit prevent individuals active. factors may facilitate participation exercise.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "France",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Autoimmune Myasthenia Gravis, Lambert-Eaton Myasthenic Syndrome, Congenital Myasthenic Syndrome, Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 500
+        },
+        "IDestudio": "NCT05408702"
+    },
+    {
+        "Title": "Myasthenia Gravis Registry in China",
+        "Summary": " myasthenia gravis mg autoimmune disease caused dysfunction neuromuscular junction characterized partial generalized skeletal muscle weakness fatigability estimated annual incidence rate mg china high rate relapse poor treatment compliance study prospective observational patient registry across china support standardized",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 1500
+        },
+        "IDestudio": "NCT06241521"
+    },
+    {
+        "Title": "Follow-up of a Cohort of Patients With Myasthenic Syndrome and COVID-19 Infection",
+        "Summary": " coronavirus disease 2019 declared world health organization public health emergency international concern january 31 2020 posed significant threat global health infectious disease caused acute respiratory syndrome first reported china end 2019 coronaviruses primarily targets human respiratory system.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "France",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 34
+        },
+        "IDestudio": "NCT04695379"
+    },
+    {
+        "Title": "Evaluate the Efficacy and Safety of HBM9161(HL161)Subcutaneous Injection in Patients With Generalized MG Patients",
+        "Summary": "Primary study objective confirm efficacy. hbm9161 subcutaneous injection treatment gmg chinese patients.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 132
+        },
+        "IDestudio": "NCT05039190"
+    },
+    {
+        "Title": "Descriptive Analysis of Real-world Data Collected With ME&MGopen",
+        "Summary": " mgopen smartphone application investigational software research purposes developed ad scientiam features digital tests. daily living pain insomnia quality life depression objectives study collect data patients symptoms application real life setting assess adherence use tool user experience satisfaction application safety use.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Canada, United States, United Kingdom",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 500
+        },
+        "IDestudio": "NCT05566964"
+    },
+    {
+        "Title": "Light vs. Moderate Intensity Exercise in Individuals With Myasthenia Gravis",
+        "Summary": "20 people mg enrolled study participate small group exercise program 3 times week 12 weeks participants randomized two exercise groups 1 light intensity 2 moderate intensity hypothesize individuals light intensity exercise group able achieve improvement outcomes.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 20
+        },
+        "IDestudio": "NCT06491238"
+    },
+    {
+        "Title": "A Study of C-CAR168 in the Treatment of Autoimmune Diseases Refractory to Standard Therapy",
+        "Summary": " multicenter study autologous therapy targeting cd20 bcma treatment adult patients autoimmune diseases refractory to standard therapy.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Systemic Lupus Erythematosus (SLE), Immune-Mediated Necrotizing Myopathy, Neuromyelitis Optica Spectrum Disorders, Multiple Sclerosis-Relapsing-Remitting, Myasthenia Gravis",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 30
+        },
+        "IDestudio": "NCT06249438"
+    },
+    {
+        "Title": "Early Versus Late Extubation in Myasthenia Gravis Patients",
+        "Summary": "Myasthenia gravis mg autoimmune disease characterized varying degrees muscle weakness fatigability worsened exertion relieved plays important role management patients consistent association myasthenic thymic pathology need prolonged mechanical ventilation patients.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis Associated With Thymoma",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 96
+        },
+        "IDestudio": "NCT03468452"
+    },
+    {
+        "Title": "The EXPLORE MG Registry for Myasthenia Gravis",
+        "Summary": "Myasthenia gravis mg registry used to track future research projects involving study myasthenian. purpose study create yale university department neurology myastenia gravi mg registry.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 800
+        },
+        "IDestudio": "NCT03792659"
+    },
+    {
+        "Title": "Biomarkers in Autoimmune Disease of Nervous System",
+        "Summary": " neurological autoimmune diseases group disorders characterized abnormal immune response attacking nervous system including brain spinal cord peripheral nerves. diseases exhibit high heterogeneity diverse clinical presentations challenging diagnose manage due lack effective treatments.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Autoimmune Diseases of the Nervous System, Neuromyelitis Optica Spectrum Disorder, Multiple Sclerosis, Guillain-Barre Syndrome, Acute Disseminated Encephalomyelitis, Autoimmune Encephalitis, Stiff-Person Syndrome, Myasthenia Gravis, Chronic Inflammatory Demyelinating Polyradiculoneuropathy, Idiopathic Inflammatory Myopathies, Autoimmune Diseases",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 50000
+        },
+        "IDestudio": "NCT06502015"
+    },
+    {
+        "Title": "Yogic Breathing Exercise for People With Amyotrophic Lateral Sclerosis",
+        "Summary": "Virtual yogic breathing exercise program can help people with amyotrophic lateral sclerosis breathe better. The program is designed to improve breathing speech for people with ALS.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Amyotrophic Lateral Sclerosis, Myasthenia Gravis",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 30
+        },
+        "IDestudio": "NCT05979688"
+    },
+    {
+        "Title": "Trial of Orencia in Patients With Myasthenia Gravis",
+        "Summary": "Pilot research study done see drug abatacept orencia helpful treating patients myasthenia gravis mg.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "TERMINATED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "EARLY_PHASE1"
+        ],
+        "#pacients": {
+            "count": 6
+        },
+        "IDestudio": "NCT03059888"
+    },
+    {
+        "Title": "FK506 Phase 3 Study: a Study for Steroid Non-resistant Myasthenia Gravis (MG) Patients",
+        "Summary": "Steroid mg patients double blind placebo controlled study. purpose study investigate efficacy safety steroid mg patients.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Japan",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 80
+        },
+        "IDestudio": "NCT00309088"
+    },
+    {
+        "Title": "Neurology Inpatient Clinical Education Trial",
+        "Summary": "The study compared effectiveness of a personalized patient education program to current hospital education. The study also evaluated impact using patient satisfaction scores.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis, Guillain-Barre Syndrome, Multiple Sclerosis, Seizures, Parkinsonism, Meningitis, Encephalitis, Headache, Vestibular Disorder, Spondylosis, Normal Pressure Hydrocephalus",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 50
+        },
+        "IDestudio": "NCT03826056"
+    },
+    {
+        "Title": "A Study to Compare the Efficacy and Safety of Tacrolimus Capsules in Patient With Myasthenia Gravis",
+        "Summary": "Tacrolimus capsules are used to treat myasthenia gravis. Patients with the condition are inadequately treated with glucocorticoid.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 83
+        },
+        "IDestudio": "NCT01325571"
+    },
+    {
+        "Title": "Exercise for Stable Myasthenia Gravis",
+        "Summary": "Physical deconditioning reduces fitness increases risk obesity hypertension elevated cholesterol type 2 diabetes. 3 month home exercise program aerobic resistive pulmonary training improve physical activity strength fitness lung function reduce cardiovascular disease risk.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 30
+        },
+        "IDestudio": "NCT01047761"
+    },
+    {
+        "Title": "Influence of Minimally Invasive Thymectomy on the Subsequent Clinical Course of Myasthenia Gravis",
+        "Summary": "Study to determine whether minimally invasive thymectomy achieves comparable efficacy safety results compared to open thymectomies. Patients with myasthenia gravis were studied.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Germany",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 248
+        },
+        "IDestudio": "NCT04158661"
+    },
+    {
+        "Title": "Pyridostigmine and Amifampridine for Myasthenia Gravis",
+        "Summary": " randomized placebo controlled crossover intervention study evaluating effect pyridostigmine part 1 amifampridine part 2 myasthenia gravis mg.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Netherlands",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 24
+        },
+        "IDestudio": "NCT05919407"
+    },
+    {
+        "Title": "Exploring Outcomes and Characteristics of Myasthenia Gravis 2",
+        "Summary": "Researchers learn more about myasthenia gravis. Study aims to create a network repository of clinical data.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 400
+        },
+        "IDestudio": "NCT06002945"
+    },
+    {
+        "Title": "The Risk of Falls Index for Patients With Neuromuscular Disorders",
+        "Summary": "Short battery clinical assessments used determine risk falling patients neuromuscular diseases nmd based correlation clinical assessments two groups nmd patients scales used assess risk falling Patients. combination short quantitatively assessing muscular function balance combination short clinical scores new valid approach",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Germany",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Inclusion Body Myositis, Myotonic Dystrophy, Facioscapulohumeral Muscular Dystrophies, Myasthenia Gravis, The Falls Efficacy Scale International, The Morse Fall Scale",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 30
+        },
+        "IDestudio": "NCT05890833"
+    },
+    {
+        "Title": "A Study of TAK-079 in People With Generalized Myasthenia Gravis",
+        "Summary": "Myasthenia gravis autoimmune condition causes muscle weakness autoimmune means body makes antibodies attack cells tissues types antibodies also known autoantibodies.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Poland, Italy, Spain, Canada, Serbia, United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 36
+        },
+        "IDestudio": "NCT04159805"
+    },
+    {
+        "Title": "A Prospective Cohort Study Of Myasthenia Gravis",
+        "Summary": "Myasthenia gravis acquired autoimmune disease skeletal muscles patients may involved ocular muscles involved ptosis diplopia symptoms may occur laryngopharyngeal muscles involved patient may develop dysarthria dysphagia symptoms. respiratory",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "China",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Myasthenia Gravis, Myasthenia Gravis Crisis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 200
+        },
+        "IDestudio": "NCT04674605"
+    },
+    {
+        "Title": "Oxaloacetate in Myasthenia Gravis",
+        "Summary": " phase 1 clinical trial studying whether oxaloacetate positive effect patients myasthenia gravis. patients assigned one three cohorts determine dose. Subjects take study drug 4 weeks placebo 4 weeks.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "NOT_YET_RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 24
+        },
+        "IDestudio": "NCT04965987"
+    },
+    {
+        "Title": "Study to Test the Safety, Tolerability and Efficacy of UCB7665 in Subjects With Moderate to Severe Myasthenia Gravis",
+        "Summary": " purpose study evaluate clinical efficacy ucb7665 treatment subjects. treatment subjects generalized myasthenia gravis mg classified moderate severe.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Denmark, Germany, Belgium, Canada, Spain, Czechia, United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 43
+        },
+        "IDestudio": "NCT03052751"
+    },
+    {
+        "Title": "A Study to Investigate the Long-term Safety, Tolerability, and Efficacy of Rozanolixizumab in Adult Patients With Generalized Myasthenia Gravis",
+        "Summary": "Study evaluate safety tolerability efficacy rozanolixizumab. Participants generalized myasthenia gravis mg mg. purpose mycaring.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Denmark, France, Germany, Poland, Russian Federation, Italy, Spain, Canada, Taiwan, Czechia, Japan, United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 71
+        },
+        "IDestudio": "NCT04124965"
+    },
+    {
+        "Title": "A Study of RVT-1401 in Myasthenia Gravis (MG) Patients",
+        "Summary": "Study assess key pharmacodynamic pd effects considered associated clinical benefit reduction. Total igg myasthenia gravis patients following treatment also known as compared placebo.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Canada, United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 17
+        },
+        "IDestudio": "NCT03863080"
+    },
+    {
+        "Title": "Study of Telitacicept in Generalized Myasthenia Gravis",
+        "Summary": " myasthenia gravis. purpose study evaluate efficacy safety telitacicept treatment patients.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis, Generalized",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 100
+        },
+        "IDestudio": "NCT05737160"
+    },
+    {
+        "Title": "Safety,Tolerability,Pharmacokinetics and Efficacy of CFZ533 in Moderate to Severe Myasthenia Gravis",
+        "Summary": " purpose study evaluate safety tolerability efficacy. cfz533 therapy standard care patients moderate severe myasthenia gravis mg. mg.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Denmark, Germany, Russian Federation, Canada, Taiwan",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis, Generalized",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 44
+        },
+        "IDestudio": "NCT02565576"
+    },
+    {
+        "Title": "Evaluating the Pharmacokinetics, Pharmacodynamics, and Safety of Efgartigimod Administered Intravenously in Children with Generalized Myasthenia Gravis",
+        "Summary": " efgartigimod iv children adolescents aged 2 less 18 years age gmg trial details include maximum trial duration individual participant approximately 28 weeks treatment duration 8 weeks part part 18 weeks treatment part part b. purpose trial investigate pk p",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France, Germany, Poland, Austria, Georgia, Italy, Netherlands, Belgium, Canada, Spain, United States, United Kingdom",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE2",
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 12
+        },
+        "IDestudio": "NCT04833894"
+    },
+    {
+        "Title": "A Study to Test Efficacy and Safety of Rozanolixizumab in Adult Patients With Generalized Myasthenia Gravis",
+        "Summary": "study demonstrate clinical efficacy assess safety tolerability rozanolixizumab patients generalized myasthenia gravis mg mg. purpose mycaringstudy.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Denmark, France, Germany, Poland, Russian Federation, Georgia, Italy, Belgium, Canada, Spain, Serbia, Taiwan, Czechia, Japan, United States, United Kingdom, Hungary",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 200
+        },
+        "IDestudio": "NCT03971422"
+    },
+    {
+        "Title": "Safety and Efficacy Study of RA101495 in Subjects With Generalized Myasthenia Gravis",
+        "Summary": " ra101495 patients generalized myasthenia gravis gmg subjects randomized ratio receive daily sc doses. 12 weeks matching placebo 12 weeks. purpose study evaluate safety efficacy.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Canada, United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 45
+        },
+        "IDestudio": "NCT03315130"
+    },
+    {
+        "Title": "A Study to Evaluate the Efficacy of CV-MG01 (Myasterix) in Myasthenia Gravis",
+        "Summary": "Study is second clinical trial administering humans phase therapeutic confirmatory study following exploratory phase 1 study.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Belgium",
+        "OverallStatus": "WITHDRAWN",
+        "Conditions": "Myasthenia Gravis, Generalized",
+        "Phases": [
+            "PHASE2",
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 0
+        },
+        "IDestudio": "NCT03165435"
+    },
+    {
+        "Title": "Efficacy and Safety of Tocilizumab in the Treatment of Generalized Myasthenia Gravis",
+        "Summary": " randomized study optional extension. randomized studyoptional extension. placebo-controlled, double-blind, placebo-control, randomized, controlled study.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis, Generalized",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 64
+        },
+        "IDestudio": "NCT05067348"
+    },
+    {
+        "Title": "Interventions Against Fatigue in Patients with Myasthenia Gravis",
+        "Summary": "The trial is a prospective randomized clinical trial investigating effect of aerobic exercise therapy on fatigue in patients with myasthenia gravis.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Netherlands",
+        "OverallStatus": "NOT_YET_RECRUITING",
+        "Conditions": "Myasthenia Gravis, Fatigue",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 60
+        },
+        "IDestudio": "NCT06659627"
+    },
+    {
+        "Title": "PK, PD, Safety, and Efficacy Study of Gefurulimab in Pediatric Patients With AChR+ Generalized Myasthenia Gravis",
+        "Summary": "Gefurulimab was tested on pediatric participants. The study was designed to assess the drug's pharmacokinetics and pharmacodynamics.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Brazil, Taiwan, Poland, United States",
+        "OverallStatus": "NOT_YET_RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis, gMG",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 12
+        },
+        "IDestudio": "NCT06607627"
+    },
+    {
+        "Title": "A Study of Telitacicept for the Treatment of Generalized Myasthenia Gravis (RemeMG)",
+        "Summary": " myasthenia gravis. purpose study evaluate efficacy safety telitacicept treatment.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 180
+        },
+        "IDestudio": "NCT06456580"
+    },
+    {
+        "Title": "An Open-label Study to Evaluate the Safety, Tolerability, and Efficacy of Subcutaneous Zilucoplan in Participants With Generalized Myasthenia Gravis Who Were Previously Receiving Intravenous Complement Component 5 Inhibitors",
+        "Summary": "Study participants generalized myasthenia gravis gmg. purpose study evaluate safety tolerability switching intravenous iv complement component 5 c5 inhibitors subcutaneous sc zilucoplan.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 26
+        },
+        "IDestudio": "NCT05514873"
+    },
+    {
+        "Title": "Pharmacodynamic Study of CK-2017357 in Patients With Generalized Myasthenia Gravis",
+        "Summary": "Single doses demonstrate effect single doses measures skeletal muscle function fatigability. patients generalized myasthenia gravis mg mg.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "TERMINATED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 32
+        },
+        "IDestudio": "NCT01268280"
+    },
+    {
+        "Title": "Subcutaneous Ig Maintenance Therapy for Myasthenia Gravis",
+        "Summary": "Myasthenia gravis is a rare disease that affects the nervous system. It is caused by an overactive immune system. Treatment includes intravenous immunoglobulin ivig plasma protein and prednisone.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "TERMINATED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 4
+        },
+        "IDestudio": "NCT01828294"
+    },
+    {
+        "Title": "Study of ALXN1830 Administered Subcutaneously in Adults With Generalized Myasthenia Gravis",
+        "Summary": "Study evaluate safety tolerability pharmacokinetics pharmacodynamics pd immunogenicity efficacy subcutaneous sc alxn1830 adults generalized myasthenia gravis gmg.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "WITHDRAWN",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 0
+        },
+        "IDestudio": "NCT04982289"
+    },
+    {
+        "Title": "Safety and Efficacy of ALXN1720 in Adults With Generalized Myasthenia Gravis",
+        "Summary": "Alxn1720 treatment generalized mg gmg adults autoantibodies acetylcholine receptor achr. purpose study evaluate safety efficacy.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Canada, Brazil, Japan, United States, United Kingdom, Denmark, Germany, Netherlands, Taiwan, Argentina, Poland, Austria, Israel, Italy, Portugal, China, Korea, Republic of, France, Switzerland, Spain, Serbia, Turkey",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 254
+        },
+        "IDestudio": "NCT05556096"
+    },
+    {
+        "Title": "A Study to Test How Safe Pozelimab and Cemdisiran Combination Therapy and Cemdisiran Alone Are and How Well They Work in Adult Patients With Generalized Myasthenia Gravis",
+        "Summary": "Myasthenia gravis disease causes weakness fatigue muscles body nerves muscles communicating properly aim study see effective pozelimab cemdisiran used combination. Study looking several research questions including side effects.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Belgium, Canada, Brazil, Japan, United States, United Kingdom, Denmark, Germany, India, Taiwan, Poland, Georgia, Italy, China, Czechia, Korea, Republic of, France, Australia, Spain, Serbia, Turkey",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 235
+        },
+        "IDestudio": "NCT05070858"
+    },
+    {
+        "Title": "Efgartigimod Expanded Access for Generalized Myasthenia Gravis",
+        "Summary": " expanded access protocol applies patients gmg enrolled ongoing clinical trial aim trial provide patients generalized myasthenia gravis gmg ineligible participate clinical trial access efgartigimod treatment regulatory approval protocols also individual use.",
+        "StudyType": "EXPANDED_ACCESS",
+        "Countries": "United States",
+        "OverallStatus": "APPROVED_FOR_MARKETING",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": "N/A",
+        "IDestudio": "NCT04777734"
+    },
+    {
+        "Title": "Registry of Participants With Generalized Myasthenia Gravis Treated With Alexion C5 Inhibition Therapies (C5ITs)",
+        "Summary": "Alexion c5 inhibitor therapies c5it and ravulizumab are approved for use in the U.S. by the Food and Drug Administration.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Italy, Germany, Canada, United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 500
+        },
+        "IDestudio": "NCT04202341"
+    },
+    {
+        "Title": "Phase 3 Study to Assess the Efficacy and Safety of Batoclimab as Induction and Maintenance Therapy in Adult Participants With Generalized Myasthenia Gravis",
+        "Summary": "Batoclimab 680 milligrams mg subcutaneously sc week qw 340 mg sc qw placebo primary efficacy endpoint assessed change myasthenia gravis activities daily living adl score acetylcholine receptor antibody serop",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Germany, Korea, Republic of, Poland, Georgia, Italy, Mexico, Spain, Canada, Brazil, Serbia, Japan, United States, Romania, United Kingdom, Hungary, Argentina",
+        "OverallStatus": "ACTIVE_NOT_RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 240
+        },
+        "IDestudio": "NCT05403541"
+    },
+    {
+        "Title": "Safety and Efficacy of CD19-BCMA Targeted CAR-T Therapy for Refractory Generalized Myasthenia Gravis",
+        "Summary": "Study evaluate safety preliminary effectiveness treatment refractory generalized myasthenia gravis. Study dose escalation trial adult refractor systemic mg patients.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 12
+        },
+        "IDestudio": "NCT06371040"
+    },
+    {
+        "Title": "Therapeutic Plasma Exchange in MG",
+        "Summary": "Myasthenia gravis mg subjects receive therapeutic plasma exchange tpe. Subjects are given plasma exchange to increase their immune system's ability to fight disease.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 11
+        },
+        "IDestudio": "NCT01927692"
+    },
+    {
+        "Title": "The Effect of Spinal Stabilization Exercises in Patients With Myasthenia Gravis",
+        "Summary": " myasthenia gravis mg autoimmune disease characterized increased fatigue muscle weakness mg disease caused impaired receptor function due to antibodies nicotinic acetylcholine receptors postsynaptic region voluntary skeletal stabilization exercises.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Turkey",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 10
+        },
+        "IDestudio": "NCT03743740"
+    },
+    {
+        "Title": "Seronegative Myasthenia Gravis - Efgartigimod IV",
+        "Summary": "Study participants were patients with generalized myasthenia gravis. 30 participants enroll university health network toronto general hospital study duration 43 weeks screening end study.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Canada",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Efgartigimod, Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 30
+        },
+        "IDestudio": "NCT06587867"
+    },
+    {
+        "Title": "Perioperative Efgartigimod for Thymoma and Myasthenia Gravis",
+        "Summary": "Myasthenia gravis global multicenter clinical trials hace confirmed efgartigimod safe well tolerated case reports showed perioperative efgartsgimod combined thymectomy safe feasible however sufficient data safety efficacy regimen",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "",
+        "OverallStatus": "NOT_YET_RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 30
+        },
+        "IDestudio": "NCT06221501"
+    },
+    {
+        "Title": "An Extension Study Evaluating 6-week Treatment Cycles of Rozanolixizumab in Pediatric Study Participants With Generalized Myasthenia Gravis",
+        "Summary": "Study assess long term safety tolerability additional treatment cycles rozanolixizumab pediatric participants generalized myasthenia gravis.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Taiwan, Poland, Italy",
+        "OverallStatus": "ENROLLING_BY_INVITATION",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 12
+        },
+        "IDestudio": "NCT06540144"
+    },
+    {
+        "Title": "Trial of Mycophenolic Acid Versus Azathioprine in the Treatment of Corticosteroid-refractory Myasthenia Gravis",
+        "Summary": "Mycophenolic acid azathioprine aza immunosuppressive drugs myasthenia gravis patients. randomized trial objective compare efficacy safety.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 40
+        },
+        "IDestudio": "NCT00997412"
+    },
+    {
+        "Title": "Predictors and Prognostic Factors of Myasthenia Gravis Outcome",
+        "Summary": "Study aims characterize clinical features frequency different subgroups. Study aims identify predictors treatment responsiveness among different sub groups.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Egypt",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis, Autoimmune Diseases of the Nervous System, Neuromuscular Junction Diseases, Thymoma, Thymus Hyperplasia, Nervous System Diseases, Myasthenia Gravis, Generalized, Myasthenia Gravis, Ocular, Myasthenia Gravis Crisis, Myasthenia Gravis With Exacerbation (Disorder), Myasthenia Gravis, Adult Form, Myasthenia Gravis, Juvenile Form",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 30
+        },
+        "IDestudio": "NCT05214612"
+    },
+    {
+        "Title": "An Open-label Extension Study to Evaluate Subcutaneous Zilucoplan in Pediatric Participants With Generalized Myasthenia Gravis",
+        "Summary": "Zilucoplan treatment administered subcutaneous injection daily pediatric study participants. purpose study assess safety tolerability. additional 52 weeks ziluc planets treatment administered under the skin.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Italy, United Kingdom, United States, Korea, Republic of",
+        "OverallStatus": "ENROLLING_BY_INVITATION",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 8
+        },
+        "IDestudio": "NCT06435312"
+    },
+    {
+        "Title": "A Study to Assess the Effect of CellCept (Mycophenolate Mofetil) and Reduced Corticosteroids in Controlling Symptoms of Myasthenia Gravis",
+        "Summary": "Myasthenia gravis is a rare disease that affects the nervous system. Patients are treated with prednisone corticosteroids for up to 36 weeks. Cellcept was used to test the safety and efficacy of the drug.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France, Germany, Israel, Italy, Netherlands, Russian Federation, India, Mexico, Spain, Canada, Ukraine, United States, United Kingdom, Former Serbia and Montenegro",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis, Generalized",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 136
+        },
+        "IDestudio": "NCT00683969"
+    },
+    {
+        "Title": "Safety And Efficacy Of Tofacitinib In Patients With Refractory Myasthenia Gravis: A Pilot Study",
+        "Summary": "6 month study evaluate efficacy 5mg tofacitinib tablet taken twice day patients refractory myasthenia gravis. 20 adult participants receive four month treatment.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Myasthenia Gravis, Generalized",
+        "Phases": [
+            "EARLY_PHASE1"
+        ],
+        "#pacients": {
+            "count": 20
+        },
+        "IDestudio": "NCT04431895"
+    },
+    {
+        "Title": "An Open-label Study to Investigate the Clinical Efficacy of Different Dosing Regimens of Efgartigimod IV in Patients With Generalized Myasthenia Gravis",
+        "Summary": "The efgartigimod study compared cyclic regimen participants generalized myasthenia gravis gmg. purpose study investigate efficacy safety tolerability continuous regimen.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France, Germany, Poland, Austria, Georgia, Italy, Netherlands, Belgium, Canada, Spain, United States",
+        "OverallStatus": "ACTIVE_NOT_RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 69
+        },
+        "IDestudio": "NCT04980495"
+    },
+    {
+        "Title": "An Extension Study of MOM-M281-004 to Evaluate the Safety, Tolerability, and Efficacy of M281 Administered to Patients With Generalized Myasthenia Gravis",
+        "Summary": "281 participants generalized myasthenia gravis gmg. purpose study evaluate safety tolerability.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Germany, Poland, Italy, Belgium, Canada, Spain, United States, United Kingdom",
+        "OverallStatus": "TERMINATED",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 37
+        },
+        "IDestudio": "NCT03896295"
+    },
+    {
+        "Title": "The Curative Effect of Extended Thymectomy Performed Through Subxiphoid-right VATS Approach With Elevation of Sternum",
+        "Summary": " extended thymectomy main treatment thymoma anterior mediastinal diseases thoracic surgery vats plays important role surgery extendedThymectomy intercostal approach commonly used minimally invasive surgical procedure.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Thymoma, Myasthenia Gravis, Mediastinal Tumor",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 200
+        },
+        "IDestudio": "NCT03613272"
+    },
+    {
+        "Title": "FLOWER: Following Longitudinal Outcomes With Epidemiology for Rare Diseases",
+        "Summary": "Medical records accessed institutions directly via efax paper fax online patient electronic medical record emr portals direct sequencing molecular profiling vendors via electronic health information exchanges.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Alpha-Thalassemia, Beta-Thalassemia, Amyloidosis, Amyotrophic Lateral Sclerosis, Creutzfeld-Jakob Disease, Cystic Fibrosis, Duchenne Muscular Dystrophy, Early-Onset Alzheimer Disease, Ehlers-Danlos Syndrome, Huntington Disease, Gaucher Disease, GM1 Gangliosidosis, Myasthenia Gravis, Pompe Disease, Sickle Cell Disease, Transthyretin Amyloid Cardiomyopathy, Rare Diseases",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 1000
+        },
+        "IDestudio": "NCT06539169"
+    },
+    {
+        "Title": "A Study of Efgartigimod PH20 SC in Children Between 2 and Less Than 18 Years of Age with Generalized Myasthenia Gravis",
+        "Summary": "Eligible participants were 2-18 years old. The study was designed to confirm appropriate dose and monitored for safety.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Poland, Spain, United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE2",
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 12
+        },
+        "IDestudio": "NCT06392386"
+    },
+    {
+        "Title": "A Phase III Study to Investigate Efficacy, Safety and Tolerability of Iptacopan Compared With Placebo in Participants Aged 18 to 75 Years With gMG.",
+        "Summary": "iptacopan patients gmg stable soc treatment participants meet eligibility criteria randomized ratio receive either iptacOpan matching placebo 6 months 180 days. Study evaluate efficacy safety tolerability.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Poland, Italy, Portugal, Spain, Japan, Greece, United States, United Kingdom",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 146
+        },
+        "IDestudio": "NCT06517758"
+    },
+    {
+        "Title": "Open-Label Extension of Tocilizumab in Subjects With Generalized Myasthenia Gravis",
+        "Summary": "Tocilizumab treatment generalized myasthenia gravis gmg extension study participants previously completed study tmg nct05067348. evaluate safety efficacy.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis, Generalized",
+        "Phases": [
+            "PHASE2",
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 64
+        },
+        "IDestudio": "NCT05716035"
+    },
+    {
+        "Title": "A Continuation Study to Assess the Effect of CellCept in Patients With Myasthenia Gravis.",
+        "Summary": "Myasthenia gravis achieved good symptom control study. Patients completed 36 weeks treatment study. stable prednisone dosing last 4 weeks continue blinded treatment cellcept 1g bid placebo database.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France, Germany, Italy, Ukraine, United States, United Kingdom, Former Serbia and Montenegro",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis Generalised",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 136
+        },
+        "IDestudio": "NCT00408213"
+    },
+    {
+        "Title": "Ocular Mysathenia Gravis Generalization",
+        "Summary": " secondary ocular myasthenia gravis omg generalization represents pejorative evolution validated generalization prevention strategy exists aim observational study. patients omg registered fondation hospital de rothschild database january 1990 january 2017 collected",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "France",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Ocular Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 151
+        },
+        "IDestudio": "NCT04667650"
+    },
+    {
+        "Title": "Medication Adherence and Non-adherence in Adults With Rare Disease",
+        "Summary": "Use medication adherence reasons scale determine extent specific medications indicated treat cystic fibrosis, hemophilia b, pulmonary fibrosis and sickle cell disease. identify top reasons internal reliability also assessed condition.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "",
+        "OverallStatus": "WITHDRAWN",
+        "Conditions": "Cystic Fibrosis, Hemophilia A, Hemophilia B, Idiopathic Pulmonary Fibrosis, Myasthenia Gravis, Sickle Cell Disease",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 0
+        },
+        "IDestudio": "NCT04541875"
+    },
+    {
+        "Title": "A Study to Assess Efficacy and Safety of Efgartigimod PH20 SC in Adults with Ocular Myasthenia Gravis",
+        "Summary": "Study consists of two parts: part a and part b. Part a: Half of participants receive efgartigimod ph20 sc half receive placebo. Part b: Half receive placebo part b: Participants receive eFGartig",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis, Ocular",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 124
+        },
+        "IDestudio": "NCT06558279"
+    },
+    {
+        "Title": "Spontaneous Coronary Artery Dissection (SCAD) and Autoimmunity",
+        "Summary": "Case control study aims to determine whether spontaneous coronary artery dissection scad associated autoimmune diseases update incidence scad cohort.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "SCAD, Addison Disease, Ankylosing Spondylitis, Antiphospholipid Antibody Syndrome, Celiac Disease, Crohn Disease, Dermatomyositis, Polymyositis, Guillain-Barre Syndrome, Hepatitis, Autoimmune, Graves Disease, Hashimoto Thyroiditis, Multiple Sclerosis, Myasthenia Gravis, Pernicious Anemia, Polymyalgia Rheumatica, Primary Biliary Cirrhosis, Psoriasis, Rheumatoid Arthritis, Systemic Sclerosis, Sj\u00f6gren Syndrome, Systemic Lupus Erythematosus, Takayasu Arteritis, Type 1 Diabetes Mellitus, Ulcerative Colitis, Uveitis, Vasculitis, Vitiligo, Raynaud",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 114
+        },
+        "IDestudio": "NCT03941184"
+    },
+    {
+        "Title": "Evaluating Long-term Safety of Efgartigimod Administered Intravenously and Efgartigimod PH20 Administered Subcutaneously in Children With Generalized Myasthenia Gravis",
+        "Summary": " purpose trial evaluate safety efgartigimod iv and ph20 sc administered participants gmg antecedent studies respectively.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Poland, Netherlands, Belgium, United States, United Kingdom",
+        "OverallStatus": "ENROLLING_BY_INVITATION",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE2",
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 12
+        },
+        "IDestudio": "NCT05374590"
+    },
+    {
+        "Title": "Efficacy and Safety Study of GB-0998 for Treatment of Generalized Myasthenia Gravis",
+        "Summary": " randomized controlled study carry assess efficacy compared plasmapheresis treatment. generalized myasthenia gravis based changes quantitative myasthensia gravi score qmg score primary endpoint addition assess safety.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Japan",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 46
+        },
+        "IDestudio": "NCT00515450"
+    },
+    {
+        "Title": "Effects of Whole-body Electrical Muscle Stimulation Exercise on Adults With Myasthenia Gravis",
+        "Summary": "Pilot study investigators examine effects of electrical muscle stimulation. Participants undergo clinical electrophysiologic testing. Exercise intervention is delivered 2 times per week.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 16
+        },
+        "IDestudio": "NCT06064695"
+    },
+    {
+        "Title": "A Study Evaluating the Safety and Efficacy of Rituximab in Patients With Myasthenia Gravis",
+        "Summary": "Rituximab is approved for use in the treatment of myasthenia gravis. The study is a randomized multicenter study.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Sweden",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 47
+        },
+        "IDestudio": "NCT02950155"
+    },
+    {
+        "Title": "A Study of TACI\uff08Transmembrane Activator and Calcium-modulator and Cyclophilin Ligand (CAML) Interactor\uff09-Antibody Fusion Protein Injection (RC18) in Subjects With Systemic Myasthenia Gravis",
+        "Summary": "Study participants had systemic myasthenia gravis. Participants were tested for safety effectivity. Study participants were also tested for risk of developing cancer.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Systemic Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 29
+        },
+        "IDestudio": "NCT04302103"
+    },
+    {
+        "Title": "TheRapeutic Effect of Different immunosuppressAnts on Non-Thymoma Ocular Myasthenia Gravis: a Real-world Study",
+        "Summary": "Study collects clinical data ocular myasthenia gravis omg patients. Study assesses outcomes adverse effects different treatment options.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "China",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Ocular Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 200
+        },
+        "IDestudio": "NCT04182984"
+    },
+    {
+        "Title": "The Adapting Disease Specific Outcome Measures Pilot Trial for Telehealth in Myasthenia Gravis",
+        "Summary": "Myasthenia gravis main question aims answer outcome measures obtained virtual encounters reliable participants complete two virtual study visits administered common outcome measures newly developed outcome measure developed specifically telemedicine assessments mg patients.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 52
+        },
+        "IDestudio": "NCT05917184"
+    },
+    {
+        "Title": "A Safety and Tolerability Study of ARGX-113 in Patients With Myasthenia Gravis Who Have Generalized Muscle Weakness.",
+        "Summary": " multicenter phase 3 trial study evaluate safety tolerability patients gmg patients completed least 1 cycle treatment least 1 year trial started part b eligible enroll trial receive efgartigimod sc administration.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Denmark, France, Germany, Poland, Russian Federation, Georgia, Italy, Netherlands, Belgium, Canada, Serbia, Czechia, Japan, United States, Hungary",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 151
+        },
+        "IDestudio": "NCT03770403"
+    },
+    {
+        "Title": "Universal CAR-T Cells in Patients With Refractory Autoimmune Diseases of the Nervous System.",
+        "Summary": "Open label study 25 participants refractory autoimmune diseases nervous system study aims evaluate safety efficacy treatment universal bcma cd19 cart.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "NOT_YET_RECRUITING",
+        "Conditions": "Neuromyelitis Optica Spectrum Disorders, Myasthenia Gravis, Generalized, Multiple Sclerosis, Chronic Inflammatory Demyelinating Polyradiculoneuropathy",
+        "Phases": [
+            "EARLY_PHASE1"
+        ],
+        "#pacients": {
+            "count": 25
+        },
+        "IDestudio": "NCT06485232"
+    },
+    {
+        "Title": "A Phase 3 Study to Evaluate the Efficacy and Safety of Efgartigimod IV in Patients with Acetylcholine Receptor Binding Antibody Seronegative Generalized Myasthenia Gravis",
+        "Summary": " efgartigimod intravenously iv compared placebo participants acetylcholine receptor binding antibody seronegative generalized myasthenia gravis gmg objectives assess efficacy safety tolerability.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Poland, Georgia, Cyprus, Spain, Serbia, Greece, United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 110
+        },
+        "IDestudio": "NCT06298552"
+    },
+    {
+        "Title": "Clinical Trial Comparing Two Non-Surgical Treatments for Severe Blepharoptosis",
+        "Summary": " clinical trial evaluate two devices designed improve eye lid opening patients severe blepharoptosis incomplete opening eyelids.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "ACTIVE_NOT_RECRUITING",
+        "Conditions": "Blepharoptosis, Ptosis, Eyelid, Myasthenia Gravis, Stroke, Traumatic Brain Injury, Chronic Progressive External Ophthalmoplegia",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 50
+        },
+        "IDestudio": "NCT04678115"
+    },
+    {
+        "Title": "A Study to Evaluate Subcutaneous Zilucoplan in Pediatric Participants With Generalized Myasthenia Gravis",
+        "Summary": " purpose study assess pharmacokinetics pharmacodynamics safety tolerability immunogenicity activity zilucoplan. pediatric study participants generalized myasthenia gravis gmg.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Italy, United Kingdom, United States, Korea, Republic of",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE2",
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 8
+        },
+        "IDestudio": "NCT06055959"
+    },
+    {
+        "Title": "A Phase 2 Study to Evaluate DNTH103 in Adults with Generalized Myasthenia Gravis (MAGIC)",
+        "Summary": "103 participants generalized myasthenia gravis gmg. purpose phase 2 study evaluate safety tolerability pharmacometrics efficacy.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Poland, Israel, Italy, Czech Republic, Canada, Serbia, United States, Norway",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis, Generalized",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 60
+        },
+        "IDestudio": "NCT06282159"
+    },
+    {
+        "Title": "A Study of Rozanolixizumab in Pediatric Study Participants With Moderate to Severe Generalized Myasthenia Gravis",
+        "Summary": "Study assess safety tolerability subcutaneous sc administration rozanolixizumab pediatric participants aged 18 years.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Italy, Taiwan, Poland, United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE2",
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 12
+        },
+        "IDestudio": "NCT06149559"
+    },
+    {
+        "Title": "Rituximab EfFicacy IN MyasthEnia Gravis (REFINE)",
+        "Summary": "Rituximab is being tested to reduce functional impairment caused by corticosteroid therapy. The trial is part of a larger study to determine whether the drug can reduce frequency of exacerbations.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Italy",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis, Generalized",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 40
+        },
+        "IDestudio": "NCT05868837"
+    },
+    {
+        "Title": "A Prospective Cohort Study of Myasthenia Gravis in China",
+        "Summary": "Oral steroids may lead reduction recurrence rate among patients. Identify potential biomarkers to predict disease progression prognosis.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 202
+        },
+        "IDestudio": "NCT06006832"
+    },
+    {
+        "Title": "A Phase 3, Open-label, Crossover Study to Evaluate Self-administration of Rozanolixizumab by Study Participants With Generalized Myasthenia Gravis (gMG)",
+        "Summary": "Study participants generalized myasthenia gravis gmg successfully rozanolixizumab training technique using syringe driver manual push methods. purpose study evaluate ability.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Germany, Poland, Italy, Georgia, Spain, Canada, Serbia, Japan, United States, United Kingdom",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 62
+        },
+        "IDestudio": "NCT05681715"
+    },
+    {
+        "Title": "Can Interval Walking Influence on Fatigue in the Danish Cohort of Myasthenia Gravis Patients",
+        "Summary": "10 weeks exercise program consisting 150 minutes interval walking per week administered app patient telephone patients control group live usually maximum 30 minutes aerobic exercise per week. study controlled randomized intervention trial patients randomized either intervention group control group duration study.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "",
+        "OverallStatus": "WITHDRAWN",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 0
+        },
+        "IDestudio": "NCT03900585"
+    },
+    {
+        "Title": "Investigation of the Effects of Proprioceptive Neuromuscular Facilitation Exercises in Patients with Myasthenia Gravis",
+        "Summary": " clinical trial investigate effects proprioceptive neuromuscular facilitation exercises fatigue muscle strength functional parameters patient myasthenia gravis. participants divided 2 groups control group exercise group block randomization method randomized controlled study participants control group placed waiting",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Turkey",
+        "OverallStatus": "ACTIVE_NOT_RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 23
+        },
+        "IDestudio": "NCT06158815"
+    },
+    {
+        "Title": "A Study To Evaluate Efficacy, Safety, Pharmacokinetics, And Pharmacodynamics Of Satralizumab In Patients With Generalized Myasthenia Gravis",
+        "Summary": "Study evaluate efficacy safety pharmacokinetics pharmacodynamics satralizumab compared placebo participants generalized myasthenia gravis gmg.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Denmark, France, Germany, Korea, Republic of, Poland, Russian Federation, Italy, Netherlands, Australia, Spain, Canada, China, Brazil, Taiwan, Japan, United States, Turkey, Argentina",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 188
+        },
+        "IDestudio": "NCT04963270"
+    },
+    {
+        "Title": "Clinical Prognosis and Progression of Myasthenia Gravis Patients",
+        "Summary": "Study collects clinical data myasthenia gravis mg patients. Study assesses outcomes adverse effects different treatment regimens.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 2000
+        },
+        "IDestudio": "NCT04101578"
+    },
+    {
+        "Title": "Univent Tube for Thoracoscopic Thymectomy in Myasthenic Patients",
+        "Summary": " observational study included consecutive mg patients underwent thoracoscopic thymectomy univent tube intubation general anesthesia without nmbas combined airway topical anesthesia.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 83
+        },
+        "IDestudio": "NCT06101407"
+    },
+    {
+        "Title": "Evaluating the Pharmacodynamic Noninferiority of Efgartigimod PH20 SC Administered Subcutaneously as Compared to Efgartigimod Administered Intravenously in Patients With Generalized Myasthenia Gravis",
+        "Summary": "The study was designed to investigate pharmacodynamics, pharmacokinetics, immunogenicity, and clinical efficacy of efgartigimod. The study included patients with generalized myasthenia gravis.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Germany, Poland, Russian Federation, Georgia, Italy, Netherlands, Belgium, Spain, Japan, United States, Hungary",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 110
+        },
+        "IDestudio": "NCT04735432"
+    },
+    {
+        "Title": "Markers of Favorable Response to Complement Inhibitors Therapy",
+        "Summary": " myasthenia gravis autoimmune neurological disease caused autoantibodies primarily directed components postsynaptic membrane neuromuscular junction approximately 85 patients antibodies directed acetylcholine receptor antibodies act three distinct mechanisms. patient mortality significantly reduced due",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Italy",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis, Generalized",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 50
+        },
+        "IDestudio": "NCT06455709"
+    },
+    {
+        "Title": "OVEMP in Myasthenia",
+        "Summary": " myasthenia gravis autoimmune disorder neuromuscular transmission characterized fluctuating muscle weakness fatigability isolated. acetylcholine receptor autoantibodies repetitive nerve stimulation often negative simple quick test.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Switzerland",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis, Ocular",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 96
+        },
+        "IDestudio": "NCT03049956"
+    },
+    {
+        "Title": "A Study to Evaluate the Efficacy and Safety of IGIV-C in Symptomatic Subjects With Generalized Myasthenia Gravis",
+        "Summary": " primary objective evaluate whether improves mg symptoms compared placebo subjects mg. secondary objective evaluate if improves mg Symptoms compared placebo Subjects mg.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France, Germany, Poland, Estonia, Belgium, Canada, Lithuania, Czechia, United States, Hungary",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis, Generalized",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 62
+        },
+        "IDestudio": "NCT02473952"
+    },
+    {
+        "Title": "The Impact of Myasthenia Gravis in the Real World",
+        "Summary": "International prospective community recruited longitudinal lifestyle study aims collect evidence rwe people living myasthenia gravis mg.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United Kingdom",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 2847
+        },
+        "IDestudio": "NCT04176211"
+    },
+    {
+        "Title": "A Study to Evaluate the Safe and Effective Use of a Zilucoplan Auto-injector by Study Participants With Generalized Myasthenia Gravis",
+        "Summary": " purpose study evaluate effectiveness safety tolerability zilucoplan. purpose study evaluates effectiveness safety toleranceability. purposeStudy evaluate effectiveness. safety tolerable zilukoplan.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Poland, United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 25
+        },
+        "IDestudio": "NCT06471361"
+    },
+    {
+        "Title": "Efficacy and Safety of a New Formulation of Oral Cladribine Compared With Placebo in Participants With Generalized Myasthenia Gravis (MyClad)",
+        "Summary": " clinical study determine efficacy safety. generalized myasthenia gravis gmg comparison placebo also investigate sustained efficacy need retreatment safety oral cladribine gmg additional component included characterize pharmacokinetics pk.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Argentina, Georgia, Taiwan, Japan, United States, United Kingdom, Korea, Republic of",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 240
+        },
+        "IDestudio": "NCT06463587"
+    },
+    {
+        "Title": "MuSK Myasthenia 1000 Study",
+        "Summary": " musk myasthenia gravis 1000 study seeks collect saliva samples 1000 subjects laboratory confirmed diagnosis. identify genetic variations associated musk mg data collected may used to gain better understanding.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis, MuSK MG, MuSK Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 1000
+        },
+        "IDestudio": "NCT06259071"
+    },
+    {
+        "Title": "A Pilot Trial of Rituxan in Refractory Myasthenia Gravis",
+        "Summary": "Myasthenia gravis disease happens immune system attacks nervous system damage caused antibodies produced b lymphocytes antibodies damage special part muscle helps transmit impulses nerves muscles allow muscles work properly damage results symptoms.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Refractory Myasthenia Gravis",
+        "Phases": [
+            "PHASE1",
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 10
+        },
+        "IDestudio": "NCT00619671"
+    },
+    {
+        "Title": "Open-Label Extension of Zilucoplan in Subjects With Generalized Myasthenia Gravis",
+        "Summary": " study extension study evaluate efficacy safety tolerability. zilucoplan subjects gmg previously participated qualifying ra pharmaceuticals sponsored zilUCoplan study.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France, Germany, Poland, Italy, Spain, Canada, Japan, United States, United Kingdom, Norway",
+        "OverallStatus": "ACTIVE_NOT_RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 200
+        },
+        "IDestudio": "NCT04225871"
+    },
+    {
+        "Title": "The Efficacy and Safety of Leflunomide or Azathioprine Therapy in Myasthenia Gravis Patients After Expand Thymectomy",
+        "Summary": " randomized controlled clinical study investigators screen eligible patients. randomized divide following two groups. corticosteroids azathioprine group cortic Fosteroids leflunomide group.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 290
+        },
+        "IDestudio": "NCT01727193"
+    },
+    {
+        "Title": "Safety and Efficacy Study of Ravulizumab in Adults With Generalized Myasthenia Gravis",
+        "Summary": "Study evaluated safety efficacy ravulizumab treatment participants generalized myasthenia gravis gmg.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Denmark, France, Germany, Austria, Israel, Italy, Netherlands, Portugal, Switzerland, Spain, Canada, Czechia, Japan, United States, Korea, Republic of",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 175
+        },
+        "IDestudio": "NCT03920293"
+    },
+    {
+        "Title": "Evaluating the Long-Term Safety and Tolerability of Efgartigimod PH20 SC Administered Subcutaneously in Patients with Generalized Myasthenia Gravis",
+        "Summary": "The study evaluated safety tolerability of efgartigimod ph20 sc 1000 mg. The aim of the study was to determine the clinical efficacy and impact quality of the injection.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Germany, Poland, Russian Federation, Georgia, Italy, Netherlands, Belgium, Spain, Czechia, Japan, United States, Hungary",
+        "OverallStatus": "ACTIVE_NOT_RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 184
+        },
+        "IDestudio": "NCT04818671"
+    },
+    {
+        "Title": "An Efficacy and Safety Study of ARGX-113 in Patients With Myasthenia Gravis Who Have Generalized Muscle Weakness",
+        "Summary": " randomized placebo controlled multicenter phase 3 trial evaluate efficacy. safety tolerability quality. life impact normal daily activities patients gmg.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Denmark, France, Germany, Poland, Russian Federation, Georgia, Italy, Netherlands, Belgium, Canada, Serbia, Czechia, Japan, United States, United Kingdom, Hungary",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 167
+        },
+        "IDestudio": "NCT03669588"
+    },
+    {
+        "Title": "Rhythmic Auditory Stimulation and Walking Speed in the 6-minute Walk Test",
+        "Summary": "Study investigates rhythmic auditory stimulation influence walking speed. 6mwt patients myasthenia gravis mg mg.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Denmark",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 48
+        },
+        "IDestudio": "NCT03905161"
+    },
+    {
+        "Title": "Evaluation of Pharmacokinetics, Pharmacodynamics, Efficacy, Safety, and Immunogenicity of Ravulizumab Administered Intravenously in Pediatric Participants With Generalized Myasthenia Gravis (gMG)",
+        "Summary": "Ravulizumab is an investigational new drug for the treatment of rare forms of cancer. The study was designed to characterize pharmacokinetics, pharmacodynamics and treatment.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France, Netherlands, Italy, Switzerland, Spain, Serbia, Japan, United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis, gMG",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 12
+        },
+        "IDestudio": "NCT05644561"
+    },
+    {
+        "Title": "Safety, Tolerability, and Efficacy of Zilucoplan in Subjects With Generalized Myasthenia Gravis",
+        "Summary": "Zilucoplan subjects generalized myasthenia gravis subjects randomized ratio receive daily sc doses for 12 weeks. raise study multicenter randomized placebo controlled study confirm efficacy safety tolerability.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France, Germany, Poland, Italy, Spain, Canada, Japan, United States, United Kingdom, Norway",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis, Generalized",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 174
+        },
+        "IDestudio": "NCT04115293"
+    },
+    {
+        "Title": "Biomarkers in Neural Disorders",
+        "Summary": "Study seeks establish sensitivity specificity appears unique brainstem biomarker parkinson disease pd. Study additionally compare biomarker olfactory testing.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Parkinson's Disease, Alzheimer's Disease, Progressive Supranuclear Palsy, Essential Tremor, Multiple System Atrophy, Drug Induced Parkinson's Disease, Diffuse Lewy Body Disease, Myasthenia Gravis, Spinal Cord Injuries",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 54
+        },
+        "IDestudio": "NCT02761707"
+    },
+    {
+        "Title": "Association Study Between VDR Gene Polymorphisms and Risk and Features of MG in Han Chinese Population",
+        "Summary": "Myasthenia gravis mg susceptibility disease features chinese han patients mg healthy controls genotyped using improved multiple ligase detection reaction information. Age onset acetylcholine receptor antibody kinase antibody status thymus status involved",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "China",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis, Ocular, Gene Polymorphism",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 297
+        },
+        "IDestudio": "NCT05380128"
+    },
+    {
+        "Title": "A Study to Evaluate the Efficacy, Safety and PD and PK of HBM9161 in MG Patients",
+        "Summary": "HBM9161 patients attack mg china. primary objectives investigate efficacy. hbm9161. patients attackmg ch China. primary objective investigate efficacy h BM9161 Patients attack mgChina.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 30
+        },
+        "IDestudio": "NCT04346888"
+    },
+    {
+        "Title": "Interval Inspiratory Training and Aerobic Exercise for Muscle Recovery in Myasthenia Gravis Post-Hospitalization",
+        "Summary": " clinical trial determine whether inspiratory muscle training aids recovery respiratory muscle strength helps prevent muscle weakness patients myasthenia gravis. participants underwent daily inspiratory Muscle training aerobic exercise six consecutive weeks.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Taiwan",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 68
+        },
+        "IDestudio": "NCT06624345"
+    },
+    {
+        "Title": "A Study to Evaluate the Safety, Tolerability, Efficacy, Pharmacokinetics and Pharmacodynamics of M281 Administered to Adults With Generalized Myasthenia Gravis",
+        "Summary": "M281 administered participants generalized myasthenia gravis gmg insufficient clinical response ongoing standard care therapy. purpose study evaluate safety tolerability efficacy.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Germany, Poland, Italy, Belgium, Canada, Spain, United States, United Kingdom",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 68
+        },
+        "IDestudio": "NCT03772587"
+    },
+    {
+        "Title": "Intravenous Immune Globulin Treatment Compared to Placebo in Patients With Myasthenia Gravis",
+        "Summary": "Study randomized clinical trial determine whether ivig effective improving motor scores patients myasthenia gravis worsening weakness.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Canada",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 50
+        },
+        "IDestudio": "NCT00306033"
+    },
+    {
+        "Title": "Interleukin and Autoantibodies in Myasthenia Gravis.",
+        "Summary": " myasthenia gravis autoimmune disorders causing muscle weakness due defective synaptic transmission neuromuscular junction caused autoantibodies acetylcholine receptors muscle specific kinase 6 lipoprotein protein detection.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 82
+        },
+        "IDestudio": "NCT05301153"
+    },
+    {
+        "Title": "National, Multicentric Registry Study on Neuroimmunological Diseases in China",
+        "Summary": "Study aims to establish clinical neuroimmune disease research cohort. Follow observe prognosis patients different subtypes subgroups provide support treatment early warning outcome prediction.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Multiple Sclerosis, NMO Spectrum Disorder, Myelin Oligodendrocyte Glycoprotein Antibody-associated Disease, Myasthenia Gravis, Autoimmune Encephalitis, Acute Disseminated Encephalomyelitis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 7000
+        },
+        "IDestudio": "NCT06443333"
+    },
+    {
+        "Title": "A Clinical Study of B007 in the Treatment of Generalized Myasthenia Gravis.",
+        "Summary": "B007 subjects generalized myasthenia gravis. purpose study evaluate efficacy safety. b007 subjects b007 Subjects b007Subjects b007 Subjectes b007",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE2",
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 104
+        },
+        "IDestudio": "NCT06447597"
+    },
+    {
+        "Title": "Vitaccess Real MG Registry",
+        "Summary": "Vitaccess real mg vrmg patient registry designed capture longitudinal observational data myasthenia gravis mg treatment impact symptoms daily activities quality life qol duration registry 10 years launch approximately 600 patients recruited us.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States, United Kingdom",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 600
+        },
+        "IDestudio": "NCT06064461"
+    },
+    {
+        "Title": "Innovative Measures of Speech and Swallowing Dysfunction in Neurological Disorders",
+        "Summary": "Study evaluating use two painless technologies assessment muscle health time healthy volunteers. Study evaluating use of painless technology to assess muscle health.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Amyotrophic Lateral Sclerosis (ALS), Myasthenia Gravis, Myopathies, Stroke, Parkinson's Disease",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 100
+        },
+        "IDestudio": "NCT02118805"
+    },
+    {
+        "Title": "Descartes-08 CAR-T Cells in Generalized Myasthenia Gravis (MG)",
+        "Summary": " patients with generalized myasthenia gravis. phase iib study evaluate safety preliminary efficacy of iib.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Canada, United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis, Generalized",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 30
+        },
+        "IDestudio": "NCT04146051"
+    },
+    {
+        "Title": "Study on Correlation Between Cytomegalovirus and Ocular Myasthenia Gravis",
+        "Summary": " ocular myasthenia gravis omg autoimmune neuromuscular disease mediated pathogenic autoantibodies etiology pathogenesis completely clear occurrence development omg result joint participation genetic factors environmental factors immune factors role infectious factors pathogenesis",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "China",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Ocular Myasthenia Gravis, Cytomegalovirus Infections",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 125
+        },
+        "IDestudio": "NCT05091177"
+    },
+    {
+        "Title": "A Study to Evaluate Rozanolixizumab in Study Participants With Generalized Myasthenia Gravis",
+        "Summary": "Study participants generalized myasthenia gravis gmg. purpose study assess safety tolerability efficacy. additional treatment cycles rozanolixizumab.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Denmark, France, Germany, Poland, Russian Federation, Georgia, Italy, Spain, Canada, Serbia, Taiwan, Czechia, Japan, United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 165
+        },
+        "IDestudio": "NCT04650854"
+    },
+    {
+        "Title": "Efficacy and Safety of Low-dose Rituximab in the Treatment of Refractory Myasthenia Gravis",
+        "Summary": "Study designed evaluate effectiveness safety rituximab patients refractory myasthenia gravis traditional treatment mg immunosuppressive therapy usually beginning corticosteroids. 70 treated patients show incomplete response including 10 30 unresponsive cort",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Refractory Myasthenia Gravis, Rituximab",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 50
+        },
+        "IDestudio": "NCT05332587"
+    },
+    {
+        "Title": "Safety and Efficacy of 3 Dose Levels of NMD670 in Adult Patients With Myasthenia Gravis",
+        "Summary": " phase 2 dose range finding study aims evaluate safety efficacy 3 dose levels. nmd670 vs placebo adult patients mg antibodies achr musk administered twice day bid 21 days.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Denmark, France, Poland, Georgia, Italy, Belgium, Spain, United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myasthenia Gravis, Myasthenia Gravis, MuSK",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 84
+        },
+        "IDestudio": "NCT06414954"
+    },
+    {
+        "Title": "Study to Evaluate Amifampridine Phosphate in Patients With MuSK-MG",
+        "Summary": "Amifampridine phosphate is used to treat musk myasthenia gravis. The drug is also used in the treatment of other autoimmune conditions.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis, Generalized",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 93
+        },
+        "IDestudio": "NCT03304054"
+    },
+    {
+        "Title": "Long Term Safety Study of Amifampridine Phosphate in MuSK-MG (Muscle Specific Tyrosine Kinase Myasthenia Gravis)",
+        "Summary": "Amifampridine phosphate patients musk antibody positive achr antibody positive myasthenia gravis.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Italy, United States",
+        "OverallStatus": "TERMINATED",
+        "Conditions": "Myasthenia Gravis, MuSK, AChR Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 63
+        },
+        "IDestudio": "NCT03579966"
+    },
+    {
+        "Title": "Efficacy of Prednisone In the Treatment of Ocular Myasthenia",
+        "Summary": "Study evaluated efficacy tolerability of prednisone in patients with ocular myasthenia. Study was funded by the FDA.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Canada, United States",
+        "OverallStatus": "TERMINATED",
+        "Conditions": "Ocular Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 11
+        },
+        "IDestudio": "NCT00995722"
+    },
+    {
+        "Title": "A Study to Assess the Efficacy and Safety of IGIV-C in Patients With Myasthenia Gravis Exacerbations",
+        "Summary": " multicenter prospective study assess efficacy safety iv dose 2 subjects mg exacerbations. multicenter\u00a0prospective\u00a0study assess efficacy\u00a0safety iv dose 1 subject mg exacerbation. multic center\u00a0prolonged\u00a0procedure\u00a0to assess",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France, Poland, Russian Federation, South Africa, Estonia, Belgium, Canada, Latvia, Czechia, Romania, Hungary, Argentina",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis Exacerbations",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 49
+        },
+        "IDestudio": "NCT02413580"
+    },
+    {
+        "Title": "Safety and Efficacy of Eculizumab in Refractory Generalized Myasthenia Gravis (REGAIN Study)",
+        "Summary": "Eculizumab is being tested as a treatment for generalized myasthenia gravis. The study aims to determine if the drug is safe and effective.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Belgium, Canada, Brazil, Japan, United States, United Kingdom, Denmark, Germany, Finland, Netherlands, Argentina, Italy, Czechia, Korea, Republic of, France, Sweden, Australia, Spain, Greece, Turkey, Hungary",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Refractory Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 125
+        },
+        "IDestudio": "NCT01997229"
+    },
+    {
+        "Title": "RESET-MG: A Study to Evaluate the Safety and Efficacy of CABA-201 in Participants With Generalized Myasthenia Gravis",
+        "Summary": " phase study evaluate safety efficacy participants with generalized myasthenia gravis. phase study evaluates safety efficacy Participants with generalized Myasthenic Gravis.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Generalized Myasthenia Gravis (gMG)",
+        "Phases": [
+            "PHASE1",
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 12
+        },
+        "IDestudio": "NCT06359041"
+    },
+    {
+        "Title": "Extension Study of ECU-MG-301 to Evaluate Safety and Efficacy of Eculizumab in Refractory Generalized Myasthenia Gravis",
+        "Summary": "Eculizumab is a treatment refractory generalized myasthenia gravis gmg extension study. Study participants previously completed study nct01997229.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Denmark, Korea, Republic of, Sweden, Finland, Italy, Netherlands, Belgium, Canada, Spain, Brazil, Czechia, Japan, United States, Turkey, United Kingdom, Hungary, Argentina",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Refractory Generalized Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 117
+        },
+        "IDestudio": "NCT02301624"
+    },
+    {
+        "Title": "An Exploratory Clinical Study of GC012F Injection for Refractory gMG",
+        "Summary": "Study aims to assess pharmacokinetic pk pharmacodynamic pd characteristics immunogenicity gc012f injection subjects. Study aims to evaluate safety tolerability preliminary efficacy.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "NOT_YET_RECRUITING",
+        "Conditions": "Refractory Generalized Myasthenia Gravis",
+        "Phases": [
+            "EARLY_PHASE1"
+        ],
+        "#pacients": {
+            "count": 18
+        },
+        "IDestudio": "NCT06419166"
+    },
+    {
+        "Title": "Study of Ultomiris\u00ae (Ravulizumab) Safety in Pregnancy",
+        "Summary": "Primary objective study describe frequency characteristics pregnancy outcomes maternal complications among participants exposed to ultomiris. describe frequency. characteristics selected outcomes utero birth 1 year age exposure utero via breastmilk.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Ultomiris-exposed Pregnant/ Postpartum, Pregnancy, Paroxysmal Nocturnal Hemoglobinuria (PNH), Atypical Hemolytic Uremic Syndrome (aHUS), Generalized Myasthenia Gravis (gMG), Neuromyelitis Optica Spectrum Disorder (NMOSD)",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 75
+        },
+        "IDestudio": "NCT06312644"
+    },
+    {
+        "Title": "Immediate Corticosteroid Therapy and Rituximab to Prevent Generalization in Ocular Myasthenia: a PROBE Multicenter Open-label Randomized Controlled Trial.",
+        "Summary": "Myasthenia autoimmune disease causing dysfunction neuromuscular junction resulting fluctuating variable muscle weakness initial phase disease 70 patients present ocular onset. generalization skeletal bulbar axial muscles occurs cases higher frequency first second years respectively 46",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "",
+        "OverallStatus": "NOT_YET_RECRUITING",
+        "Conditions": "Ocular Myasthenia Gravis",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 128
+        },
+        "IDestudio": "NCT06342544"
+    },
+    {
+        "Title": "Open-label Study to Evaluate the Safety of Various Dosing Regimens of MuSK-CAART for MuSK Myasthenia Gravis",
+        "Summary": "Myasthenia gravis musk is a rare and potentially severe disease. Patients develop pathogenic autoantibodies specifically target musk protein neuromuscular junction.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "MuSK Myasthenia Gravis",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 24
+        },
+        "IDestudio": "NCT05451212"
+    },
+    {
+        "Title": "Transsternal Versus Transcervical Thymectomy",
+        "Summary": "Transcervical tct transsternal thymectomy tst randomized controlled trial mean ten years results outcomes 10 years surgery mgfa status showed complete stable remission achieved 8 patients tct group 20 patients tst group conclusions transcervical",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis, Thymectomy",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 100
+        },
+        "IDestudio": "NCT03825185"
+    },
+    {
+        "Title": "The Specificity, Sensitivity and Clinical Correlation of CBA, RIPA and ELISA in Detecting AChR and MuSK IgG of Myasthenia Gravis",
+        "Summary": "Myasthenia gravis mg neuromuscular junction nmj disorder mediated autoantibodies achr musk autoantigens located post synaptic membrane neuromoscular junction presence. specific achR musk.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "China",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Detection Autoantibody of Myasthenia Gravis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 2663
+        },
+        "IDestudio": "NCT05219097"
+    }
+]

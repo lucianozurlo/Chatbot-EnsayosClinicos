@@ -1,0 +1,841 @@
+[
+    {
+        "Title": "Early Prediction of Respiratory and Autonomic Complications of GBS Using Neuromuscular Ultrasound",
+        "Summary": "We good non invasive predictor respiratory autonomic dysfunctions gbs evaluation diaphragmatic thickness phrenic vagus nerve cross sectional area. neuromuscular us goodNon invasive predictor.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Egypt",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Guillain Barre Syndrome",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 100
+        },
+        "IDestudio": "NCT04166357"
+    },
+    {
+        "Title": "Firm Observational Clinical Unicenter Study on Guillain Barr\u00e9 Syndrome",
+        "Summary": "Study aims to gain deeper understanding regarding frequency of clinical electrophysiologic characteristics. Aim of study is to gain a deeper understanding about frequency of diagnostic work complications.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Switzerland",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Guillain-Barre Syndrome (GBS)",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 100
+        },
+        "IDestudio": "NCT04829526"
+    },
+    {
+        "Title": "A Study to Evaluate the Efficacy and Safety of Eculizumab in Guillain-Barr\u00e9 Syndrome",
+        "Summary": " eculizumab participants severe gbs defined using hughes functional grade fg scale progressively deteriorating fg3 within 2 weeks onset weakness due gbs. phase 3 prospective multicenter placebo controlled double blind randomized study.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Japan",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Guillain-Barre Syndrome",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 57
+        },
+        "IDestudio": "NCT04752566"
+    },
+    {
+        "Title": "Change of Nerve Conduction Properties in IVIg Dependent Neuropathies",
+        "Summary": " ivig exert variety different immunomodulatory effects several mechanism action proposed ivig study role ivig short term nerve conduction patients neuropathies explored.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Germany",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Guillain-Barre Syndrome, CIDP, Multifocal Motor Neuropathy",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 50
+        },
+        "IDestudio": "NCT01655394"
+    },
+    {
+        "Title": "Changes in Haemostasis After Therapeutic Plasmapheresis With Citrate Anticoagulation",
+        "Summary": " plasma exchange procedures remove procoagulant anticoagulants factors every procedure increases risk bleeding. repeated procedures increase risk bleeding mostly lower fibrinogen levels.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Slovenia",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Humoral Rejection, Guillain-Barre Syndrome, Miller Fisher Syndrome, CIDP, Good Pasture Syndrome, Hyperviscosity Syndrome",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 20
+        },
+        "IDestudio": "NCT03801135"
+    },
+    {
+        "Title": "International Guillain-Barr\u00e9 Syndrome Outcome Study",
+        "Summary": "International gbs outcome study igos study conducted members inflammatory neuropathy consortium inc peripheral nerve society pns disease course outcome syndrome.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "South Africa, Belgium, Canada, Japan, United States, United Kingdom, Denmark, Bangladesh, Germany, Netherlands, Taiwan, Argentina, Italy, Puerto Rico, China, France, Malaysia, Australia, Switzerland, Spain, Greece",
+        "OverallStatus": "ACTIVE_NOT_RECRUITING",
+        "Conditions": "Guillain-Barr\u00e9 Syndrome, Miller Fisher Syndrome",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 2000
+        },
+        "IDestudio": "NCT01582763"
+    },
+    {
+        "Title": "Our Study Aims to Determine If Nerve Alterations in Acute GBS and CIDP Detectable by Ultrasound Match Electrodiagnostic Findings and If This Method Aids Early Diagnosis, Predict Their Outcomes and Differentiate Between Axonal and Demyelinating Subtypes.",
+        "Summary": " neuromuscular ultrasound nmus emerging valuable diagnostic tool gbs nmus detect proximal nerve enlargement early neurophysiological changes persistent nerve enlargements observed 15 years though correlation disability varies.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Egypt",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Guillain Barr\u00e9 Syndrome, Chronic Inflammatory Demyelinating Polyradiculoneuropathy, Peripheral Nerve Disorder, Peripheral Nerves US, Peripheral Neuropathy",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 90
+        },
+        "IDestudio": "NCT06615622"
+    },
+    {
+        "Title": "Early Mechanical Ventilation for Guillain Barr\u00e9 Syndrome",
+        "Summary": " purpose study determine whether early mechanical ventilation prevent hospital acquired pneumonia. adults guillain barr\u00e9 syndrome.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Guillain Barr\u00e9 Syndrome, Acute Respiratory Failure",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 50
+        },
+        "IDestudio": "NCT00167622"
+    },
+    {
+        "Title": "RWE-based Treatment Patterns and Outcomes in CIDP",
+        "Summary": " describe demographics clinical characteristics treatment patterns clinical outcomes chronic inflammatory demyelinating polyneuropathy cidp syndrome gbs heredofamilial amyloidosis hattr adult patients single centre.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United Kingdom",
+        "OverallStatus": "NOT_YET_RECRUITING",
+        "Conditions": "Chronic Inflammatory Demyelinating Polyneuropathy, Guillain-Barre Syndrome, Hereditary Amyloidosis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 170
+        },
+        "IDestudio": "NCT05940922"
+    },
+    {
+        "Title": "Expression Profile of ERK5 and PKM2 Kinases in Neuroinflammatory Diseases.",
+        "Summary": " demyelinating diseases represent broad spectrum disorders induced excessive inflammation often triggered autoimmune mechanism pathologies chronic affect central nervous system multiple sclerosis ms others. monophasic target peripheral nervous system guillain barr\u00e9 syndrome gbs neuroinflammatory path",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "",
+        "OverallStatus": "WITHDRAWN",
+        "Conditions": "Sclerosis, Multiple, Guillain-Barre Syndrome, Inflammation",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 0
+        },
+        "IDestudio": "NCT04674163"
+    },
+    {
+        "Title": "Ultrasonography and Electrophysiology in GBS",
+        "Summary": "Nerve ultrasonography changes correlation nerve conduction studies ncs clinical course. description time course nerve ultrasonographer changes correlation.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Guillain-Barre Syndrome",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 45
+        },
+        "IDestudio": "NCT05284786"
+    },
+    {
+        "Title": "A Clinical Study of ANX005 and IVIG in Subjects With Guillain Barr\u00e9 Syndrome (GBS)",
+        "Summary": " study multi center study anx005 combination ivig subjects diagnosed gbs. study multi-centre study found patients were more likely to suffer from anxiety.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Denmark, Bangladesh",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Guillain-Barr\u00e9 Syndrome",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 14
+        },
+        "IDestudio": "NCT04035135"
+    },
+    {
+        "Title": "Ventilator Trigger Sensitivity Adjustment Versus Threshold Inspiratory Muscle Training on Arterial Blood Gases",
+        "Summary": "Current study compare effect ventilator trigger sensitivity adjustment versus threshold inspiratory muscle training arterial blood gases mechanically ventilated patients.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Egypt",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Guillain-Barre Syndrome",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 45
+        },
+        "IDestudio": "NCT06167239"
+    },
+    {
+        "Title": "IVIG Versus Plasmapheresis in the Treatment of Guillian Barrie Syndrome Patients",
+        "Summary": "Study investigators address question whether treatment ivig superior treatment using plasmapheresis functional recovery patients gbs recovery quantified using changes grading scale.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Egypt",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Guillain-Barre Syndrome",
+        "Phases": [
+            "PHASE2",
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 81
+        },
+        "IDestudio": "NCT05104762"
+    },
+    {
+        "Title": "Efficacy of Intravenous Gamma Globulin on Guillain-Barre Syndrome",
+        "Summary": " gamma globulin syndrome gbs acute polyneuropathy. intravenous Gamma globulin effective high doses gamma glob insulin clinically effective patient recovery clinical prognosis vary establishment cohort study.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Guillain-barre Syndrome",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 200
+        },
+        "IDestudio": "NCT04303962"
+    },
+    {
+        "Title": "Feasibility of Two New Software Modules for the Rehabilitation of Patients With Neuromuscular Upper Limb Impairments",
+        "Summary": "Vr training systems increasingly used encourage purposeful limb movements. 75 adult patients parkinson disease ms stroke traumatic brain injury syndrome included 30 75 patients take part training enhanced system total 16 training sessions 45 min primary outcomes score system usability scale sus ar",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "",
+        "OverallStatus": "WITHDRAWN",
+        "Conditions": "Stroke, Parkinson Disease, Traumatic Brain Injury, Guillain-Barre Syndrome",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 0
+        },
+        "IDestudio": "NCT03268304"
+    },
+    {
+        "Title": "Effects of Proprioceptive Neuromuscular Training on Sensory and Motor Function in Guillain Barre Syndrome",
+        "Summary": "Study aims to determine effects proprioceptive neuromuscular training has on patients with guillain barre syndrome.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Pakistan",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Guillain-Barre Syndrome",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 26
+        },
+        "IDestudio": "NCT05491096"
+    },
+    {
+        "Title": "Comparison of the Efficacy and Safety of Immunoadsorption and Intravenous Immunoglobulin for Guillain-Barre Syndrome",
+        "Summary": " immunoadsorption widely used treat diseases currently prospective clinical trials. syndrome acute inflammatory peripheral neuropathy currently effective treatment methods include intravenous immunoglobulin plasma exchange.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "NOT_YET_RECRUITING",
+        "Conditions": "Guillain-Barre Syndrome",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 204
+        },
+        "IDestudio": "NCT05114941"
+    },
+    {
+        "Title": "Brain Computer Interface for Communication in ICU: a Feasibility Study",
+        "Summary": "Main objective study evaluate usability system assist verbal communication based on p300 wave patients. Patients tetraplegia longer communicate severe engine damage.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "France",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Tetraplegia, Guillain-Barre Syndrome",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 12
+        },
+        "IDestudio": "NCT01005524"
+    },
+    {
+        "Title": "National Vaccine Adverse Event Reporting Survey and Etiology",
+        "Summary": "Study aims identify genetic determinants adverse response studying host genetics plan use whole genome sequencing identify single nucleotide polymorphisms associated cardiovascular neurological gastrointestinal musculoskeletal immunological symptoms induced vaccine administration secondary goal establish criteria enable classification adverse compare data database",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "COVID-19, Vaccine Adverse Reaction, Vaccine Reaction, Vaccine or Biological Substance, Unspecified Causing Adverse Effects in Therapeutic Use, Corona Virus Infection, Blood Clot, Thrombocytopenia, Neuritis, Vasculitis, Influenza, Guillain-Barr\u00e9, GWAS, Genetic Sequencing",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 100000
+        },
+        "IDestudio": "NCT05095844"
+    },
+    {
+        "Title": "Evaluating Efgartigimod in Patients With Guillain-Barr\u00e9 Syndrome",
+        "Summary": "Study participants undergo seven blood draws hospitalization four study visits. Neurofilament light chain believed indicative of damage to nervous system.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Guillain-Barre Syndrome",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 30
+        },
+        "IDestudio": "NCT05701189"
+    },
+    {
+        "Title": "A Study of Imlifidase in Patients With Guillain-Barr\u00e9 Syndrome",
+        "Summary": "Imlifidase day 1 ivig days purpose study investigate safety effectiveness. Study participants patients diagnosed syndrome gbs planned receive treatment intravenous immunoglobulin ivig ivig.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France, Netherlands, United Kingdom",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Guillain-Barr\u00e9 Syndrome (GBS)",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 30
+        },
+        "IDestudio": "NCT03943589"
+    },
+    {
+        "Title": "Neuromuscular Ultrasound in Correlation to Neurophysiological Findings",
+        "Summary": "1 study looked at the correlation between ultrasound and neuropathies. The study also looked at pain levels and the severity of neuropathy.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Carpal Tunnel Syndrome, Diabetic Neuropathies, Guillain-Barre Syndrome",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 100
+        },
+        "IDestudio": "NCT04092140"
+    },
+    {
+        "Title": "Assessment of Chronic Guillain-Barre Syndrome Improvement With Use of 4-aminopyridine",
+        "Summary": "Developed countries syndrome gbs common cause acute neuromuscular paralysis afflicting persons annually united states 20 gbs patients permanent residual motor deficits affect activities daily living goal study assess potential usefulness safety.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Guillain-Barre Syndrome",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 30
+        },
+        "IDestudio": "NCT00056810"
+    },
+    {
+        "Title": "Development and Validation of the FBIndex to Determine the Risk of Falls for Patients with Neuromuscular Disorders",
+        "Summary": " currently standardised fall risk scores guidelines use appropriate assistive gait devices agds people neuromuscular disorders nmds clear medical unmet need provide battery appropriate locomotor gait assessments determine risk falling patients.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "",
+        "OverallStatus": "ENROLLING_BY_INVITATION",
+        "Conditions": "Inclusion Body Myositis, Myotonic Dystrophy, Limb-girdle and Facioscapulohumeral Muscular Dystrophies, Pompe Disease, Myasthenia Gravis, Lambert-Eaton-Syndrome, Amyotrophic Lateral Sclerosis, Spinal Muscular Atrophy, Guillain-Barr\u00e9 Syndrome, Chronic Inflammatory Demyelinating Polyneuropathy, Friedreich Ataxia, Hereditary Motor Sensory Neuropathy",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 108
+        },
+        "IDestudio": "NCT06605612"
+    },
+    {
+        "Title": "Diaphragm Thickness by Ultrasonography in Neurological Disorders",
+        "Summary": " participants allocated three groups acute neuropathy guillain barre syndrome group neuromuscular junction disorder myasthenia gravis group control group people neurological disorders affecting respiratory done diaphragm index test ultrasound imaging.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Egypt",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Guillain-Barre Syndrome, Myasthenia Gravis",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 60
+        },
+        "IDestudio": "NCT05324176"
+    },
+    {
+        "Title": "Prognosis in Patients With Guillain-Barre Syndrome",
+        "Summary": "Goal of observational study is to explore significant indicators predict early prognosis late prognosis patients syndrome. goal observational study exploresignificant indicators predictearly prognosis later prognosis. goal is to identify significant indicators.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Guillain-Barre Syndrome",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 450
+        },
+        "IDestudio": "NCT06032741"
+    },
+    {
+        "Title": "Neurologic Manifestations of the Arbovirus Infection in Colombia",
+        "Summary": "Study aims define association exposure arbovirus infection development neurological syndrome. Study makes part neurovirus emerging americas study.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Colombia",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Encephalitis, Myelitis, Guillain-Barre Syndrome, Cranial Nerve Palsies, Meningitis, Zika Virus Infection, Dengue (Virus); Fever, Sandfly, Chikungunya Fever",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 570
+        },
+        "IDestudio": "NCT03206541"
+    },
+    {
+        "Title": "A Study to Evaluate the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of Crovalimab in Participants With Guillain-Barr\u00e9 Syndrome (GBS)",
+        "Summary": " crovalimab compared placebo therapy intravenous immunoglobulin ivig participants severe gbs. purpose study evaluate efficacy safety pharmacokinetics pharmacodynamics.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "",
+        "OverallStatus": "WITHDRAWN",
+        "Conditions": "Guillain-Barr\u00e9 Syndrome",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 0
+        },
+        "IDestudio": "NCT05494619"
+    },
+    {
+        "Title": "Artificial Intelligence-powered Virtual Assistant for Emergency Triage in Neurology",
+        "Summary": "Study examines use virtual assistant quickly identifying handling neurological emergencies particularly places limited medical resources. Researchers aimed check ai tool safe accurate enough move advanced testing stages.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Argentina",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Stroke, Guillain-Barre Syndrome, Facial Palsy, Migraine, Status Epilepticus, Vertigo Benign Positional, Delirium, Trigeminal Neuralgia, Meningitis, Subarachnoid Hemorrhage",
+        "Phases": [
+            "EARLY_PHASE1"
+        ],
+        "#pacients": {
+            "count": 10
+        },
+        "IDestudio": "NCT06334796"
+    },
+    {
+        "Title": "The Changes of Cytokines in Guillain Barr\u00e9 Syndrome: the Correlation With Clinical Manifestations and Skin Innervation",
+        "Summary": " order increase understanding pathogenic mechanism strategy treatment subtypes guillain barr\u00e9 syndrome check temporal changes cytokines different biological activities serum cerebrospinal fluid csf check titer various antibodies perform skin biopsy correlate data clinical findings severity prog",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Taiwan",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Guillain Barr\u00e9 Syndrome",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 150
+        },
+        "IDestudio": "NCT00173199"
+    },
+    {
+        "Title": "Small Volume Plasma Exchange (SVPE) for Guillain-Barr\u00e9 Syndrome (GBS) Patients",
+        "Summary": "S. syndrome gbs commonest form acute flaccid paralysis incidence high countries bangladesh gbs patients poor therefore patients afford expensive specific treatments like intravenous immunoglobulin ivig plasmapheresis pe part explaining high",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Bangladesh",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Guillain-Barr\u00e9 Syndrome",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 20
+        },
+        "IDestudio": "NCT02780570"
+    },
+    {
+        "Title": "Gene Sequencing as a Strategy for Identifying Genetic Factors Associated With Serious Adverse Events After Covid-19 Vaccines in Use in Brazil",
+        "Summary": " protocol proposes investigate genetic factors may involved pathogenesis adverse events interest selected vaccines immune thrombotic throm bocytopenia neurological adverse events syndrome acute disseminated encephalomyelitis transverse myelitis intention identifying useful biomark",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Brazil",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Vaccine-induced Thrombotic Thrombocytopenia Syndrome, Guillain-Barre Syndrome, Acute Disseminated Encephalomyelitis, Transverse Myelitis",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 100
+        },
+        "IDestudio": "NCT05630313"
+    },
+    {
+        "Title": "Early vs. Late Tracheostomy in Patients With Guillain -Barre Syndrome",
+        "Summary": " tracheostomy one common procedures intensive care unit patients need prolonged invasive mechanical ventilation controversy literature regarding ideal timing performing trachestomy critically ill patients early tracheOSTomy may associated decrease ventilation days.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "",
+        "OverallStatus": "NOT_YET_RECRUITING",
+        "Conditions": "Guillain Barre Syndrome, Mechanical Ventilation",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 30
+        },
+        "IDestudio": "NCT06612242"
+    },
+    {
+        "Title": "Exploring Accessible Beauty for Individuals With Upper Extremity Deficits",
+        "Summary": "Research aims to identify barriers faced individuals upper extremity disabilities. Study seeks provide insights recommendations improving accessibility beauty products ultimately promoting inclusivity.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Stroke, Ischemic, Stroke Hemorrhagic, Stroke (CVA) or TIA, Stroke, Acute, Traumatic Brain Injury, SCI - Spinal Cord Injury, Ehlers-Danlos Syndromes (EDS), Lupus Erythematosus, Guillain-Barre Syndrome, Multiple Sclerosis, Myasthenia Gravis, Amyotrophic Lateral Sclerosis, Graves Disease, Muscular Dystrophies",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 57
+        },
+        "IDestudio": "NCT05945784"
+    },
+    {
+        "Title": "Spontaneous Coronary Artery Dissection (SCAD) and Autoimmunity",
+        "Summary": "Case control study aims to determine whether spontaneous coronary artery dissection scad associated autoimmune diseases update incidence scad cohort.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "SCAD, Addison Disease, Ankylosing Spondylitis, Antiphospholipid Antibody Syndrome, Celiac Disease, Crohn Disease, Dermatomyositis, Polymyositis, Guillain-Barre Syndrome, Hepatitis, Autoimmune, Graves Disease, Hashimoto Thyroiditis, Multiple Sclerosis, Myasthenia Gravis, Pernicious Anemia, Polymyalgia Rheumatica, Primary Biliary Cirrhosis, Psoriasis, Rheumatoid Arthritis, Systemic Sclerosis, Sj\u00f6gren Syndrome, Systemic Lupus Erythematosus, Takayasu Arteritis, Type 1 Diabetes Mellitus, Ulcerative Colitis, Uveitis, Vasculitis, Vitiligo, Raynaud",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 114
+        },
+        "IDestudio": "NCT03941184"
+    },
+    {
+        "Title": "Gastrointestinal Transit Time in Patients With Guillain-Barr\u00e9 Syndrome",
+        "Summary": " constipation common condition among patients syndrome believed constipation caused autonomic neuropathy. severity constipation relation autonomic function previously studied.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Denmark",
+        "OverallStatus": "WITHDRAWN",
+        "Conditions": "Guillain-Barre Syndrome, Constipation",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 0
+        },
+        "IDestudio": "NCT02459808"
+    },
+    {
+        "Title": "Efficacy and Safety Study of GB-0998 for Guillain-Barr\u00e9 Syndrome",
+        "Summary": "Study carry assess efficacy intravenous immunoglobulin five days treatment syndrome based on changes. Study also assess safety.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Japan",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Guillain-Barr\u00e9 Syndrome",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 21
+        },
+        "IDestudio": "NCT02342184"
+    },
+    {
+        "Title": "Efficacy and Safety of ANX005 in Subjects With Guillain-Barr\u00e9 Syndrome",
+        "Summary": "Study intended to evaluate efficacy and safety of intravenous iv infusion. Participants were recently diagnosed with syndrome gbs.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Bangladesh, Philippines",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Guillain-Barre Syndrome",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 242
+        },
+        "IDestudio": "NCT04701164"
+    },
+    {
+        "Title": "An Assistive Powered Wheelchair: Stage 2 Trial",
+        "Summary": "Obligation alert system enhance user independent mobility. improving confidence drive safety driving powered wheelchair. preliminary evaluation obstacle alerting system.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United Kingdom",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Multiple Sclerosis, Stroke, Cystic Fibrosis, Motor Neurone Disease, Craniocerebral Trauma, Guillain-Barre Syndrome",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 17
+        },
+        "IDestudio": "NCT05292690"
+    },
+    {
+        "Title": "Prognostic Indicators of Gullian-Barre Syndrome",
+        "Summary": "Predictive factors associated with worse prognosis syndrome gbs helpful fully evaluate disease progression provide proper treatments. prognostic indicators syndrome predictive factors associated worse prog outlooks gbs.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "",
+        "OverallStatus": "NOT_YET_RECRUITING",
+        "Conditions": "Guillain-Barre Syndrome",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 60
+        },
+        "IDestudio": "NCT06300359"
+    },
+    {
+        "Title": "Peripheral Nerve Ultrasound for Diagnosis and Prognosis of Guillain-Barre Syndrome",
+        "Summary": "Peripheral nerve ultrasound used as supplemental tool to diagnose syndrome gbs acute setting aid prognostication.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "TERMINATED",
+        "Conditions": "Guillain-Barre Syndrome",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 20
+        },
+        "IDestudio": "NCT04053452"
+    },
+    {
+        "Title": "Biomarkers in Polyradiculoneuropathies",
+        "Summary": "Nodes ranvier contain ion channels enable rapid propagation nerve impulse cell adhesion molecules glycolipids play important role formation nodes ranvier antibodies glycolIPids detected half patients syndrome acute inflammatory neuropathy affecting peripheral nerve investigators found antibodies target",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "France",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Guillain-Barre Syndrome, CIDP",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 200
+        },
+        "IDestudio": "NCT04249752"
+    },
+    {
+        "Title": "Biomarkers in Autoimmune Disease of Nervous System",
+        "Summary": " neurological autoimmune diseases group disorders characterized abnormal immune response attacking nervous system including brain spinal cord peripheral nerves. diseases exhibit high heterogeneity diverse clinical presentations challenging diagnose manage due lack effective treatments.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Autoimmune Diseases of the Nervous System, Neuromyelitis Optica Spectrum Disorder, Multiple Sclerosis, Guillain-Barre Syndrome, Acute Disseminated Encephalomyelitis, Autoimmune Encephalitis, Stiff-Person Syndrome, Myasthenia Gravis, Chronic Inflammatory Demyelinating Polyradiculoneuropathy, Idiopathic Inflammatory Myopathies, Autoimmune Diseases",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 50000
+        },
+        "IDestudio": "NCT06502015"
+    },
+    {
+        "Title": "The Effectiveness and Safety of Human Lumbar Puncture Assist Device (LPat)",
+        "Summary": "Human lumbar puncture assist device invented to improve success rate. Need done fluoroscopy need obtain none traumatic tap better csf analysis.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Meningitis, Encephalitis, Guillain-Barr\u00e9, Subarachnoid Hemorrhage, Intracranial Neoplasm, Intracranial CNS Disorder",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 5
+        },
+        "IDestudio": "NCT03710278"
+    },
+    {
+        "Title": "Neurology Inpatient Clinical Education Trial",
+        "Summary": "The study compared effectiveness of a personalized patient education program to current hospital education. The study also evaluated impact using patient satisfaction scores.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Myasthenia Gravis, Guillain-Barre Syndrome, Multiple Sclerosis, Seizures, Parkinsonism, Meningitis, Encephalitis, Headache, Vestibular Disorder, Spondylosis, Normal Pressure Hydrocephalus",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 50
+        },
+        "IDestudio": "NCT03826056"
+    },
+    {
+        "Title": "Phase III Clinical Trial of NPB-01 in Patients With Guillain-Barr\u00e9 Syndrome",
+        "Summary": "S syndrome confirmed based diagnostic criteria syndrome patients meet inclusion criteria conflict exclusion criteria receive intravenous immunoglobulin five consecutive days patients evaluate functional arm et al safety endpoint safety investigated occurrence adverse events start study treatment. patients diagnosed syndrome confirmed",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Japan",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Guillain-Barr\u00e9 Syndrome",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 22
+        },
+        "IDestudio": "NCT02221271"
+    },
+    {
+        "Title": "Regional Citrate Anticoagulation in Plasma Exchange Treatment",
+        "Summary": "Investigators want to compare efficacy plasma exchange treatment using two different citrates 4 15 anticoagulants. They hope to find out if the treatment works better using 15 trisodium citrate.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Slovenia",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Focal Segmental Glomerulosclerosis, Guillain-Barre Syndrome",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 140
+        },
+        "IDestudio": "NCT01370200"
+    },
+    {
+        "Title": "Intravenous Immunoglobulin (IVIG) Versus Plasma Exchange (PE) for Ventilated Children With Guillain Barre Syndrome (GBS)",
+        "Summary": " intravenous immune globulin plasma exchange superior treating mechanically ventilated children guillain barre syndrome.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Egypt",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Guillain Barre Syndrome",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 41
+        },
+        "IDestudio": "NCT01306578"
+    },
+    {
+        "Title": "PatientSpot Formerly Known as ArthritisPower",
+        "Summary": " patient power patient research network database registry collect prospective information demographics diagnoses medications willingness participate research participants rheumatoid arthritis ra spondyloarthritis spa musculoskeletal conditions chronic neurological conditions like migraine.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Rheumatoid Arthritis, Ankylosing Spondylitis, Fibromyalgia, Gout, Crohn Disease, Juvenile Idiopathic Arthritis, Lupus Erythematosus, Myositis, Osteoarthritis, Osteoporosis, Psoriasis, Psoriatic Arthritis, Scleroderma, Dermatomyositis, Inflammatory Bowel Diseases, Polymyositis, Axial Spondyloarthritis, Diffuse Idiopathic Skeletal Hyperostosis, Polymyalgia Rheumatica, Giant Cell Arteritis, Temporal Arteritis, Wegener, Relapsing Polychondritis, Undifferentiated Connective Tissue Disease, Spinal Cord Injuries, Alzheimer Disease, Amyotrophic Lateral Sclerosis, Ataxia, Bell Palsy, Brain Tumor, Cerebral Aneurysm, Epilepsy, Guillain-Barre Syndrome, Headache, Head Injury, Hydrocephalus, Lumbar Disc Disease, Meningitis, Multiple Sclerosis, Muscular Dystrophy, Neurocutaneous Syndromes, Parkinson Disease, Stroke, Cluster Headache, Tension-Type Headache, Chronic Obstructive Pulmonary Disease, Asthma, Lung Cancer, Cystic Fibrosis, Sleep Apnea, Eczema, Alopecia, Chronic Inflammation, Unstable Angina, Heart Attack, Heart Failure, Arrythmia, Valve Heart Disease, High Blood Pressure, Congenital Heart Disease, Peripheral Arterial Disease, Diabetes, Chronic Liver Disease, Obesity",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 40000
+        },
+        "IDestudio": "NCT03840928"
+    },
+    {
+        "Title": "A Clinical Trial of CK0801 (a New Drug) In Patients With Treatment-Resistant Guillain-Barre\u0301 Syndrome (GBS)",
+        "Summary": "Gbs researchers want to determine highest possible dose safe given. They also want to learn ck0801 may improve symptoms.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "",
+        "OverallStatus": "WITHDRAWN",
+        "Conditions": "Guillain-Barr\u00e9 Syndrome",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 0
+        },
+        "IDestudio": "NCT03773328"
+    },
+    {
+        "Title": "Mini-pool Intravenous Immunoglobulin (MP-IVIG) in Guillain-Barr\u00e9 Syndrome",
+        "Summary": "Ef\ufb01cacy intravenous immunoglobulin ivig hastening recovery reducing complications syndrome gbs tolerated presented safety issues previous study confirmed monitoring adverse events.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Guillain-Barre Syndrome",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 50
+        },
+        "IDestudio": "NCT04550611"
+    },
+    {
+        "Title": "RehabGBs: Rehabilitation in People With Guillain-Barr\u00e9 Syndrome",
+        "Summary": "R. syndrome gbs neurological disease characterized inflammation peripheral nerves might responsible disability respiratory muscle weakness complication gbs might responsible respiratory symptoms inadequate secretion clearance hypoventilation negative impact daily life.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Portugal",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Guillain-Barr\u00e9 Syndrome",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 74
+        },
+        "IDestudio": "NCT05461898"
+    },
+    {
+        "Title": "Randomized Study of Plasmapheresis or Human Immunoglobulin Infusion in Childhood Guillain-Barre Syndrome",
+        "Summary": "Plasmapheresis human immunoglobulin infusion minimizing morbidity augmenting pace recovery children syndrome.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "",
+        "OverallStatus": "TERMINATED",
+        "Conditions": "Guillain-Barre Syndrome",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 170
+        },
+        "IDestudio": "NCT00004833"
+    },
+    {
+        "Title": "Safety Study of GBS Following Menactra Meningococcal Vaccination",
+        "Summary": "Study requested cdc fda unexpected number case reports cdc vaccine adverse event reporting system vaers study protocol designed investigators input fda. conducting large study assess risk syndrome gbs serious demyelinating disease following immunization tetraval",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Guillain-Barre Syndrome",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 6000000
+        },
+        "IDestudio": "NCT00575653"
+    },
+    {
+        "Title": "Upper Limb Robot-Assisted Therapy in Patients with Guillain-Barr\u00e9 Syndrome",
+        "Summary": "Polyradiculoneuropathy around new cases reported worldwide annually aim randomized controlled trial sham control group evaluate effects therapy integrated conventional therapy upper limb motor recovery patients gbs.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Italy",
+        "OverallStatus": "NOT_YET_RECRUITING",
+        "Conditions": "Guillain Barr\u00e9 Syndrome",
+        "Phases": [
+            "PHASE4"
+        ],
+        "#pacients": {
+            "count": 62
+        },
+        "IDestudio": "NCT06620198"
+    },
+    {
+        "Title": "Predictors and Prognostic Factors of Gullian Barrie Syndrome Outcome",
+        "Summary": "Study aims identify clinical biological determinants factors predict outcome including primary outcome percentage changes clinical scales 3 months secondary outcome depending neurophysiologiacal studies.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Egypt",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Guillain-Barre Syndrome",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 62
+        },
+        "IDestudio": "NCT04927598"
+    },
+    {
+        "Title": "sCD163 as a Potential Biomarker in Guillain- Barr\u00e9 Syndrome",
+        "Summary": "Barr\u00e9 syndrome gbs acute inflammatory demyelinating polyneuropathy aidp often triggered infection gbs characterized progressing weakness numbness loss tendon reflexes also include tingling sensation legs arms symptoms occur due autoimmune attack myelin",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Denmark",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Guillain-Barre Syndrome",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 60
+        },
+        "IDestudio": "NCT02582853"
+    },
+    {
+        "Title": "Predictive Value of Neuromuscular Ultrasound of Cranial Nerves in Guillain-Barr\u00e9 Syndrome",
+        "Summary": "1 sensitivity specificity cranial neuromuscular us detect prognosis guillain barre syndrome 2 correlation us values motor respiratory autonomic complications Guillain Barre Syndrome.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "",
+        "OverallStatus": "NOT_YET_RECRUITING",
+        "Conditions": "Guillain-Barre Syndrome",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 102
+        },
+        "IDestudio": "NCT06200454"
+    },
+    {
+        "Title": "Early and Late Prognosis in Patients With Guillain-Barre Syndrome",
+        "Summary": "Goal of observational study is to explore significant indicators predict early prognosis late prognosis patients syndrome. goal observational study exploresignificant indicators predictearly prognosis later prognosis. goal is to identify significant indicators.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "China",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Guillain-Barre Syndrome",
+        "Phases": [
+            "PHASE4"
+        ],
+        "#pacients": {
+            "count": 450
+        },
+        "IDestudio": "NCT06041451"
+    }
+]

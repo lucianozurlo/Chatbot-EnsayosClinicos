@@ -1,0 +1,864 @@
+[
+    {
+        "Title": "Effectiveness of 5-week Digital Respiratory Practice in a Group of Children With Duchenne Muscular Dystrophy and Becker Muscular Dystrophy.",
+        "Summary": " purpose study analyze effectiveness of respiratory digital intervention program. patients duchenne muscular dystrophy becker muscular dystrophies.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Spain",
+        "OverallStatus": "NOT_YET_RECRUITING",
+        "Conditions": "Duchenne Muscular Dystrophy, Becker Muscular Dystrophy, Muscular Dystrophy",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 12
+        },
+        "IDestudio": "NCT06363526"
+    },
+    {
+        "Title": "Fast Troponin as a Biomarker to Assess Exercise-induced Muscle Damage in Muscle Diseases",
+        "Summary": " purpose study explore biomarker fast troponins response exercise patients with muscular dystrophy and cardle disease.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Denmark",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Becker Muscular Dystrophy, McArdle Disease, Limb-Girdle Muscular Dystrophy Type 2",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 36
+        },
+        "IDestudio": "NCT04349566"
+    },
+    {
+        "Title": "Follow-up Study on Female Carriers With DMD Gene Variants",
+        "Summary": "Study contains three parts part 1 53 genetically verified female carriers pathogenic dmd variants initially investigated copenhagen neuromuscular center rigshospitalet ethical journal part 53 females investigated measurements 6 years ago describe progression symptoms results study compared results 6",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Denmark",
+        "OverallStatus": "NOT_YET_RECRUITING",
+        "Conditions": "Muscular Dystrophy, Duchenne Muscular Dystrophy, Becker Muscular Dystrophy",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 103
+        },
+        "IDestudio": "NCT05715957"
+    },
+    {
+        "Title": "Defining Endpoints in Becker Muscular Dystrophy",
+        "Summary": " observational study 50 participants becker muscular dystrophy bmd. 50 participants participated in the study. The study was conducted by the University of California, Los Angeles.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "New Zealand, United States, United Kingdom",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Becker Muscular Dystrophy, Muscular Dystrophies, Muscular Dystrophy in Children, Muscular Dystrophy, Becker",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 80
+        },
+        "IDestudio": "NCT05257473"
+    },
+    {
+        "Title": "(-)- Epicatechin Becker Muscular Dystrophy",
+        "Summary": "Study enrolled 30 individuals. Participants receive purified nutritional extract orally 8 weeks. Participants meet inclusion criteria evaluated screening baseline.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 2
+        },
+        "IDestudio": "NCT03236662"
+    },
+    {
+        "Title": "Cardiac Involvement in Patients With Duchenne/Becker Muscular Dystrophy",
+        "Summary": "Study evaluates function heart young patients muscular dystrophy type duchenne becker participants hearts examined regular intervals.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Switzerland",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Duchenne / Becker Muscular Dystrophy",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 40
+        },
+        "IDestudio": "NCT02470962"
+    },
+    {
+        "Title": "Cardiac Magnetic Resonance in Children With Muscular Dystrophy",
+        "Summary": "Cardiovascular magnetic resonance techniques examine important changes heart children muscular dystrophy purpose study compare cardiac magnetic resonance cmr collected cardiac outcome data obtained.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Duchenne Muscular Dystrophy, Becker Muscular Dystrophy, Limb Girdle Muscular Dystrophy",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 20
+        },
+        "IDestudio": "NCT01081080"
+    },
+    {
+        "Title": "L-citrulline and Metformin in Becker's Muscular Dystrophy",
+        "Summary": " purpose study compare effects metformin combination therapy muscle function force patients becker muscular dystrophy bmd.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Switzerland",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Becker's Muscular Dystrophy (BMD)",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 20
+        },
+        "IDestudio": "NCT02018731"
+    },
+    {
+        "Title": "IRM Cardiaque en Respiration Libre Pour Des Patients Atteints de Dystrophinopathie s\u00e9v\u00e8re",
+        "Summary": " clinical prospective monocentric study aiming assessing feasibility fibrosis detection quantification function assessment mri without population adults children duchenne myopathy.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Duchenne or Severe Becker Myopathy",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 22
+        },
+        "IDestudio": "NCT02078076"
+    },
+    {
+        "Title": "Study of Ataluren (PTC124) in Nonambulatory Participants With Nonsense-Mutation-Mediated Duchenne/Becker Muscular Dystrophy (nmDMD/BMD)",
+        "Summary": " muscular dystrophy genetic disorder develops boys caused mutation gene dystrophin protein important maintaining normal muscle structure function loss. dyStrophin causes muscle fragility leads weakness loss walking ability childhood teenage years.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States, United Kingdom",
+        "OverallStatus": "TERMINATED",
+        "Conditions": "Duchenne Muscular Dystrophy, Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 6
+        },
+        "IDestudio": "NCT01009294"
+    },
+    {
+        "Title": "Safety Study of Transvenous Limb Perfusion in Human Muscular Dystrophy",
+        "Summary": " muscular dystrophies inherited disorders skeletal heart muscles become progressively weaker sometimes leading permanent disability. Current treatments aim control symptoms much possible cure. gene therapy defective genes causing disorder corrected potential treatment option.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Muscular Dystrophies, Duchenne Muscular Dystrophy, Becker Muscular Dystrophy, Limb-Girdle Muscular Dystrophy",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 16
+        },
+        "IDestudio": "NCT00873782"
+    },
+    {
+        "Title": "Applying the Pathways and Resources for Engagement and Participation Protocol Among People With Muscles Dystrophies",
+        "Summary": " participation prep intervention designed help remove barriers environment. taking part community activities essential health yet highly restricted young people duchenne becker muscular dystrophies dbmd especially grow adulthood.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "",
+        "OverallStatus": "NOT_YET_RECRUITING",
+        "Conditions": "Duchenne Muscular Dystrophy, Becker Muscular Dystrophy",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 6
+        },
+        "IDestudio": "NCT06540365"
+    },
+    {
+        "Title": "Gentamicin Treatment of Muscular Dystrophy",
+        "Summary": "Study evaluate antibiotic gentamicin treating patients muscular dystrophy caused specific genetic abnormality known as nonsense mutation. Study starting treatment patients evaluations muscle strength general well two muscle tissue samples taken needle biopsy.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Becker Muscular Dystrophy, Duchenne Muscular Dystrophy",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 4
+        },
+        "IDestudio": "NCT00005574"
+    },
+    {
+        "Title": "Effects of Sodium Nitrate on Blood Flow in Becker Muscular Dystrophy",
+        "Summary": "Study intended build growing body literature showing blood flow abnormality patients becker muscular dystrophy investigators laboratory recently showed blood Flow abnormality could corrected single oral dose drug tadalafil also known cialis.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE2",
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 19
+        },
+        "IDestudio": "NCT02147639"
+    },
+    {
+        "Title": "Biomarker Development for Muscular Dystrophies",
+        "Summary": " muscular dystrophies involve examination small pieces muscle tissue called biopsies investigators interested finding less invasive methods reduce need muscle biopsie. muscular dyStrophies examining urine sample blood sample muscles arms legs.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Myotonic Dystrophy, Duchenne Muscular Dystrophy, Becker Muscular Dystrophy, Facioscapulohumeral Muscular Dystrophy",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 465
+        },
+        "IDestudio": "NCT05019625"
+    },
+    {
+        "Title": "Muscle MRI in Becker Muscular Dystrophy and in Limb-girdle Muscular Dystrophy Type 2I",
+        "Summary": "Study investigate paradoxical muscle enlargement calves tongue seen patients affected by becker muscular dystrophy. Study also want describe tongue muscle appearance.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Denmark",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Becker Muscular Dystrophy, Limb-Girdle Muscular Dystrophy Type 2I",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 38
+        },
+        "IDestudio": "NCT02165358"
+    },
+    {
+        "Title": "Clinical Study to Evaluate the Efficacy and Safety of Givinostat in Ambulant Patients With Becker Muscular Dystrophy",
+        "Summary": "Givinostat was used in a clinical trial to investigate the histological effects of the drug. The primary objective was to establish the effects on the muscle. The secondary objectives were to establish efficacy and safety.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Netherlands, Italy",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 51
+        },
+        "IDestudio": "NCT03238235"
+    },
+    {
+        "Title": "Sodium Nitrate for Muscular Dystrophy",
+        "Summary": "M mice treated inorganic nitric oxide donor purpose study determine chronic treatment inorganic donor benefit patients muscular dystrophy beyond blood flow regulation. investigators previous work males becker muscular dystrophinopathy shows functional sympatholysis restored acute",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 5
+        },
+        "IDestudio": "NCT02434627"
+    },
+    {
+        "Title": "Open-Label Extension of EDG-5506 in Participants with Becker Muscular Dystrophy",
+        "Summary": "Mesa extension study assess effect sevasemten safety biomarkers functional measures adults adolescents becker muscular dystrophy.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Netherlands, United States, United Kingdom",
+        "OverallStatus": "ENROLLING_BY_INVITATION",
+        "Conditions": "Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 200
+        },
+        "IDestudio": "NCT06066580"
+    },
+    {
+        "Title": "Characterization of Clinical Skeletal and Cardiac Impairment in Carriers of DMD and BMD",
+        "Summary": " longitudinal prospective observational study study. possibility extending data time points initially baseline 12 24 months follow studies completed.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "ACTIVE_NOT_RECRUITING",
+        "Conditions": "Duchenne Muscular Dystrophy, Becker Muscular Dystrophy",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 250
+        },
+        "IDestudio": "NCT02972580"
+    },
+    {
+        "Title": "CureDuchenne Link\u00ae: A Resource for Research",
+        "Summary": "Cureduchenne link data hub comprised integrated biospecimens clinical data information. Anyone 4 weeks old diagnosed dmd bmd carrier dmdbmd join parents legal guardians sign child ren.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Duchenne Muscular Dystrophy, Becker Muscular Dystrophy",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 5000
+        },
+        "IDestudio": "NCT04972604"
+    },
+    {
+        "Title": "CRD007 for the Treatment of Duchenne Muscular Dystrophy, Becker Muscular Dystrophy and Symptomatic Carriers",
+        "Summary": " investigation efficacy safety crd007 duchenne muscular dystrophy dmd becker muscular Dystrophy bmd symptomatic carriers.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Sweden",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Duchenne Muscular Dystrophy, Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": "N/A",
+        "IDestudio": "NCT01540604"
+    },
+    {
+        "Title": "Effectiveness of a Multimodal Physiotherapy Program With Virtual Reality Glasses in Duchenne and Becker.",
+        "Summary": "Duchenne muscular dystrophy is a serious progressive disease. It affects 1 males born alive. It is the most common form of muscular dystonia.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Spain",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Muscular Dystrophy, Duchenne and Becker Types",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 12
+        },
+        "IDestudio": "NCT03879304"
+    },
+    {
+        "Title": "Phase 2 Study of EDG-5506 in Becker Muscular Dystrophy (GRAND CANYON)",
+        "Summary": "Grand canyon study expanded to include additional 120 adult participants. Grand canyon multicenter randomized study evaluate safety efficacy.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Denmark, France, Germany, New Zealand, Israel, Italy, Netherlands, Australia, Belgium, Spain, United States, United Kingdom",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 170
+        },
+        "IDestudio": "NCT05291091"
+    },
+    {
+        "Title": "Safety and Biomarker Response to (+)-Epicatechin in Becker Muscular Dystrophy",
+        "Summary": " phase 1 dose escalation study aimed evaluating safety early efficacy potential biomarkers patients becker muscular dystrophy bmd.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 22
+        },
+        "IDestudio": "NCT04386304"
+    },
+    {
+        "Title": "Molecular Analysis of Patients With Neuromuscular Disease",
+        "Summary": "The study aims to identify new genes responsible for neuromuscular disorders. The aim is to unravel the basis for the disease using molecular genetics. The study also hopes to identify potential therapies.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Neuromuscular; Disorder, Hereditary, Duchenne/Becker Muscular Dystrophy, Limb-girdle Muscular Dystrophy",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 1000
+        },
+        "IDestudio": "NCT00390104"
+    },
+    {
+        "Title": "Brain Involvement in Dystrophinopathies Part 1",
+        "Summary": "The study looked at the neurobehavioural aspects of people with dmd gene mutations. It also looked at correlation between gene mutations and behavioural outcomes.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Denmark, France, Netherlands, Italy, Spain, United Kingdom",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Duchenne Muscular Dystrophy, Becker Muscular Dystrophy",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 377
+        },
+        "IDestudio": "NCT04583917"
+    },
+    {
+        "Title": "User-centred Assistive System for Arm Functions in Neuromuscular Subjects",
+        "Summary": "Neuromuscular evolutive diseases patient point view improvement measured regaining lost abilities able something could yesterday upper limb pain stiffness activity limitations crucial role reducing patients autonomy worsening quality life real users needs identified thought several workshops even commercial products might",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Italy",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Muscular Dystrophies, Muscular Dystrophy, Duchenne, Muscular Dystrophy, Becker, Muscular Dystrophy, Limb-Girdle Type 2",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 38
+        },
+        "IDestudio": "NCT03127241"
+    },
+    {
+        "Title": "Evaluation of Limb-Girdle Muscular Dystrophy",
+        "Summary": "The study was conducted by the neuromuscular research group cinrg. It involved strength testing muscle functional testing physical therapist evaluation physician pulmonary function testing complete cardiac evaluation electrocardiogram.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Becker Muscular Dystrophy, Limb-Girdle Muscular Dystrophy, Type 2A (Calpain-3 Deficiency), Limb-Girdle Muscular Dystrophy, Type 2B (Miyoshi Myopathy, Dysferlin Deficiency), Limb-Girdle Muscular Dystrophy, Type 2I (FKRP-deficiency)",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 60
+        },
+        "IDestudio": "NCT00893334"
+    },
+    {
+        "Title": "Evaluation of Muscle miRNA as Biomarkers in Dystrophinopathies",
+        "Summary": "Duchenne muscular dystrophy dmd caused mutations dmd gene common severe progressive dystrophinopathy child although development rapidly progressive variability severity disease. dmd patients correlate type mutations dMD gene easily measurable biomarkers monitoring",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Muscular Dystrophies, Becker Muscular Dystrophy, Duchenne Muscular Dystrophy",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 186
+        },
+        "IDestudio": "NCT02109692"
+    },
+    {
+        "Title": "Use of (-)-Epicatechin in the Treatment of Becker Muscular Dystrophy (Pilot Study)",
+        "Summary": "Progressive muscle loss impaired skeletal muscle function becker muscular dystrophy bmd patients. evaluated treatment.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE1",
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 7
+        },
+        "IDestudio": "NCT01856868"
+    },
+    {
+        "Title": "Development of Non-Invasive Prenatal Diagnosis for Single Gene Disorders",
+        "Summary": "Maternal blood early first trimester gestation makes 5 total circulating dna cfdna maternal plasma presence maternal plasma allowed development noninvasive prenatal diagnosis disorders performed 9 weeks amenorrhea offers early safe accurate definitive diagnosis without miscarriage risk associated invasive",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "France",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Invasive PreNatal Diagnosis in a Context of Family History of Single-gene Disorders, Including, Sickle Cell Disease, Cystic Fibrosis, Fragile X Syndrome, Proximal Spinal Muscular Atrophy, Myotonic Dystrophy, Muscular Dystrophy, Duchenne, Muscular Dystrophy, Becker, Neurofibromatosis-Noonan Syndrome, Huntington Disease, Hemophilia a, Hemophilia B, MODY2 Diabetes, X-Linked Hydrocephalus, Autosomal Recessive Polycystic Kidney Disease",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 550
+        },
+        "IDestudio": "NCT06147414"
+    },
+    {
+        "Title": "Becker Muscular Dystrophy - A Natural History Study to Predict Efficacy of Exon Skipping",
+        "Summary": "The study was conducted by a cooperative international neuromuscular research group cinrg. The goal of the study was to characterize the becker muscular dystrophy phenotype.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Italy, Canada, United States, United Kingdom",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Becker Muscular Dystrophy",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 85
+        },
+        "IDestudio": "NCT01539772"
+    },
+    {
+        "Title": "Follistatin Gene Transfer to Patients With Becker Muscular Dystrophy and Sporadic Inclusion Body Myositis",
+        "Summary": "Researchers performing gene therapy clinical trial becker muscular dystrophy bmd sporadic inclusion body myositis sibm patients conditions important common feature loss ability walk weakness thigh muscles. Investigators plan gene therapy trial deliver gene muscle called follistatin",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Becker Muscular Dystrophy, Sporadic Inclusion Body Myositis",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 15
+        },
+        "IDestudio": "NCT01519349"
+    },
+    {
+        "Title": "Brain Involvement in Dystrophinopathies Part 2",
+        "Summary": "The study aimed to understand relationship dmd bmd brain comorbidities location gene mutation causes disease.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "Denmark, France, Netherlands, Italy, Spain, United Kingdom",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Duchenne Muscular Dystrophy, Becker Muscular Dystrophy",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 339
+        },
+        "IDestudio": "NCT04668716"
+    },
+    {
+        "Title": "Placebo-Corrected Effects of Therapeutic Dose (100 mg) and Supratherapeutic Dose (300 mg) of ITF2357 (Givinostat) and Moxifloxacin on QT/QTC Interval",
+        "Summary": "Study evaluate effect of therapeutic dose supratherapeutic dose itf2357 interval.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Canada",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Duchenne and Becker Muscular Dystrophy, Polycytemia Vera",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 31
+        },
+        "IDestudio": "NCT04821063"
+    },
+    {
+        "Title": "Revatio for Heart Disease in Duchenne Muscular Dystrophy and Becker Muscular Dystrophy",
+        "Summary": " revatio blocks enzyme called phosphodiesterase 5 pde5 helps restore normal amounts cyclic gmp. Study drug contains medication improves heart function people duchenne muscular dystrophy.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "TERMINATED",
+        "Conditions": "Duchenne Muscular Dystrophy, Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 20
+        },
+        "IDestudio": "NCT01168908"
+    },
+    {
+        "Title": "Effectiveness of Aquatic Therapy in Children With Duchenne and Becker Muscular Dystrophy",
+        "Summary": "Children with Duchenne becker muscular dystrophy may benefit from aquatic therapy applied to physical therapy. The study will evaluate effects of aquatic therapy on children with muscular dystroke.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Turkey",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Duchenne or Becker Muscular Dystrophy",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 16
+        },
+        "IDestudio": "NCT06186310"
+    },
+    {
+        "Title": "Phase 2B Extension Study of Ataluren (PTC124) in Duchenne/Becker Muscular Dystrophy (DMD/BMD)",
+        "Summary": " muscular dystrophy genetic disorder develops boys caused mutation gene dystrophin protein important maintaining normal muscle structure function loss. dyStrophin causes muscle fragility leads weakness loss walking ability childhood teenage years.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France, Germany, Sweden, Israel, Italy, Australia, Belgium, Canada, Spain, United States, United Kingdom",
+        "OverallStatus": "TERMINATED",
+        "Conditions": "Duchenne Muscular Dystrophy, Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 173
+        },
+        "IDestudio": "NCT00847379"
+    },
+    {
+        "Title": "Cardiac Outcome Measures in Children With Muscular Dystrophy",
+        "Summary": " purpose research study evaluate different cardiac measures obtained echocardiographic tests patients muscular dystrophy.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Duchenne Muscular Dystrophy, Becker Muscular Dystrophy, Limb Girdle Muscular Dystrophy",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 48
+        },
+        "IDestudio": "NCT01066455"
+    },
+    {
+        "Title": "Safety, Tolerability and Effects of L-Arginine in Boys With Dystrophinopathy on Corticosteroids",
+        "Summary": " boys dystrophinopathy corticosteroids specifically see reduces muscle signal abnormalities mri done pre post 30 days administration. purpose study assess safety tolerability effects muscles.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Dystrophinopathy, Duchenne Muscular Dystrophy, Becker's Muscular Dystrophy",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 7
+        },
+        "IDestudio": "NCT01388764"
+    },
+    {
+        "Title": "Derivation of Human Induced Pluripotent Stem (iPS) Cells to Heritable Cardiac Arrhythmias",
+        "Summary": "Hipscs driven paradigm shift modeling human disease ability reprogram cells holds promise enhanced understanding disease mechanisms. personalized predictive cell therapy regenerative medicine research.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "ENROLLING_BY_INVITATION",
+        "Conditions": "Inherited Cardiac Arrythmias, Long QT Syndrome (LQTS), Brugada Syndrome (BrS), Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT), Early Repolarization Syndrome (ERS), Arrhythmogenic Cardiomyopathy (AC, ARVD/C), Hypertrophic Cardiomyopathy (HCM), Dilated Cardiomyopathy (DCM), Muscular Dystrophies (Duchenne, Becker, Myotonic Dystrophy), Normal Control Subjects",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 100
+        },
+        "IDestudio": "NCT02413450"
+    },
+    {
+        "Title": "UTSW HP [13-C] Pyruvate Injection in HCM",
+        "Summary": "Study objective identify earliest changes energy substrate metabolism patients cardiomyopathies cmp achieve objective plan first test hypothesis patients cmp present focal alterations.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Cardiomyopathy, Hypertrophic, Dilated Cardiomyopathy, Duchenne Muscular Dystrophy, Cardiac Sarcoidosis, Becker Muscular Dystrophy, Heart Failure With Preserved Ejection Fraction, Heart Failure With Reduced Ejection Fraction",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 128
+        },
+        "IDestudio": "NCT03057002"
+    },
+    {
+        "Title": "A Study to Assess Safety, Tolerability, and PK of EDG-5506 in Healthy Volunteers and Becker Muscular Dystrophy Adults",
+        "Summary": " investigational product intended to protect improve function dystrophic muscle fibers phase 1 study assess safety tolerability pharmacokinetics pk adult healthy volunteers adults becker muscular dystrophy bmd.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Healthy Volunteer, Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 127
+        },
+        "IDestudio": "NCT04585464"
+    },
+    {
+        "Title": "Rehabilitation in Muscular Dystrophies From the Hospital Facility to the Home: Pilot Project [RIMUDI]",
+        "Summary": "Twenty years ago physical exercise muscular dystrophies considered harmful muscle cells inducing acceleration cell necrosis fact certain validated active lifestyle practice controlled regular physical activity considered therapeutic.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Italy",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Muscular Dystrophies, Limb Girdle Muscular Dystrophy, Facio-Scapulo-Humeral Dystrophy, Becker Muscular Dystrophy",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 10
+        },
+        "IDestudio": "NCT06378203"
+    },
+    {
+        "Title": "Schulze Muscular Dystrophy Ability Clinical Study",
+        "Summary": " schulze study evaluate function upper limbs subjects diagnosed neuromuscular disorders without use abilitech assist device clinic home environments functional outcomes include documenting active range motion ability.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Muscular Dystrophies, Spinal Muscular Atrophy, Duchenne Muscular Dystrophy, Limb Girdle Muscular Dystrophy, FSHD, Cerebral Palsy, Becker Muscular Dystrophy",
+        "Phases": [
+            "NA"
+        ],
+        "#pacients": {
+            "count": 35
+        },
+        "IDestudio": "NCT05409079"
+    },
+    {
+        "Title": "Disgust and Shame Based Safe Water and Handwashing Promotion",
+        "Summary": "Large scale interventions promoting behaviours either rigorously tested produced sufficient change warrant rolled scale research determinants hand washing behaviour identified disgust shame key motivators evidence supports theory disgust natural behavioural reaction objects carrying disease risk thus may act key motivator health related behaviours",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Bangladesh",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Develop a New Group Version of the Becker-DeGroot-Marsckek (BDM) Auction to Measure Willingness to Pay of Compound Members for Shared Hardware., Develop a New Survey Instrument to Measure Behavioural Determinants of Hand Washing and Water Treatment Like Disgust and Shame or Social Pressure., Identify New Methods for Measuring Hand Washing and Water Treatment Behaviour., Compare the Effectiveness of the Disgust and Shame Based Interventions With Standard Public Health Interventions.",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 420
+        },
+        "IDestudio": "NCT02037243"
+    },
+    {
+        "Title": "A Study of EDG-5506 in Adult Males With Becker Muscular Dystrophy",
+        "Summary": "Sevasemtem is an investigational product intended to protect improve function dystrophic muscle fibers. It is being tested on adults with muscular dystrophy.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 12
+        },
+        "IDestudio": "NCT05160415"
+    },
+    {
+        "Title": "Study of Ataluren for Previously Treated Participants With Nonsense Mutation Duchenne/Becker Muscular Dystrophy (nmDBMD) in Europe, Israel, Australia, and Canada",
+        "Summary": " muscular dystrophy dbmd genetic disorder develops boys caused mutation gene dystrophin protein important maintaining normal muscle structure function loss. dystrophicin causes muscle fragility leads weakness loss walking ability.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France, Germany, Sweden, Israel, Italy, Australia, Belgium, Canada, Spain, United Kingdom",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Duchenne Muscular Dystrophy, Becker Muscular Dystrophy, Dystrophinopathy",
+        "Phases": [
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 94
+        },
+        "IDestudio": "NCT01557400"
+    },
+    {
+        "Title": "Weekly Steroids in Muscular Dystrophy",
+        "Summary": "Study evaluated safety efficacy oral weekly glucocorticoid steroids in patients with becker muscular dystrophy bmd inherited disorder. Patients experience progressive muscular weakness predominately hip shoulders.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Limb-girdle Muscular Dystrophy, Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 20
+        },
+        "IDestudio": "NCT04054375"
+    },
+    {
+        "Title": "Sodium Nitrate to Improve Blood Flow",
+        "Summary": " tadalafil restores functional sympatholysis patients becker muscular dystrophy bmd via guanosine monophosphate pathway. Researchers also restored sodium indirect nitric oxide donor.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE1"
+        ],
+        "#pacients": {
+            "count": 11
+        },
+        "IDestudio": "NCT02847975"
+    },
+    {
+        "Title": "Study Evaluating MYO-029 in Adult Muscular Dystrophy",
+        "Summary": " purpose phase multicenter safety trial study adult patients muscular dystrophy. Adult patients with muscular dystrophies will be included in the study.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Becker Muscular Dystrophy, Facioscapulohumeral Muscular Dystrophy, Limb-Girdle Muscular Dystrophy",
+        "Phases": [
+            "PHASE1",
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 108
+        },
+        "IDestudio": "NCT00104078"
+    },
+    {
+        "Title": "Magnetic Resonance Imaging and Biomarkers for Muscular Dystrophy",
+        "Summary": " muscular dystrophy md investigators compare muscles ambulatory dmd muscles healthy individuals age monitor disease progression dmd year period amount muscle damage fat investigators measure also related performance daily activities walking loss muscle strength small group subjects.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Duchenne Muscular Dystrophy, Becker Muscular Dystrophy",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 550
+        },
+        "IDestudio": "NCT01484678"
+    },
+    {
+        "Title": "A Study to Assess Vamorolone in Becker Muscular Dystrophy (BMD)",
+        "Summary": " vamorolone 500mg 250mg body weight 50 kg daily administered orally compared placebo treatment period 24 weeks males. phase ii pilot study randomized study evaluate safety tolerability.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Italy, United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 39
+        },
+        "IDestudio": "NCT05166109"
+    },
+    {
+        "Title": "The Duchenne Registry",
+        "Summary": " duchenne registry online registry individuals duchene becker muscular dystrophy carrier females purpose registry connect. Patients actively recruiting clinical trials research studies educate patients.",
+        "StudyType": "OBSERVATIONAL",
+        "Countries": "United States",
+        "OverallStatus": "RECRUITING",
+        "Conditions": "Duchenne Muscular Dystrophy, Becker Muscular Dystrophy",
+        "Phases": "N/A",
+        "#pacients": {
+            "count": 10000
+        },
+        "IDestudio": "NCT02069756"
+    },
+    {
+        "Title": "Tadalafil in Becker Muscular Dystrophy",
+        "Summary": "Two doses tadalafil improved muscle blood flow allowing dystrophic mice perform exercise less muscle injury new clinical trial move testing animals human patients.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE4"
+        ],
+        "#pacients": {
+            "count": 48
+        },
+        "IDestudio": "NCT01070511"
+    },
+    {
+        "Title": "Ramipril Versus Carvedilol in Duchenne and Becker Patients",
+        "Summary": "Study aim compare efficacy carvedilol vs ramipril myocardial tissue properties heart function. data preventive therapy duchenne muscular dystrophy dmd becker muscular dystrophies.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Italy",
+        "OverallStatus": "UNKNOWN",
+        "Conditions": "Duchenne Muscular Dystrophy, Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE4"
+        ],
+        "#pacients": {
+            "count": 194
+        },
+        "IDestudio": "NCT00819845"
+    },
+    {
+        "Title": "Effect of Modulating the nNOS System on Cardiac, Muscular and Cognitive Function in Becker Muscular Dystrophy Patients",
+        "Summary": "Study done evaluate whether treatment drug sildenafil improve muscular cardiac cerebrovascular cognitive function. Study based on recent findings improved cardiac function mouse model muscular dystrophy.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Denmark",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 17
+        },
+        "IDestudio": "NCT01350154"
+    },
+    {
+        "Title": "Clinical Trial of Coenzyme Q10 and Lisinopril in Muscular Dystrophies",
+        "Summary": "Study include 120 participants aged 8 duchenne becker autosomal recessive specifically lgmd 2i muscular dystrophies clinical cardiac symptoms. Participants randomized one four arms arm 1 coq10 alone arm 2 lisinop",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "Canada, Japan, United States",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Duchenne Muscular Dystrophy, Becker Muscular Dystrophy, Limb Girdle Muscular Dystrophy",
+        "Phases": [
+            "PHASE2",
+            "PHASE3"
+        ],
+        "#pacients": {
+            "count": 63
+        },
+        "IDestudio": "NCT01126697"
+    },
+    {
+        "Title": "Phase 2B Study of PTC124 (Ataluren) in Duchenne/Becker Muscular Dystrophy (DMD/BMD)",
+        "Summary": "Ataluren orally delivered investigational drug potential overcome effects nonsense mutation study phase 2b trial evaluate clinical benefit ataluren boys due nonsense mutation. dystrophin causes muscle fragility leads weakness loss walking ability.",
+        "StudyType": "INTERVENTIONAL",
+        "Countries": "France, Germany, Sweden, Israel, Italy, Australia, Belgium, Canada, Spain, United States, United Kingdom",
+        "OverallStatus": "COMPLETED",
+        "Conditions": "Duchenne Muscular Dystrophy, Becker Muscular Dystrophy",
+        "Phases": [
+            "PHASE2"
+        ],
+        "#pacients": {
+            "count": 174
+        },
+        "IDestudio": "NCT00592553"
+    }
+]
