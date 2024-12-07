@@ -608,18 +608,15 @@ translation_cache = {}
 # Crear directorio de caché si no existe
 os.makedirs("cache", exist_ok=True)
 
-# Aplicar estilos personalizados para cambiar la tipografía a Rubik y la paleta de colores
+# Aplicar estilos
 st.markdown("""
     <style>
-    /* Importar Rubik desde Google Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
 
-    /* Aplicar Rubik globalmente */
     html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {
         font-family: 'Rubik', sans-serif !important;
     }
 
-    /* Personalización opcional de botones, entradas y títulos */
     .stButton>button {
         font-family: 'Rubik', sans-serif !important;
         font-size: 16px !important;
@@ -650,7 +647,6 @@ Bienvenido al Chatbot de Ensayos Clínicos.
 Conversemos sobre ensayos clínicos en enfermedades neuromusculares 
 (Distrofia Muscular de Duchenne o Becker, Enfermedad de Pompe, Distrofia Miotónica, etc.).
 """)
-         
 st.write("""
 Escribí tu pregunta, indicando la enfermedad sobre la que quieres información.
 """)
