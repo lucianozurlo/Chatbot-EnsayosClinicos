@@ -608,119 +608,103 @@ translation_cache = {}
 # Crear directorio de caché si no existe
 os.makedirs("cache", exist_ok=True)
 
-# Aplicar estilos personalizados para cambiar la tipografía a Rubik y los colores
+# Aplicar estilos personalizados para cambiar la tipografía a Rubik y la paleta de colores
 st.markdown("""
     <style>
     /* Importar la fuente Rubik desde Google Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
 
-    /* Definir variables de color */
+    /* Definir variables de colores */
     :root {
         --bg-color: #FFFFFF; /* bgColor */
-        --body-text: #6B7280; /* bodyText */
-        --primary: #EF4444; /* primary */
-        --disabled: #9CA3AF; /* disabled */
-        --lightest-gray: #E5E7EB; /* lightestGray */
-        --light-gray: #D1D5DB; /* lightGray */
-        --gray: #4B5563; /* gray */
-        --dark-gray: #374151; /* darkGray */
-        --red: #DC2626; /* red */
-        --blue: #3B82F6; /* blue */
-        --green: #10B981; /* green */
-        --yellow: #F59E0B; /* yellow */
-        --warning: #926C05; /* warning */
-        --warning-bg: rgba(245, 158, 11, 0.1); /* warningBg */
-        --success: #047857; /* success */
-        --success-bg: rgba(16, 185, 129, 0.1); /* successBg */
-        --info: #1E40AF; /* info */
-        --info-bg: rgba(59, 130, 246, 0.1); /* infoBg */
-        --danger: #B91C1C; /* danger */
-        --danger-bg: rgba(220, 38, 38, 0.09); /* dangerBg */
+        --body-text: #262626; /* bodyText (gray85) */
+        --primary: #FF6666; /* primary (red70) */
+        --disabled: #BFBFBF; /* disabled (gray40) */
+        --lightest-gray: #F0F0F0; /* lightestGray (gray20) */
+        --light-gray: #D9D9D9; /* lightGray (gray30) */
+        --gray: #8C8C8C; /* gray (gray60) */
+        --dark-gray: #595959; /* darkGray (gray70) */
+        --red: #FF4D4D; /* red (red80) */
+        --blue: #1A53FF; /* blue (blue80) */
+        --green: #33CC33; /* green (green80) */
+        --yellow: #FFB84D; /* yellow (yellow80) */
+        --warning: #926C05;
+        --warning-bg: rgba(255, 204, 102, 0.1); /* transparentize(colors.yellow70, 0.9) */
+        --success: #00CC00; /* success (green100) */
+        --success-bg: rgba(102, 204, 102, 0.1); /* transparentize(colors.green70, 0.9) */
+        --info: #0033CC; /* info (blue100) */
+        --info-bg: rgba(26, 83, 255, 0.1); /* transparentize(colors.blue70, 0.9) */
+        --danger: #FF0000; /* danger (red100) */
+        --danger-bg: rgba(255, 77, 77, 0.09); /* transparentize(colors.red80, 0.91) */
     }
 
-    /* Aplicar la fuente Rubik a todo el contenido de la aplicación */
-    body, div, span, p, h1, h2, h3, h4, h5, h6, a, button, input, textarea, 
-    .stButton>button, 
-    .stTextInput>div>div>input, 
-    .stChatInput>div>div>textarea, 
-    .stChatMessage>div>div, 
-    .stAlert {
+    /* Aplicar la fuente Rubik y los colores definidos a todo el contenido */
+    body {
         font-family: 'Rubik', sans-serif !important;
+        background-color: var(--bg-color) !important;
+        color: var(--body-text) !important;
     }
 
-    /* Estilo para el fondo */
-    .reportview-container {
-        background-color: var(--bg-color);
+    /* Estilo para los títulos */
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--body-text) !important;
     }
 
-    /* Estilo para el texto principal */
-    .block-container, .stMarkdown {
-        color: var(--body-text);
+    /* Estilo para los párrafos y texto general */
+    p, span, a, li, div {
+        color: var(--body-text) !important;
     }
 
-    /* Estilo para botones primarios */
+    /* Estilo para los botones */
     .stButton>button {
-        background-color: var(--primary);
-        color: #FFFFFF;
+        background-color: var(--primary) !important;
+        color: #FFFFFF !important;
     }
 
     /* Estilo para botones deshabilitados */
     .stButton>button[disabled] {
-        background-color: var(--disabled);
-        color: #FFFFFF;
+        background-color: var(--disabled) !important;
+        color: #FFFFFF !important;
     }
 
-    /* Estilo para inputs y textareas */
+    /* Estilo para entradas de texto */
     .stTextInput>div>div>input, .stChatInput>div>div>textarea {
-        background-color: var(--lightest-gray);
-        color: var(--body-text);
-        border: 1px solid var(--light-gray);
+        background-color: var(--lightest-gray) !important;
+        color: var(--body-text) !important;
     }
 
-    /* Estilo para mensajes del usuario */
-    .stChatMessage-user {
-        background-color: var(--lightest-gray);
-        color: var(--body-text);
-    }
-
-    /* Estilo para mensajes del asistente */
-    .stChatMessage-assistant {
-        background-color: var(--light-gray);
-        color: var(--body-text);
-    }
-
-    /* Estilo para alertas */
-    .stAlert {
-        border-left: 4px solid;
+    /* Estilo para los mensajes del chat */
+    .stChatMessage>div>div {
+        background-color: var(--lightest-gray) !important;
+        color: var(--body-text) !important;
+        border-radius: 10px;
         padding: 10px;
-        margin-bottom: 10px;
     }
 
-    .stAlert-warning {
-        border-color: var(--warning);
-        background-color: var(--warning-bg);
-        color: var(--warning);
+    /* Estilos para alertas */
+    .stAlert {
+        background-color: var(--warning-bg) !important;
+        border-left: 5px solid var(--warning) !important;
+        color: var(--body-text) !important;
     }
 
-    .stAlert-success {
-        border-color: var(--success);
-        background-color: var(--success-bg);
-        color: var(--success);
+    /* Estilos para diferentes tipos de alertas */
+    .stAlert.success {
+        background-color: var(--success-bg) !important;
+        border-left: 5px solid var(--success) !important;
     }
 
-    .stAlert-info {
-        border-color: var(--info);
-        background-color: var(--info-bg);
-        color: var(--info);
+    .stAlert.info {
+        background-color: var(--info-bg) !important;
+        border-left: 5px solid var(--info) !important;
     }
 
-    .stAlert-danger {
-        border-color: var(--danger);
-        background-color: var(--danger-bg);
-        color: var(--danger);
+    .stAlert.danger {
+        background-color: var(--danger-bg) !important;
+        border-left: 5px solid var(--danger) !important;
     }
 
-    /* Personalizar otros elementos según sea necesario */
+    /* Opcional: ajustar estilos específicos si es necesario */
     </style>
     """, unsafe_allow_html=True)
 
