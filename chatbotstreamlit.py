@@ -423,7 +423,7 @@ def responder_saludo():
     """
     saludos_respuestas = [
         "¡Hola! Estoy para ayudarte con información sobre ensayos clínicos. ¿En qué puedo asistirte hoy?",
-        "¡Buenas! Tenés alguna pregunta sobre ensayos clínicos en enfermedades neuromusculares?",
+        "¡Buenas! ¿Tienes alguna pregunta sobre ensayos clínicos en enfermedades neuromusculares?",
         "¡Hola! ¿Cómo puedo ayudarte con tus consultas sobre ensayos clínicos?"
     ]
     return random.choice(saludos_respuestas)
@@ -530,7 +530,7 @@ def responder_pregunta(pregunta, index, trozos, model, gemini_llm, embedding_cac
         str: Respuesta generada.
     """
     try:
-        if index is None or not trozos:
+        if index is None o not trozos:
             logging.warning("No se encontraron índices o trozos para esta pregunta.")
             return "No se encontró información para responder tu pregunta."
 
@@ -603,8 +603,6 @@ gemini_llm = configurar_gemini_cached()
 embedding_cache = {}
 translation_cache = {}
 
-# Configurar Streamlit y definir la interfaz de usuario
-
 # Crear directorio de caché si no existe
 os.makedirs("cache", exist_ok=True)
 
@@ -612,46 +610,101 @@ os.makedirs("cache", exist_ok=True)
 if 'historial' not in st.session_state:
     st.session_state.historial = []
 
+# Configurar la página para usar toda la anchura disponible
+st.set_page_config(page_title="🤖 Chatbot de Ensayos Clínicos", layout="wide")
+
 # Título de la aplicación
-st.title("Chatbot de Ensayos Clínicos")
+st.title("🤖 Chatbot de Ensayos Clínicos")
 
 # Descripción
-st.write("""
-Bienvenido al Chatbot de Ensayos Clínicos.
+st.markdown("""
+Bienvenido al **Chatbot de Ensayos Clínicos**.
 Conversemos sobre ensayos clínicos en enfermedades neuromusculares 
 (Distrofia Muscular de Duchenne o Becker, Enfermedad de Pompe, Distrofia Miotónica, etc.).
+
+**Instrucciones:**
+- Escribe tu pregunta en el campo de abajo, indicando la enfermedad sobre la que quieres información.
+- El historial de la conversación aparecerá arriba.
 """)
-         
-st.write("""
-Escribí tu pregunta, indicando la enfermedad sobre la que quieres información.
-""")
 
-# Entrada de usuario
-pregunta = st.text_input("Tu pregunta:")
+# Crear contenedores para el historial y el input
+historial_container = st.container()
+input_container = st.container()
 
-# Botón para enviar la pregunta
-if st.button("Enviar"):
-    if not pregunta:
-        st.warning("Por favor, ingresa una pregunta.")
-    else:
-        if es_saludo(pregunta):
-            respuesta_saludo = responder_saludo()
-            st.session_state.historial.append(("Usuario", pregunta))
-            st.session_state.historial.append(("Chatbot", respuesta_saludo))
+with historial_container:
+    st.markdown("### 🗨️ Historial de Conversación")
+    st.write("")  # Espacio adicional
+
+    # Añadir un contenedor con scroll para el historial
+    scrollable_area = st.empty()
+
+    # Función para renderizar el historial
+    def render_historial():
+        with scrollable_area.container():
+            st.markdown('<div class="scrollable-content">', unsafe_allow_html=True)
+            for sender, message in st.session_state.historial:
+                if sender == "Usuario":
+                    st.markdown(f"<p style='text-align: right;'><strong>🧑 Tú:</strong> {message}</p>", unsafe_allow_html=True)
+                else:
+                    st.markdown(f"<p style='text-align: left;'><strong>🤖 Chatbot:</strong> {message}</p>", unsafe_allow_html=True)
+            st.markdown('</div>', unsafe_allow_html=True)
+
+    # Renderizar el historial inicial
+    render_historial()
+
+with input_container:
+    st.markdown("---")  # Línea divisoria
+    # Aplicar estilos CSS para el área de chat con scroll
+    st.markdown("""
+    <style>
+    .scrollable-content {
+        height: 500px;
+        overflow-y: auto;
+        padding: 10px;
+        background-color: #F5F5F5;
+        border-radius: 5px;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+    # Entrada de usuario
+    col1, col2 = st.columns([9, 1])
+    with col1:
+        pregunta = st.text_input("Tu pregunta:", key="input_pregunta")
+    with col2:
+        enviar = st.button("Enviar", use_container_width=True)
+
+    if enviar:
+        if not pregunta.strip():
+            st.warning("⚠️ Por favor, ingresa una pregunta.")
         else:
-            # Identificar la enfermedad (documento más relevante)
-            idn = doc_enfermedad(pregunta)
-            index = index_archivos[idn] if idn < len(index_archivos) else None
-            trozos = trozos_archivos[idn] if idn < len(trozos_archivos) else []
+            if es_saludo(pregunta):
+                respuesta_saludo = responder_saludo()
+                st.session_state.historial.append(("Usuario", pregunta))
+                st.session_state.historial.append(("Chatbot", respuesta_saludo))
+            else:
+                # Identificar la enfermedad (documento más relevante)
+                idn = doc_enfermedad(pregunta)
+                index = index_archivos[idn] if idn < len(index_archivos) else None
+                trozos = trozos_archivos[idn] if idn < len(trozos_archivos) else []
 
-            # Responder la pregunta
-            respuesta = responder_pregunta(pregunta, index, trozos, model, gemini_llm, embedding_cache)
-            st.session_state.historial.append(("Usuario", pregunta))
-            st.session_state.historial.append(("Chatbot", respuesta))
-    
-    # Mostrar historial
-    for sender, message in st.session_state.historial:
-        if sender == "Usuario":
-            st.markdown(f"**Tú:** {message}")
-        else:
-            st.markdown(f"**Chatbot:** {message}")
+                # Responder la pregunta
+                respuesta = responder_pregunta(pregunta, index, trozos, model, gemini_llm, embedding_cache)
+                st.session_state.historial.append(("Usuario", pregunta))
+                st.session_state.historial.append(("Chatbot", respuesta))
+
+            # Limpiar el campo de entrada después de enviar
+            st.session_state.input_pregunta = ""
+
+            # Renderizar el historial actualizado
+            render_historial()
+
+    # Actualizar el scroll al final después de cada mensaje
+    st.markdown("""
+    <script>
+    var scrollableDiv = document.querySelector('.scrollable-content');
+    if(scrollableDiv){
+        scrollableDiv.scrollTop = scrollableDiv.scrollHeight;
+    }
+    </script>
+    """, unsafe_allow_html=True)
