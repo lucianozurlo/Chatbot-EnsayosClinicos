@@ -530,7 +530,7 @@ def responder_pregunta(pregunta, index, trozos, model, gemini_llm, embedding_cac
         str: Respuesta generada.
     """
     try:
-        if index is None o not trozos:
+        if index is None or not trozos:
             logging.warning("No se encontraron índices o trozos para esta pregunta.")
             return "No se encontró información para responder tu pregunta."
 
@@ -693,11 +693,11 @@ with input_container:
                 st.session_state.historial.append(("Usuario", pregunta))
                 st.session_state.historial.append(("Chatbot", respuesta))
 
-            # Limpiar el campo de entrada después de enviar
-            st.session_state.input_pregunta = ""
+        # Limpiar el campo de entrada después de enviar
+        st.session_state.input_pregunta = ""
 
-            # Renderizar el historial actualizado
-            render_historial()
+        # Renderizar el historial actualizado
+        render_historial()
 
     # Actualizar el scroll al final después de cada mensaje
     st.markdown("""
