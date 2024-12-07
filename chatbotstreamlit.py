@@ -611,97 +611,22 @@ os.makedirs("cache", exist_ok=True)
 # Aplicar estilos personalizados para cambiar la tipografía a Rubik y la paleta de colores
 st.markdown("""
     <style>
-    /* Importar la fuente Rubik */
-    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
-
-    /* Fondo general */
-    html, body, [data-testid="stAppViewContainer"], [data-testid="stApp"] {
-        background-color: #FFFFFF !important; /* Fondo blanco */
-        font-family: 'Rubik', sans-serif !important;
-        margin: 0;
-        padding: 0;
-        color: #212121 !important;
-    }
-
-    /* Centrar el contenedor principal */
-    [data-testid="stAppViewContainer"] {
-        padding: 20px !important;
-    }
-
-    /* Contenedor principal */
-    .block-container {
-        background-color: #FFFFFF !important;
-        border-radius: 10px;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
-        padding: 20px !important;
-        max-width: 800px !important;
-        margin: auto !important;
-    }
-
-    /* Estilo de las burbujas de chat */
-    .stChatMessage>div>div {
-        border-radius: 20px !important;
-        padding: 15px !important;
-        margin-bottom: 10px !important;
-        font-size: 16px !important;
-        line-height: 1.5 !important;
-        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1) !important;
-        max-width: 75% !important;
-    }
-
-    /* Burbujas del usuario */
-    .stChatMessage.user {
-        background-color: #E3F2FD !important; /* Azul claro */
-        color: #0D47A1 !important;
-        margin-left: auto !important;
-        text-align: left !important;
-    }
-
-    /* Burbujas del asistente */
-    .stChatMessage.assistant {
-        background-color: #F5F5F5 !important; /* Gris claro */
-        color: #333333 !important;
-        margin-right: auto !important;
-        text-align: left !important;
-    }
-
-    /* Entrada de texto */
-    [data-testid="stChatInput"] textarea {
-        border: 1px solid #DDDDDD !important;
-        border-radius: 15px !important;
-        padding: 10px !important;
-        font-size: 16px !important;
-        background-color: #FFFFFF !important;
-        color: #212121 !important;
-        width: calc(100% - 120px) !important;
-        resize: none !important;
-        height: 40px !important;
-    }
-
-    /* Botón de envío */
-    [data-testid="stChatInput"] button {
-        background-color: #0D47A1 !important;
-        color: #FFFFFF !important;
-        border: none !important;
-        border-radius: 15px !important;
+    /* Personalización adicional */
+    .stButton>button {
+        background-color: #1A73E8 !important;  /* Azul principal */
+        color: white !important;  /* Texto blanco */
+        border-radius: 10px !important;
         font-size: 16px !important;
         padding: 10px 20px !important;
-        height: 40px !important;
     }
 
-    /* Hover para el botón */
-    [data-testid="stChatInput"] button:hover {
-        background-color: #1565C0 !important;
-    }
-
-    /* Ocultar elementos innecesarios */
-    header, footer {
-        visibility: hidden !important;
+    .stTextInput>div>div>input {
+        border: 1px solid #DADCE0 !important;  /* Gris claro */
+        border-radius: 8px !important;
+        padding: 10px !important;
     }
     </style>
 """, unsafe_allow_html=True)
-
-
 
 # Inicializar historial de mensajes en el estado de Streamlit
 if "messages" not in st.session_state:

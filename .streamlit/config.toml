@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#1A73E8"  # Azul (Google Blue)
+backgroundColor = "#FFFFFF"  # Fondo blanco
+secondaryBackgroundColor = "#F1F3F4"  # Gris claro
+textColor = "#202124"  # Texto gris oscuro
+font = "sans serif"  # Fuente moderna sin serifas
