@@ -739,7 +739,7 @@ if enviar:
             respuesta = responder_pregunta(pregunta, index, trozos, model, gemini_llm, embedding_cache)
             st.session_state.historial.append(("Usuario", pregunta))
             st.session_state.historial.append(("Chatbot", respuesta))
-
+    
     # Actualizar el contenedor de chat con el nuevo mensaje
     with chat_container:
         st.markdown('<div class="chat-container clearfix">', unsafe_allow_html=True)
@@ -749,7 +749,7 @@ if enviar:
             else:
                 st.markdown(f'<div class="bot-message"><strong>Chatbot:</strong> {message}</div>', unsafe_allow_html=True)
         st.markdown('</div>', unsafe_allow_html=True)
-
+    
     # Limpiar el campo de entrada
     st.session_state.input = ""
 
