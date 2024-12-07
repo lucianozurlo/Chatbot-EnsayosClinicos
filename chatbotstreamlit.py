@@ -14,8 +14,6 @@ import hashlib
 import streamlit as st
 import random
 
-# -------------------- Configuración Inicial -------------------- #
-
 # Configuración de logs para imprimir todo en consola
 logging.basicConfig(
     level=logging.INFO,
@@ -29,7 +27,7 @@ logging.info("Librerías importadas correctamente.")
 load_dotenv()
 logging.info("Variables de entorno cargadas desde el archivo .env.")
 
-# -------------------- Definición de Clases -------------------- #
+# Definición de clases necesarias
 
 class Document:
     def __init__(self, text, metadata=None):
@@ -92,36 +90,13 @@ class HNSWIndex:
         labels, distances = self.index.knn_query(query_vector, k=k)
         return [(self.metadata[i], distances[0][j]) for j, i in enumerate(labels[0])]
 
-# -------------------- Funciones Auxiliares -------------------- #
-
 @st.cache_resource
 def cargar_modelo_embeddings(model_name):
-    """
-    Carga y cachea el modelo de embeddings.
-    
-    Args:
-        model_name (str): Nombre del modelo de SentenceTransformer.
-    
-    Returns:
-        SentenceTransformer: Modelo cargado.
-    """
     model = SentenceTransformer(model_name)
     return model
 
 @st.cache_data
 def cargar_y_procesar_documentos(ruta_fuente, _model):
-    """
-    Carga y procesa los documentos desde la ruta fuente.
-    Cachea los resultados para evitar recálculos.
-    
-    Args:
-        ruta_fuente (str): Ruta al directorio de documentos.
-        _model (SentenceTransformer): Modelo para generar embeddings.
-    
-    Returns:
-        tuple: Documentos cargados, nombres de archivos, embeddings de archivos,
-               trozos de archivos y sus índices HNSW.
-    """
     documentos = load_documents(ruta_fuente, is_directory=True)
     logging.info(f"Se cargaron {len(documentos)} documentos exitosamente.")
     
@@ -141,20 +116,9 @@ def cargar_y_procesar_documentos(ruta_fuente, _model):
     
     return documentos, archivos, archivos_embeddings, trozos_archivos, index_archivos
 
-def configurar_gemini():
-    """
-    Configura la instancia de Gemini usando la clave API.
-    
-    Returns:
-        Gemini: Instancia configurada del modelo Gemini.
-    """
-    api_key = os.getenv("GEMINI_API_KEY")
-    if not api_key:
-        logging.error("La clave API de Gemini no está configurada.")
-        raise EnvironmentError("Configura GEMINI_API_KEY en tu archivo .env.")
-    gemini = Gemini(api_key=api_key)
-    logging.info("Gemini configurado correctamente.")
-    return gemini
+@st.cache_resource
+def configurar_gemini_cached():
+    return configure_gemini()
 
 def load_documents(source, is_directory=False):
     """
@@ -289,6 +253,21 @@ def desdobla_doc(data2, model):
         vector_store = None
 
     return documents, vector_store
+
+def configure_gemini():
+    """
+    Configura la instancia de Gemini usando la clave API.
+    
+    Returns:
+        Gemini: Instancia configurada del modelo Gemini.
+    """
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        logging.error("La clave API de Gemini no está configurada.")
+        raise EnvironmentError("Configura GEMINI_API_KEY en tu archivo .env.")
+    gemini = Gemini(api_key=api_key)
+    logging.info("Gemini configurado correctamente.")
+    return gemini
 
 def traducir(texto, idioma_destino, gemini_llm):
     """
@@ -444,7 +423,7 @@ def responder_saludo():
     """
     saludos_respuestas = [
         "¡Hola! Estoy para ayudarte con información sobre ensayos clínicos. ¿En qué puedo asistirte hoy?",
-        "¡Buenas! ¿Tienes alguna pregunta sobre ensayos clínicos en enfermedades neuromusculares?",
+        "¡Buenas! Tenés alguna pregunta sobre ensayos clínicos en enfermedades neuromusculares?",
         "¡Hola! ¿Cómo puedo ayudarte con tus consultas sobre ensayos clínicos?"
     ]
     return random.choice(saludos_respuestas)
@@ -612,19 +591,19 @@ def doc_enfermedad(pregunta):
     max_index = similarities.index(max(similarities))
     return max_index
 
-# -------------------- Carga de Modelos y Documentos -------------------- #
-
 # Cargar y procesar documentos usando funciones cacheadas
 ruta_fuente = 'data'  # Asegúrate de tener una carpeta 'data' con los documentos
 model = cargar_modelo_embeddings("all-MiniLM-L6-v2")
 documentos, archivos, archivos_embeddings, trozos_archivos, index_archivos = cargar_y_procesar_documentos(ruta_fuente, model)
 
-# Configurar la clave API de Gemini sin cachear
-gemini_llm = configurar_gemini()
+# Configurar la clave API de Gemini usando función cacheada
+gemini_llm = configurar_gemini_cached()
 
 # Inicializar cachés
 embedding_cache = {}
 translation_cache = {}
+
+# Configurar Streamlit y definir la interfaz de usuario
 
 # Crear directorio de caché si no existe
 os.makedirs("cache", exist_ok=True)
@@ -633,124 +612,25 @@ os.makedirs("cache", exist_ok=True)
 if 'historial' not in st.session_state:
     st.session_state.historial = []
 
-# -------------------- Configuración de la Interfaz -------------------- #
-
-# Estilos personalizados con CSS
-st.markdown(
-    """
-    <style>
-    /* Ocultar el menú de Streamlit y la barra de hamburguesa */
-    #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    
-    /* Estilos para el contenedor de chat */
-    .chat-container {
-        height: 70vh;
-        overflow-y: scroll;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        background-color: #f9f9f9;
-    }
-
-    /* Estilos para los mensajes del usuario */
-    .user-message {
-        background-color: #DCF8C6;
-        padding: 10px;
-        border-radius: 10px;
-        margin-bottom: 10px;
-        align-self: flex-end;
-        max-width: 80%;
-        float: right;
-    }
-
-    /* Estilos para los mensajes del chatbot */
-    .bot-message {
-        background-color: #F1F0F0;
-        padding: 10px;
-        border-radius: 10px;
-        margin-bottom: 10px;
-        align-self: flex-start;
-        max-width: 80%;
-        float: left;
-    }
-
-    /* Limpiar flotados */
-    .clearfix::after {
-        content: "";
-        clear: both;
-        display: table;
-    }
-
-    /* Estilo para fijar el campo de entrada en la parte inferior */
-    .input-container {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        padding: 10px;
-        background-color: #ffffff;
-        border-top: 1px solid #ccc;
-    }
-
-    /* Ajustar el tamaño del contenedor de chat para que no quede oculto detrás del campo de entrada */
-    .main-container {
-        padding-bottom: 80px; /* Ajusta este valor según la altura de tu campo de entrada */
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 # Título de la aplicación
-st.title("🤖 Chatbot de Ensayos Clínicos")
+st.title("Chatbot de Ensayos Clínicos")
 
-# Descripción inicial
+# Descripción
 st.write("""
-Bienvenido al **Chatbot de Ensayos Clínicos**.
+Bienvenido al Chatbot de Ensayos Clínicos.
 Conversemos sobre ensayos clínicos en enfermedades neuromusculares 
 (Distrofia Muscular de Duchenne o Becker, Enfermedad de Pompe, Distrofia Miotónica, etc.).
 """)
-
+         
 st.write("""
 Escribí tu pregunta, indicando la enfermedad sobre la que quieres información.
 """)
 
-# Crear el contenedor principal con padding ajustado
-main_container = st.container()
-with main_container:
-    st.markdown('<div class="main-container">', unsafe_allow_html=True)
-    # Historial de chats
-    chat_container = st.container()
-    with chat_container:
-        st.markdown('<div class="chat-container clearfix">', unsafe_allow_html=True)
-        for sender, message in st.session_state.historial:
-            if sender == "Usuario":
-                st.markdown(f'<div class="user-message"><strong>Tú:</strong> {message}</div>', unsafe_allow_html=True)
-            else:
-                st.markdown(f'<div class="bot-message"><strong>Chatbot:</strong> {message}</div>', unsafe_allow_html=True)
-        st.markdown('</div>', unsafe_allow_html=True)
-    st.markdown('</div>', unsafe_allow_html=True)
+# Entrada de usuario
+pregunta = st.text_input("Tu pregunta:")
 
-# Crear el contenedor de entrada fijo en la parte inferior
-input_container = st.empty()
-with input_container.container():
-    st.markdown('<div class="input-container">', unsafe_allow_html=True)
-    col1, col2 = st.columns([9, 1])
-    with col1:
-        pregunta = st.text_input("Tu pregunta:", key="input", placeholder="Escribe aquí tu pregunta...")
-    with col2:
-        enviar = st.button("Enviar")
-    # Botón para limpiar el historial
-    if st.button("🗑️ Limpiar Conversación", key="limpiar"):
-        st.session_state.historial = []
-        # Refrescar el contenedor de chat
-        with chat_container:
-            st.markdown('<div class="chat-container clearfix"></div>', unsafe_allow_html=True)
-    st.markdown('</div>', unsafe_allow_html=True)
-
-# Procesar el envío de la pregunta
-if enviar:
+# Botón para enviar la pregunta
+if st.button("Enviar"):
     if not pregunta:
         st.warning("Por favor, ingresa una pregunta.")
     else:
@@ -769,27 +649,9 @@ if enviar:
             st.session_state.historial.append(("Usuario", pregunta))
             st.session_state.historial.append(("Chatbot", respuesta))
     
-    # Actualizar el contenedor de chat con el nuevo mensaje
-    with chat_container:
-        st.markdown('<div class="chat-container clearfix">', unsafe_allow_html=True)
-        for sender, message in st.session_state.historial:
-            if sender == "Usuario":
-                st.markdown(f'<div class="user-message"><strong>Tú:</strong> {message}</div>', unsafe_allow_html=True)
-            else:
-                st.markdown(f'<div class="bot-message"><strong>Chatbot:</strong> {message}</div>', unsafe_allow_html=True)
-        st.markdown('</div>', unsafe_allow_html=True)
-    
-    # Limpiar el campo de entrada
-    st.session_state.input = ""
-
-    # Auto-scroll hacia abajo usando JavaScript
-    st.markdown(
-        """
-        <script>
-        const chatContainer = document.querySelector('.chat-container');
-        chatContainer.scrollTop = chatContainer.scrollHeight;
-        </script>
-        """,
-        unsafe_allow_html=True
-    )
-
+    # Mostrar historial
+    for sender, message in st.session_state.historial:
+        if sender == "Usuario":
+            st.markdown(f"**Tú:** {message}")
+        else:
+            st.markdown(f"**Chatbot:** {message}")
