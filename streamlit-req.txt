@@ -1,8 +1,0 @@
-streamlit
-sentence-transformers
-hnswlib
-PyPDF2
-python-dotenv
-llama-index
-tenacity
-pyngrok
