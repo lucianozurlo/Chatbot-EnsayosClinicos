@@ -608,15 +608,90 @@ translation_cache = {}
 # Crear directorio de caché si no existe
 os.makedirs("cache", exist_ok=True)
 
-# Aplicar estilos personalizados para cambiar la tipografía a Rubik
+# Aplicar estilos personalizados para cambiar la tipografía a Rubik y ajustar la combinación de colores
 st.markdown("""
     <style>
     /* Importar la fuente Rubik desde Google Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
 
-    /* Aplicar la fuente Rubik a todo el contenido de la aplicación */
+    /* Definir variables de CSS para la paleta de colores */
+    :root {
+        --color-primary: #0D47A1; /* Azul Marino */
+        --color-secondary: #64B5F6; /* Azul Claro */
+        --color-background: #F5F5F5; /* Gris Claro */
+        --color-white: #FFFFFF; /* Blanco */
+        --color-success: #81C784; /* Verde */
+        --color-text: #212121; /* Gris oscuro para texto */
+    }
+
+    /* Aplicar la fuente Rubik y los colores a todo el contenido de la aplicación */
     body, div, span, p, h1, h2, h3, h4, h5, h6, a, button, input, textarea, .stButton>button, .stTextInput>div>div>input, .stChatInput>div>div>textarea, .stChatMessage>div>div {
         font-family: 'Rubik', sans-serif !important;
+        color: var(--color-text) !important;
+    }
+
+    /* Fondo de la aplicación */
+    .css-18e3th9 {
+        background-color: var(--color-background) !important;
+    }
+
+    /* Fondo de la cabecera */
+    .css-1aumxhk {
+        background-color: var(--color-primary) !important;
+    }
+
+    /* Títulos */
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--color-primary) !important;
+    }
+
+    /* Botones */
+    .stButton>button {
+        background-color: var(--color-secondary) !important;
+        color: var(--color-white) !important;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .stButton>button:hover {
+        background-color: var(--color-primary) !important;
+    }
+
+    /* Campo de entrada */
+    .stTextInput>div>div>input, .stChatInput>div>div>textarea {
+        background-color: var(--color-white) !important;
+        border: 1px solid var(--color-secondary) !important;
+        border-radius: 5px !important;
+    }
+
+    /* Mensajes del usuario */
+    .stChatMessage.user {
+        background-color: var(--color-secondary) !important;
+        color: var(--color-white) !important;
+        border-radius: 10px;
+    }
+
+    /* Mensajes del asistente */
+    .stChatMessage.assistant {
+        background-color: var(--color-white) !important;
+        color: var(--color-text) !important;
+        border-radius: 10px;
+        border: 1px solid var(--color-secondary) !important;
+    }
+
+    /* Scrollbar personalizada */
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: var(--color-background);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--color-secondary);
+        border-radius: 20px;
+        border: 3px solid var(--color-background);
     }
 
     /* Opcional: ajustar estilos específicos si es necesario */
