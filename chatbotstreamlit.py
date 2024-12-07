@@ -615,19 +615,21 @@ st.markdown("""
     @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
 
     /* Fondo general de la aplicación */
-    body {
+    html, body {
         font-family: 'Rubik', sans-serif !important;
-        background-color: #f9f9f9 !important;
+        background-color: #FFFFFF !important;
         margin: 0;
         padding: 0;
     }
 
-    /* Contenedor principal con fondo blanco */
+    /* Contenedor principal con fondo blanco y sombra */
     .block-container {
-        background-color: #ffffff !important;
+        background-color: #FFFFFF !important;
         border-radius: 8px;
         padding: 20px;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        margin: auto;
+        max-width: 800px;
     }
 
     /* Mensajes de chat */
@@ -641,32 +643,32 @@ st.markdown("""
 
     /* Mensaje del usuario */
     .stChatMessage.user {
-        background-color: #eaf5ff !important; /* Azul claro */
-        color: #0073e6; /* Azul fuerte */
+        background-color: #E3F2FD !important; /* Azul claro */
+        color: #0D47A1 !important; /* Azul fuerte */
         text-align: left;
     }
 
     /* Mensaje del asistente */
     .stChatMessage.assistant {
-        background-color: #f3f3f3 !important; /* Gris claro */
-        color: #333333; /* Negro suave */
+        background-color: #F5F5F5 !important; /* Gris claro */
+        color: #212121 !important; /* Gris oscuro */
         text-align: left;
     }
 
     /* Entrada de texto (prompt) */
     .stChatInput textarea {
-        border: 1px solid #cccccc !important;
+        border: 1px solid #BDBDBD !important;
         border-radius: 8px !important;
         padding: 10px !important;
         font-size: 16px !important;
-        background-color: #ffffff !important;
-        color: #333333 !important;
+        background-color: #FFFFFF !important;
+        color: #212121 !important;
     }
 
     /* Botón de envío */
     .stChatInput button {
-        background-color: #0073e6 !important;
-        color: #ffffff !important;
+        background-color: #0D47A1 !important;
+        color: #FFFFFF !important;
         border: none !important;
         border-radius: 8px !important;
         font-size: 16px !important;
@@ -675,11 +677,11 @@ st.markdown("""
 
     /* Botón de envío en hover */
     .stChatInput button:hover {
-        background-color: #005bb5 !important;
+        background-color: #1565C0 !important;
     }
-
     </style>
 """, unsafe_allow_html=True)
+
 
 # Inicializar historial de mensajes en el estado de Streamlit
 if "messages" not in st.session_state:
