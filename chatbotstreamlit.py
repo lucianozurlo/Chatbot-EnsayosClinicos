@@ -612,116 +612,74 @@ os.makedirs("cache", exist_ok=True)
 st.markdown("""
     <style>
     /* Importar la fuente Rubik desde Google Fonts */
-    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
 
-    /* Definir variables de colores */
-    :root {
-        --bg-color: #FFFFFF; /* bgColor */
-        --body-text: #262626; /* bodyText (gray85) */
-        --primary: #FF6666; /* primary (red70) */
-        --disabled: #BFBFBF; /* disabled (gray40) */
-        --lightest-gray: #F0F0F0; /* lightestGray (gray20) */
-        --light-gray: #D9D9D9; /* lightGray (gray30) */
-        --gray: #8C8C8C; /* gray (gray60) */
-        --dark-gray: #595959; /* darkGray (gray70) */
-        --red: #FF4D4D; /* red (red80) */
-        --blue: #1A53FF; /* blue (blue80) */
-        --green: #33CC33; /* green (green80) */
-        --yellow: #FFB84D; /* yellow (yellow80) */
-        --warning: #926C05;
-        --warning-bg: rgba(255, 204, 102, 0.1); /* transparentize(colors.yellow70, 0.9) */
-        --success: #00CC00; /* success (green100) */
-        --success-bg: rgba(102, 204, 102, 0.1); /* transparentize(colors.green70, 0.9) */
-        --info: #0033CC; /* info (blue100) */
-        --info-bg: rgba(26, 83, 255, 0.1); /* transparentize(colors.blue70, 0.9) */
-        --danger: #FF0000; /* danger (red100) */
-        --danger-bg: rgba(255, 77, 77, 0.09); /* transparentize(colors.red80, 0.91) */
-    }
-
-    /* Aplicar la fuente Rubik y los colores definidos a todo el contenido */
+    /* Fondo general de la aplicación */
     body {
         font-family: 'Rubik', sans-serif !important;
-        background-color: var(--bg-color) !important;
-        color: var(--body-text) !important;
+        background-color: #f9f9f9 !important;
+        margin: 0;
+        padding: 0;
     }
 
-    /* Asegurar que el contenedor principal tenga fondo blanco */
+    /* Contenedor principal con fondo blanco */
     .block-container {
-        background-color: var(--bg-color) !important;
+        background-color: #ffffff !important;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     }
 
-    /* Estilo para los títulos */
-    h1, h2, h3, h4, h5, h6 {
-        color: var(--body-text) !important;
-    }
-
-    /* Estilo para los párrafos y texto general */
-    p, span, a, li, div {
-        color: var(--body-text) !important;
-    }
-
-    /* Estilo para los botones */
-    .stButton>button {
-        background-color: var(--primary) !important;
-        color: #FFFFFF !important;
-    }
-
-    /* Estilo para botones deshabilitados */
-    .stButton>button[disabled] {
-        background-color: var(--disabled) !important;
-        color: #FFFFFF !important;
-    }
-
-    /* Estilo para entradas de texto */
-    .stTextInput>div>div>input, .stChatInput>div>div>textarea {
-        background-color: var(--lightest-gray) !important;
-        color: var(--body-text) !important;
-    }
-
-    /* Estilo para los mensajes del chat */
+    /* Mensajes de chat */
     .stChatMessage>div>div {
-        background-color: var(--lightest-gray) !important;
-        color: var(--body-text) !important;
-        border-radius: 10px;
-        padding: 10px;
+        border-radius: 15px;
+        padding: 15px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 1.6;
     }
 
-    /* Estilos para alertas */
-    .stAlert {
-        background-color: var(--warning-bg) !important;
-        border-left: 5px solid var(--warning) !important;
-        color: var(--body-text) !important;
+    /* Mensaje del usuario */
+    .stChatMessage.user {
+        background-color: #eaf5ff !important; /* Azul claro */
+        color: #0073e6; /* Azul fuerte */
+        text-align: left;
     }
 
-    /* Estilos para diferentes tipos de alertas */
-    .stAlert.success {
-        background-color: var(--success-bg) !important;
-        border-left: 5px solid var(--success) !important;
+    /* Mensaje del asistente */
+    .stChatMessage.assistant {
+        background-color: #f3f3f3 !important; /* Gris claro */
+        color: #333333; /* Negro suave */
+        text-align: left;
     }
 
-    .stAlert.info {
-        background-color: var(--info-bg) !important;
-        border-left: 5px solid var(--info) !important;
+    /* Entrada de texto (prompt) */
+    .stChatInput textarea {
+        border: 1px solid #cccccc !important;
+        border-radius: 8px !important;
+        padding: 10px !important;
+        font-size: 16px !important;
+        background-color: #ffffff !important;
+        color: #333333 !important;
     }
 
-    .stAlert.danger {
-        background-color: var(--danger-bg) !important;
-        border-left: 5px solid var(--danger) !important;
+    /* Botón de envío */
+    .stChatInput button {
+        background-color: #0073e6 !important;
+        color: #ffffff !important;
+        border: none !important;
+        border-radius: 8px !important;
+        font-size: 16px !important;
+        padding: 10px 20px !important;
     }
 
-    /* Asegurar que la barra lateral también tenga fondo blanco */
-    .css-1lcbmhc.e1fqkh3o3 {
-        background-color: var(--bg-color) !important;
+    /* Botón de envío en hover */
+    .stChatInput button:hover {
+        background-color: #005bb5 !important;
     }
 
-    /* Asegurar que los botones de chat y otras entradas usen la paleta de colores */
-    .stChatInput>div>div>textarea {
-        border: 1px solid var(--light-gray) !important;
-    }
-
-    /* Opcional: ajustar estilos específicos si es necesario */
     </style>
-    """, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
 # Inicializar historial de mensajes en el estado de Streamlit
 if "messages" not in st.session_state:
