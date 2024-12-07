@@ -96,19 +96,19 @@ def cargar_modelo_embeddings(model_name):
     return model
 
 @st.cache_data
-def cargar_y_procesar_documentos(ruta_fuente, model):
+def cargar_y_procesar_documentos(ruta_fuente, _model):
     documentos = load_documents(ruta_fuente, is_directory=True)
     logging.info(f"Se cargaron {len(documentos)} documentos exitosamente.")
     
     # Precomputar los embeddings de los nombres de archivo para eficiencia
     archivos = [doc['filename'] for doc in documentos]
-    archivos_embeddings = model.encode(archivos)
+    archivos_embeddings = _model.encode(archivos)
     
     # Procesar todos los documentos y crear sus respectivos índices
     trozos_archivos = []
     index_archivos = []
     for i in range(len(documentos)):
-        trozos, index = desdobla_doc(documentos[i], model)
+        trozos, index = desdobla_doc(documentos[i], _model)
         trozos_archivos.append(trozos)
         index_archivos.append(index)
     
@@ -602,6 +602,8 @@ gemini_llm = configurar_gemini_cached()
 # Inicializar cachés
 embedding_cache = {}
 translation_cache = {}
+
+# Configurar Streamlit y definir la interfaz de usuario
 
 # Crear directorio de caché si no existe
 os.makedirs("cache", exist_ok=True)
